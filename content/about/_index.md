@@ -1,5 +1,5 @@
 +++
-title = "About Me
+title = "About Me"
 Description = "Irregularly questioning the regular stuff."
 layout = "about"
 
