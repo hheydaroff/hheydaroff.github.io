@@ -33,11 +33,9 @@ markup:
 
 # Social links in footer, support github,twitter,stackoverflow,facebook
 social:
-  # e.g.
-  github: your-github-link
-  twitter: your-github-link
-  stackoverflow: your-github-link
-  # facebook: your-facebook-link
+  linkedin: https://www.linkedin.com/in/heyhido/
+  github: https://github.com/hheydaroff
+  twitter: https://twitter.com/heyhido
 
 
 # Site parameters
