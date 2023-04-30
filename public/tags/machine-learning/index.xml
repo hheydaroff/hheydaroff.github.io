@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine-learning on Hido</title>
+    <link>https://heyhido.com/tags/machine-learning/</link>
+    <description>Recent content in machine-learning on Hido</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://heyhido.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What will A.I. do to us?</title>
+      <link>https://heyhido.com/posts/what-will-a.i.-do-to-us/</link>
+      <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://heyhido.com/posts/what-will-a.i.-do-to-us/</guid>
+      <description>The recent developments in A.I. have been extraordinary. Starting in mid of 20th century, A.I. lived through couple of winters and had not given up. Thanks also to the development of the hardware, early 1990s the exponential growth had begun and moving on in unprecedented speed. OpenAIs GPT3 or Dall-E in natural language processing (NLP), Deepmind&amp;rsquo;s AlphaFold or MuZero (successor of AlphaGo &amp;amp; AlphaZero) in Reinforcement Learning, Tesla&amp;rsquo;s Self-Driving Autopilot in Deep Learning are the developments of only the last few years.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,77 @@
++++
+author = "Hido"
+title = "Psychology of Remote Working and 16 tips to make it work"
+date = "2021-11-01"
+tags = [
+  "agile",
+  "product-management",
+  "neuroscience",
+  "productivity",
+  "self-development"
+]
+draft = false
++++
+
+Remote working will more likely stay in long term. If not hundred percent, it will definitely push many companies to adopt hybrid model. With the COVID hit, tens of millions of people had to move their workplaces to their living places, to their homes. In multiple studies (mostly by management consulting companies) it is estimated that more than 20 to 25 percent of the workforce could work three to five days a week remotely. Obviously, the remote work at the moment is possible for only the people whose work does not require physical output. There are many dimensions impacted by workforce going remote, such as counter-urbanization, "to-go" delivery vs. restaurants, commercial real-estate and so on. These are all business-side changes, however there is as well a direct impact of remote working on human psychology.
+
+## Onsite vs. Remote
+
+Obviously working onsite has quite few benefits. When working in an office, social interaction is inevitable. We meet a lot of colleagues, we talk to them, we go to lunch or we do coffee breaks with them. If we have ad-hoc and urgent questions, you can simply go to your colleagues desk and ask, namely the information flow is fast. Moreover, the office is a dedicated place for working, which means that our work-life split is pretty explicit, when leaving office work ends, when coming to office work starts. Another benefit of the office is its infrastructural setup. Usually the office desks, chairs are quite comfortable, there are rooms for social hangout, kitchen with always filled fridge, sometimes you can even find beer tap in the office (reason i love our Berlin office).
+
+On the other hand, remote working is as well quite attractive. When working from home, we don't have to wake up 3 hours in advance to get ready and go to the office. I cannot believe how much time we're losing for commuting and how remote working saves that time for other activities. Another side-advantage of not commuting is that you can choose when to start working since there is no location/logistics dependence of starting to work. The location independence also means that you can travel anywhere, anytime you want and continue working from there. I do not like Berlin weather in winter, thus I prefer to move to Algarve, Portugal, and work from there for next few months. This type of independence is extraordinarily beautiful. Another benefit of the home office (HO) is the cost saving on both employee as well as on employer side. If I can work from home, then I do not need to pay ridiculous amount of money for rent just because I live in Berlin city. Instead I can find an apartment a little bit outside the city or maybe even move back to beautiful Freiburg city and pay half the amount for rent. Companies do not need anymore 24 hours alive offices that cost a lot not just monetarily but also environmentally. However, the biggest benefit is our flexibility in shaping our work-life balance, if done correctly. Otherwise, psychological debt of remote working can be a deal-breaker. Let's have a look at it from neuroscience perspective.
+
+## How does remote affect our psychology?
+
+Some neuroscience studies suggest that our brain, besides being a central command center, is as well of a logistic center. The largest nerve in our body, Vagus nerve carries information from our guts, through our hearts, our face, our ear canal to our brain. This nerve brings sensations from the body to brain and carries the command feedback back to the organs. It regulates the facial muscles, influences our breathing heart rate, and is involved how we perceive, react to and recover from stress. Neuroscientist Steven W. Porges PhD, in his [Polyvagal Theory of Emotion](https://en.wikipedia.org/wiki/Polyvagal_theory), suggests that when we enhance our connection with other people, we trigger neural circuits in our bodies that calm the heart, relax the gut, and turn off the fear response. Every time we interact with people, vagus nerve, also called our social engagement system, is in active mode. Like other muscles in our body, when activated it exercises.
+
+When we are working remotely, we heavily decrease our human-to-human interactions, at least in real world. Without this interaction, our vagus nerve, as it does not exercise anymore and becomes passive, starts to atrophy. When we are lonely, our brain alarms us, saying "help, we are losing our ability to connect with other humans which is very necessary to survive. Please interact with others". Since we have not practiced solitude, the next reaction to the presence of the loneliness is fear. With this fear, we become more conservative to any threats and become more self-isolated. So starts the evil cycle that starts to weaken our connection to others, accelerates the atrophy and pulls us into depression, anxiety, and further loneliness. Physiologically as well, it's experimented that afters some period of isolation and environmental monotony, our brain mas shrinks.
+
+More specific to remote working, there are few psychological issues that arise, such as Placelessness, nowhereness, non-visibility, reduced creativity. As mentioned above, when we work onsite, we have a dedicated physical workplace, which is perceived and influenced by our Global Positioning System (GPS) neurons that codes our navigation behavior. Bringing the workspace interaction to remote videoconferencing virtual interaction, our GPS neurons, mirror neurons, self-attention networks, spindle cells and interbrain neural oscillations get affected. This in return affects our identity and cognitive processes, such as social and professional identity, leadership, intuition, mentoring and creativity.
+
+Another famous phenomenon is Zoom fatigue, which is basically having the sense of tiredness, anxiety and fatigue like discomforts. The reasons for the Zoom fatigue are non-optimal functioning of technology ("sorry, my internet cut out", "we cannot hear you", etc.), and significant increase of cognitive resources to understand the meaning of others' verbal communication, since there is very reduced nonverbal cues.
+
+## How to start remote and async?
+
+So, remote working can be dangerous in long-term, right?! So given that we will stay mostly remote, what should we do about it? Metaverse, VR based virtual workplace concepts could help, but we are still quite far from there. What we can do is to mitigate the psychological damage by integrating interaction and perception of having a place into our remote setups. For every new change, idea or challenge there is a simple process that should work:
+
+1. Continuously monitor and identify what doesn't work anymore or can be improved
+2. Make adjustments by doing small experiments
+3. If the adjustment advances the situation, keep it and move to the next issue. If the change won't be successful, come up with another experiment.
+
+### Practical Tips for Remote & Async
+
+This is a list of mixed practical tips that I could come up with. It could be more structured, but enough cognitive workload for this post. If you have more tips, put them in the comments.
+
+**Get rid of most non-value-adding meetings** - Since we already saw that meetings over videoconferencing tools is brain consuming, we do not want to overload people with random updates, non-relevant meetings. How? use your intuition. Do you need their input? Is this urgent? Should everyone be involved? Could your question be answered via email or chat? If you could answer these questions, then you have your answer to the question of if you should invite them to a meeting. There is a nice [guiding post](https://blog.doist.com/meeting-vs-email/) from doist on this.
+
+**Set up minimal explicit expectations about sync communications** - when inviting people to meetings, make sure you have the purpose, agenda and the expected outcome of the meeting explicitly written. and do decline the meetings where this information is missing. When writing people in chat, make sure you provide the purpose of your message: Keyword FYI for just update post or the keyword INPUT/ACTION REQUIRED for input-requesting messages can be helpful to understand the intention of your message.
+
+**Have a structured messaging ecosystem** - messaging tool should have a structure for an efficient communication flow. Work related stuff should be clustered into topics channels. In order not to disturb everyone for every reply, write the comments and thoughts inside threads, which people can turn off the notifications for if they are not interested. Have a hangout/random/fun channel for non-work related stuff. Think twice before @mention'ing the whole channel, if it is not a relevant post for everyone. Have profiles tagged with their roles and other necessary information (location, product/project, contact preference).
+
+**Communicate updates mostly async** - If it is just an update that does not require any input from people, make it async. Create weekly digest practice where week's main goals are documented as well as what people focus on individually. Have a diary-like daily standups instead of meetings. For the daily standup we tweaked a bit the practice by making it asyncronish, namely we pre-fill the stand-up for the day and if there are discussion items, then we meet up. The time we save from sync stand-up meetings, we use for virtual hang out to talk about our day.
+
+**Log all important information & decisions in a single, easy to find place** - All official communications about important updates and decisions should be easy to find by both internal and external stakeholders.
+
+**Pair-Programming Practice** - to stimulate the human-to-human interactions, encourage pair-programming, sparring sessions among team members. it should not be just limited to developer team, but rather extend it to other units as well.
+
+**Provide remote setup support** - in order to ensure physical well-being of the employees, companies should provide remote setup support. Subsidizing internet connection, providing ergonomic desk and chair, having a holistic communication tech stack are few practical supports organisation give to their employees. Obviously a regular IT support is a must as well.
+
+**Dedicated roles & accountabilities within organisation to foster remote & async** - as for every other initiative, a DRRIver (direct responsible role or individual) with specific accountabilities should steer the implementation of the remote & async.
+
+**Some meetings should stay in sync mode** - One-on-Ones, important decisions, kick-offs, brainstorming events should stay sync. Sync meetings create human-to-human connection and fosters engagement, brainstorming, and creativity.
+
+**Organize quarterly onsite team retreat** - As mentioned already, remote working may potentially create disconnectedness feeling. Moreover, when new people join the team, they cannot create personal bond virtually, due to the lack of visibility of body language, eye contact, physical interaction space, and more. Therefore, investing in regular retreats should connect the team and create a long term bond among team players.
+
+**Weekly Sync Hangout Meetings** \- Another meeting series you want to set up in sync modus are weekly virtual hangout. It could be an after-work drink&chat session or a midday coffee break with the whole team. This type of social activities contributes to the connection among team members.
+
+**Prepare templates for every communication type** - to create an efficient async communication and well-written documentation, it's important to enable everyone in the organisation to write better and more structured. One important means to enable people is giving them trainings to improve their writing skills. Another simpler, faster and more efficient method is to provide templates for every type of documentation, such as decision making templates, post-mortem templates, sprint planning/review/retro templates, conflict analysis template, etc.
+
+**Start as soon as possible** - Only way to be successful is to start experimenting as as soon as possible. Instead of creating a perfect framework, come up with the earliest testable version, implement it and get feedback, and iterate further. You can start with the direct team and make it as simple as replacing some recurring meetings with an async substitute.
+
+**Have a KPI for tracking the success of every experiment** - know what to measure and measure it. You need to first understand what the successful outcome looks like at the end, choose a metric that will show your progress towards that success target. It could be burndown, OKR, employee satisfaction or something else. Make sure to have a metric that is aligned with your outcome success defined.
+
+**Don't respond to messages or emails instantly & suggest others not to do it either** - Put it as a status in your messaging tool, send it as an auto-reply to all emails or make it your profile picture. Communicate to people that you're at the moment busy doing "deep work". Responding instantly to any communication requests shows that you're available to be requested on ad-hoc. Dedicate yourself a time block every day for "focused productive work". If people request a feedback as soon as possible, just reply back saying "I am currently focused on X task, thus I'd need to get back to you after X days." Just tell them that you're busy, that's it.
+
+**Focus on outcome oriented performance evaluation** - Evaluate the individual performance based on outcomes, not on the amount of hours worked. Each person should have a specific outcome they steer or a goal they've set up to achieve and they should be evaluated on the success rate of their outcome/goal.
+
+One of the main values of the [Agile Manifesto](https://agilemanifesto.org/) suggests we should value "individuals and interactions over processes and tools". Going remote is confirmed to benefit employers and employees to be more efficient. To ensure the long-term robustness of the remote working, we should pro-actively experiment new ideas and, based on the feedback loop, iterate further or move on. When doing these experiments, our top priority should be the satisfaction of individuals, including employees, customers, and stakeholders in general.
