@@ -13,7 +13,7 @@ Hi there, I'm Hido, a Product Manager with a passion for exploring the intersect
 
 ## My Background
 
-I hold a degree in Economics and have been working in the automotive industry for over half a decade. Over the years, I've had the opportunity to work with some amazing teams and have been involved in launching several successful products. 
+I hold a degree in MSc. Economics & Politics and have been working in the automotive industry for over half a decade. Over the years, I've had the opportunity to work with some amazing teams and have been involved in launching several successful products. 
 
 ## My Interests
 
