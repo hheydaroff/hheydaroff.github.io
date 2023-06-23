@@ -3,7 +3,7 @@ author = "Hido"
 title = "On Investing and Wealthy Life"
 date = "2021-02-15"
 tags = [
-  "fimance",
+  "finance",
   "investment",
   "self-development"
 ]
