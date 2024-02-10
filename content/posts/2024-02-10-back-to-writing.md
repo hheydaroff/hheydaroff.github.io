@@ -6,7 +6,7 @@ tags = [
     "writing",
     "reflection"
 ]
-draft = true
+draft = false
 +++
 
 I have not written a blog post since long time. Actually the [previous post]({{<ref "/posts/2023-06-22-transparency-candor">}}) was written on 22.06.2023. That does not mean I have not written anything though. In the meantime, I have published few posts on Linkedin, mostly on the communication of my [weekend](https://www.linkedin.com/posts/heyhido_app-activity-7150062233580965888-Pken) [hustles](https://www.linkedin.com/posts/heyhido_github-hheydaroffdostgpt-this-is-a-repo-activity-7116387953202864128-iUTy), [certificate](https://www.linkedin.com/posts/heyhido_to-finish-the-year-with-a-gift-to-activity-7142168222023262208-NN9Z) [achievements](https://www.linkedin.com/posts/heyhido_im-happy-to-share-that-ive-finished-activity-7112813835270426624-_Krj), and sometimes commenting on the posts I have read online. 
