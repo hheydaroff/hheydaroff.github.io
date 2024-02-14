@@ -6,7 +6,7 @@ tags = [
     "product-development",
     "leadership"
 ]
-draft = true
+draft = false
 +++
 
 I read an [article](https://govleaders.org/rickover.htm) about leading people by [Adm. Hyman G. Rickover](https://en.wikipedia.org/wiki/Hyman_G._Rickover) of United States Navy. The first 3 sentences were more than enough to understand the whole article.
