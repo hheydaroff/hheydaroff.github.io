@@ -1,7 +1,7 @@
 +++
 author = "Hido"
 title = "Questioning if it makes sense"
-date = "2024-02-13"
+date = "2024-02-14"
 tags = [
     "reflection"
 ]
