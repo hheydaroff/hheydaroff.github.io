@@ -3,7 +3,7 @@ author = "Hido"
 title = "Where to be"
 date = "2024-02-16"
 tags = [
-  "self-development"
+  "reflection"
 ]
 draft = false
 +++

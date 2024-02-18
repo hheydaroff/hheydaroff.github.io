@@ -6,20 +6,11 @@
     <description>Recent content in Tags on Hido</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://heyhido.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>leadership</title>
-      <link>https://heyhido.com/tags/leadership/</link>
-      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://heyhido.com/tags/leadership/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sat, 17 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://heyhido.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>psychology</title>
       <link>https://heyhido.com/tags/psychology/</link>
-      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://heyhido.com/tags/psychology/</guid>
       <description></description>
@@ -28,16 +19,34 @@
     <item>
       <title>reflection</title>
       <link>https://heyhido.com/tags/reflection/</link>
-      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://heyhido.com/tags/reflection/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>leadership</title>
+      <link>https://heyhido.com/tags/leadership/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://heyhido.com/tags/leadership/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>product-development</title>
+      <link>https://heyhido.com/tags/product-development/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://heyhido.com/tags/product-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>productivity</title>
       <link>https://heyhido.com/tags/productivity/</link>
-      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://heyhido.com/tags/productivity/</guid>
       <description></description>
@@ -46,9 +55,18 @@
     <item>
       <title>self-development</title>
       <link>https://heyhido.com/tags/self-development/</link>
-      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://heyhido.com/tags/self-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>writing</title>
+      <link>https://heyhido.com/tags/writing/</link>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://heyhido.com/tags/writing/</guid>
       <description></description>
     </item>
     
@@ -103,15 +121,6 @@
       <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://heyhido.com/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>product-development</title>
-      <link>https://heyhido.com/tags/product-development/</link>
-      <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://heyhido.com/tags/product-development/</guid>
       <description></description>
     </item>
     

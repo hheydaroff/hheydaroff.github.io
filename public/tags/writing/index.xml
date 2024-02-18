@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>writing on Hido</title>
+    <link>https://heyhido.com/tags/writing/</link>
+    <description>Recent content in writing on Hido</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://heyhido.com/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Back to writing, hopefully this time more often</title>
+      <link>https://heyhido.com/posts/back-to-writing-hopefully-this-time-more-often/</link>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://heyhido.com/posts/back-to-writing-hopefully-this-time-more-often/</guid>
+      <description>I have not written a blog post since long time. Actually the previous post was written on 22.06.2023. That does not mean I have not written anything though. In the meantime, I have published few posts on Linkedin, mostly on the communication of my weekend hustles, certificate achievements, and sometimes commenting on the posts I have read online.
+I also have written quite a lot at my work as a Product Manager.</description>
+    </item>
+    
+  </channel>
+</rss>
