@@ -1,7 +1,7 @@
 +++
 author = "Hido"
 title = "Never-ending todo lists"
-date = "2024-02-17"
+date = "2024-02-19"
 tags = [
   "reflection",
   "psychology"
