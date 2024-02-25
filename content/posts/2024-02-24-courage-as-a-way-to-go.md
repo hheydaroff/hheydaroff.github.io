@@ -3,7 +3,7 @@ author = "Hido"
 title = "Courage as a skill to grow"
 date = "2024-02-24"
 tags = [
-  "phsychology",
+  "psychology",
   "reflection"
 ]
 draft = false
