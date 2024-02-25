@@ -1,7 +1,7 @@
 +++
 author = "Hido"
 title = "Courage as a skill to grow"
-date = "2024-02-23"
+date = "2024-02-24"
 tags = [
   "phsychology",
   "reflection"
