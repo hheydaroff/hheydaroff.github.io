@@ -1,6 +1,6 @@
 +++
 author = "Hido"
-title = "'Oops, I Did It Again'" - reflecting on self-control
+title = "'Oops, I Did It Again' - reflecting on self-control"
 date = "2024-03-08"
 tags = [
   "psychology"
