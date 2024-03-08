@@ -1,7 +1,7 @@
 +++
 author = "Hido"
 title = "Dead sunday"
-date = "2024-02-17"
+date = "2024-02-18"
 tags = [
   "reflection",
   "psychology"
