@@ -1,6 +1,6 @@
 +++
 author = "Hido"
-title = "Intermitten Fasting is plateaued"
+title = "Intermittent Fasting is plateaued"
 date = "2024-03-21"
 tags = [
   "intermittent fasting",   
