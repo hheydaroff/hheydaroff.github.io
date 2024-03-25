@@ -5,7 +5,7 @@ date = "2024-03-22"
 tags = [
   "science"
 ]
-draft = true
+draft = false
 +++
 
 It is difficult to approach feedback as an objective communication of the reflection you have on others, or even on yourself. We are quite defensive when receiving feedback, especially when it is a critique. Nonetheless, we know that the imperfection is a universal trait. To be human is to be imperfect. We are made of our weaknesses and mistakes as much as we are made of our successes and strenghts. 
