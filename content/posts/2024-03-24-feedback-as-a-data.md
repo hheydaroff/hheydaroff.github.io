@@ -1,7 +1,7 @@
 +++
 author = "Hido"
 title = "Feedback as a data"
-date = "2024-03-22"
+date = "2024-03-24"
 tags = [
   "science"
 ]
