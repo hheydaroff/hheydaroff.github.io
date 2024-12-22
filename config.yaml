@@ -11,9 +11,11 @@ hasCJKLanguage: true
 permalinks:
   posts: /posts/:title/
 
-paginate: 10
+pagination:
+  pagerSize: 10
 
-googleAnalytics: G-V7JRDN5H5Y
+googleAnalytics:
+  id: G-V7JRDN5H5Y
 disqusShortname: your-disqus-shortname
 
 # Hugo Configure Markup
@@ -58,6 +60,7 @@ params:
   enableComments: false
   # To enable comments, you may need to set `googleAnalytics`
   enableGoogleAnalytics: true
+  googleAnalyticsID: G-V7JRDN5H5Y
   # To enable table of content, you could set `showToc: true`, default is `false`
   showToc: true
   # To hidden powerBy message in the page footer, you could set: `showPowerBy: false`, default is `true`

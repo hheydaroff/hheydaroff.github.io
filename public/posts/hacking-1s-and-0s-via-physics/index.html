@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Hacking 1s and 0s via physics | Hido</title>
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+<meta name="description" content="I saw a very interesting Veritasium video on Tiktok today. It talks about how cosmic rays, high-energy particles from space, have been discovered to cause rare yet impactful phenomena on Earth. From triggering bit flips in computer systems to potentially influencing glitches in video games, the effects of cosmic rays are pervasive in modern technology. These rays can do unintended acceleration in vehicles and crashes of supercomputers at high elevations, highlighting the significant role they play in disrupting our technological systems.">
+<meta name="generator" content="Hugo 0.140.0">
+
+
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+ 
+    
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V7JRDN5H5Y"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-V7JRDN5H5Y');
+    </script>
+    
+
+
+
+
+
+
+
+  </head>
+
+  <body>
+    <nav class="navigation">
+	
+		<a href="/"> <span class="arrow">←</span>Home</a>
+	
+	<a href="/posts">Archive</a>
+	<a href="/tags">Tags</a>
+	<a href="/about">About</a>
+
+	
+
+	
+	  <a class="button" href="">Subscribe</a>
+	
+</nav>
+
+
+    <main class="main">
+      
+
+<section id="single">
+    <h1 class="title">Hacking 1s and 0s via physics</h1>
+
+    <div class="tip">
+        <time datetime="2024-03-07 00:00:00 &#43;0000 UTC">Mar 7, 2024</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          438 words
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          3 minute read
+        </span>
+    </div>
+
+    
+    
+        
+  
+
+
+    
+
+
+    <div class="content">
+      <p>I saw a very interesting <a href="https://www.youtube.com/watch?v=AaZ_RSt0KP8" target="_blank" rel="noopener">Veritasium video</a> on Tiktok today. It talks about how cosmic rays, high-energy particles from space, have been discovered to cause rare yet impactful phenomena on Earth. From triggering bit flips in computer systems to potentially influencing glitches in video games, the effects of cosmic rays are pervasive in modern technology. These rays can do unintended acceleration in vehicles and crashes of supercomputers at high elevations, highlighting the significant role they play in disrupting our technological systems.</p>
+<p>Radiation can affect the transistors in computer chips by altering the electrical charge stored in them, which can potentially change the binary state (0 or 1) of the transistor. This happens through different ways, such as high-energy radiation particles ionizing the atoms in silicons that creates electron-hole pairs. This electron-hole pair, which are free charge carriers, can be absorbed by the electric field present in the transistors, causing the buildup of charge locally. Increase in the charge can change the voltage level in the transistors.</p>
+<p>If the collected charge is sufficient to overcome the threshold voltage of the transistor, it can cause the binary state of the transistor to change, resulting in a &ldquo;bit flip.&rdquo; For example, a transistor storing a &ldquo;1&rdquo; might flip to a &ldquo;0,&rdquo; or vice versa. These bit flips caused by radiation are known as Single-Event Upsets (SEUs). SEUs can lead to data corruption, system crashes, or other erroneous behavior in the affected electronic device.</p>
+<p>I was thinking like it should be then possible to intentionally and in a targeted manner use methods to alter the electrical charge stored in transistors, known as  <a href="https://en.wikipedia.org/wiki/Fault_injection" target="_blank" rel="noopener">&ldquo;fault injection&rdquo;</a>. Some common fault injection techniques include:</p>
+<ul>
+<li>Voltage glitching: Momentarily altering the power supply voltage to cause a fault.</li>
+<li>Clock glitching: Manipulating the clock signal to cause a fault during a specific operation.</li>
+<li>Electromagnetic fault injection (EMFI): Using localized electromagnetic pulses to induce faults in a specific area of the chip.</li>
+<li>Laser fault injection: Using focused laser pulses to induce faults in a specific transistor or group of transistors.</li>
+</ul>
+<p>To mitigate the effects of radiation on computer chips, various techniques are employed, such as:</p>
+<ul>
+<li>Radiation hardening: Special manufacturing techniques and materials can be used to make chips more resistant to the effects of radiation.</li>
+<li>Error-correcting codes (ECC): Additional bits can be added to the stored data to detect and correct errors caused by bit flips.</li>
+<li>Redundancy: Critical components can be duplicated or triplicated to ensure that the system continues to function correctly even if one component is affected by radiation.</li>
+</ul>
+<p>These techniques are particularly important for electronics used in high-radiation environments, such as in space applications or particle accelerators.</p>
+
+    </div>
+
+    
+        <div class="tags">
+            
+                <a href="https://heyhido.com/tags/science">science</a>
+            
+                <a href="https://heyhido.com/tags/technology">technology</a>
+            
+        </div>
+    
+    
+    
+
+</section>
+
+
+    </main>
+    
+    <footer id="footer">
+    
+
+    <div class="copyright">
+    
+        © Copyright 2024 ❤️ Hido
+    
+    </div>
+
+    
+      <div class="powerby">
+        Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
+      </div>
+    
+</footer>
+
+
+
+  </body>
+</html>

@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>writing on Hido</title>
+    <title>Writing on Hido</title>
     <link>https://heyhido.com/tags/writing/</link>
-    <description>Recent content in writing on Hido</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Writing on Hido</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://heyhido.com/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://heyhido.com/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to find what to develop</title>
+      <link>https://heyhido.com/posts/how-to-find-what-to-develop/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/posts/how-to-find-what-to-develop/</guid>
+      <description>&lt;p&gt;I had &lt;a href=&#34;https://heyhido.com/posts/dealing-with-toxic-stakeholders/&#34;&gt;mentioned before&lt;/a&gt; that the product development is all about finding the right problem and the adequate solution to that problem. To develop the right product, we need to have the vision and the need for a solution.&lt;/p&gt;&#xA;&lt;p&gt;There is no easy guideline on how to do it, since the conditions for the discovery can vary a lot. There are many ways requirements are gathered. There are some collected via user research (interviews, surveys, etc.), some are spotted when people use the product and give feedback, some are gathered from market research, some others are just pushed by stakeholders.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Missing a day</title>
+      <link>https://heyhido.com/posts/missing-a-day/</link>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/posts/missing-a-day/</guid>
+      <description>&lt;p&gt;Being [back to writing]https://heyhido.com/posts/back-to-writing-hopefully-this-time-more-often/ on a daily basis, the first failure milestone was achieved yesterday. I forgot to write. I completely have forgotten it. Until today 11pm. Why?!&lt;/p&gt;&#xA;&lt;p&gt;What has worked for me in the last 12 days was that I have a fixed time of the day to write. ~11pm is my writing before going to bed time. It&amp;rsquo;s a good time, because there is usually now work left to do. I am almost always at home around that time. It&amp;rsquo;s my reading and writing time in general. I also do my &lt;a href=&#34;https://heyhido.com/posts/self-reflection-for-a-satisfying-life/&#34;&gt;reflection&lt;/a&gt; of the day during that time. So, I can &lt;a href=&#34;https://heyhido.com/posts/daily-doses-of-new-deeds/&#34;&gt;integrate&lt;/a&gt; writing easily into that routine.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Back to writing, hopefully this time more often</title>
       <link>https://heyhido.com/posts/back-to-writing-hopefully-this-time-more-often/</link>
       <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://heyhido.com/posts/back-to-writing-hopefully-this-time-more-often/</guid>
-      <description>I have not written a blog post since long time. Actually the previous post was written on 22.06.2023. That does not mean I have not written anything though. In the meantime, I have published few posts on Linkedin, mostly on the communication of my weekend hustles, certificate achievements, and sometimes commenting on the posts I have read online.
-I also have written quite a lot at my work as a Product Manager.</description>
+      <description>&lt;p&gt;I have not written a blog post since long time. Actually the &lt;a href=&#34;https://heyhido.com/posts/transparency-and-candor-empowering-employees-with-confidence-and-trust/&#34;&gt;previous post&lt;/a&gt; was written on 22.06.2023. That does not mean I have not written anything though. In the meantime, I have published few posts on Linkedin, mostly on the communication of my &lt;a href=&#34;https://www.linkedin.com/posts/heyhido_app-activity-7150062233580965888-Pken&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;weekend&lt;/a&gt; &lt;a href=&#34;https://www.linkedin.com/posts/heyhido_github-hheydaroffdostgpt-this-is-a-repo-activity-7116387953202864128-iUTy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hustles&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/posts/heyhido_to-finish-the-year-with-a-gift-to-activity-7142168222023262208-NN9Z&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;certificate&lt;/a&gt; &lt;a href=&#34;https://www.linkedin.com/posts/heyhido_im-happy-to-share-that-ive-finished-activity-7112813835270426624-_Krj&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;achievements&lt;/a&gt;, and sometimes commenting on the posts I have read online.&lt;/p&gt;&#xA;&lt;p&gt;I also have written quite a lot at my work as a Product Manager. Meeting summaries, incident analyses, rollout posts, PRDs, monthly updates, and many more types of different contents, written for different types of personas. But I feel like I&amp;rsquo;m not writing much. To make it more explicit, I realised I am not writing often. I just do big-chunk-writings irregularly.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

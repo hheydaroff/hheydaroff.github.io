@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data on Hido</title>
+    <link>https://heyhido.com/tags/data/</link>
+    <description>Recent content in Data on Hido</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://heyhido.com/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conway&#39;s law on data</title>
+      <link>https://heyhido.com/posts/conways-law-on-data/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/posts/conways-law-on-data/</guid>
+      <description>&lt;p&gt;Conway&amp;rsquo;s Law is an adage that explains how the communication structures of the organizations are mirrored in their design systems.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;[O]rganizations which design systems (in the broad sense used here) are constrained to produce designs which are copies of the communication structures of these organizations.&#xA;&lt;p&gt;— Melvin E. Conway, How Do Committees Invent?&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;In order to build one or more products within a complex adaptive system, the engineers, designers, and other members of the product team should communicate about the overall development steps, assumptions, processes and components. The output of that communication is fed into the product development. Namely, at the end the product looks like how it was communicated.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
