@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zen on Hido</title>
-    <link>https://heyhido.com/tags/zen/</link>
+    <link>http://localhost:1313/tags/zen/</link>
     <description>Recent content in Zen on Hido</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 16 Dec 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://heyhido.com/tags/zen/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/zen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reflecting the Way of Zen</title>
-      <link>https://heyhido.com/posts/reflecting-the-way-of-zen/</link>
+      <link>http://localhost:1313/posts/reflecting-the-way-of-zen/</link>
       <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/reflecting-the-way-of-zen/</guid>
+      <guid>http://localhost:1313/posts/reflecting-the-way-of-zen/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://heydaroff.files.wordpress.com/2020/12/screenshot-2020-12-16-at-14.35.57.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;p class=&#34;markdown-image&#34;&gt;&#xA;  &lt;img src=&#34;https://heydaroff.files.wordpress.com/2020/12/screenshot-2020-12-16-at-14.35.57.png?w=503&#34; alt=&#34;&#34;  /&gt;&#xA;&lt;/p&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;sumi-e painting&lt;/p&gt;&#xA;&lt;p&gt;Intensity and dynamics of life is changing intermittently. Making plans for the future, describing the things based on the bias of past, and &amp;ldquo;trying&amp;rdquo; to influence the now brings us the frustration of &amp;ldquo;the complexity of ourselves&amp;rdquo;. Alan Watts, in his book &amp;ldquo;The Way of Zen&amp;rdquo;, uses the Thermostat Analogy to explain this frustration.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The system can be paralyzed in yet another way. Every feedback system needs a margin of “lag” or error. If we try to make a thermostat absolutely accurate–that is, if we bring the upper and lower limits of temperature very close together in an attempt to hold the temperature at a constant 70 degrees–the whole system will break down. For to the extent that the upper and lower limits coincide, the signals for switching off and switching on will coincide! If 70 degrees is both the lower and upper limit the “go” sign will also be the “stop” sign; “yes” will imply “no” and “no” will imply “yes.” Whereupon the mechanism will start “trembling,” going on and off, on and off, until it shakes itself to pieces. The system is too sensitive and shows symptoms which are startlingly like human anxiety. For when a human being is so self-conscious, so self-controlled that he cannot let go of himself, he dithers or wobbles between opposites. This is precisely what is meant in Zen by going round and round on “the wheel of birth-and-death,” for the Buddhist samsara is the prototype of all vicious circles. We saw that when the furnace responds too closely to the thermostat, it cannot go ahead without also trying to stop, or stop without also trying to go ahead. This is just what happens to the human being, to the mind, when the desire for certainty and security prompts identification between the mind and its own image of itself. It cannot let go of itself. It feels that it should not do what it is doing, and that it should do what it is not doing. It feels that it should not be what it is, and be what it isn’t. Furthermore, the effort to remain always “good” or “happy” is like trying to hold the thermostat to a constant 70 degrees by making the lower limit the same as the upper.&lt;/p&gt;</description>
     </item>
   </channel>

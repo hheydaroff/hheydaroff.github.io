@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Artificial Intelligence on Hido</title>
-    <link>https://heyhido.com/tags/artificial-intelligence/</link>
+    <link>http://localhost:1313/tags/artificial-intelligence/</link>
     <description>Recent content in Artificial Intelligence on Hido</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://heyhido.com/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Wild Ride with AI in 2024: A Slightly Frazzled Reflection</title>
-      <link>https://heyhido.com/posts/my-wild-ride-with-ai-in-2024-a-slightly-frazzled-reflection/</link>
+      <link>http://localhost:1313/posts/my-wild-ride-with-ai-in-2024-a-slightly-frazzled-reflection/</link>
       <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/my-wild-ride-with-ai-in-2024-a-slightly-frazzled-reflection/</guid>
+      <guid>http://localhost:1313/posts/my-wild-ride-with-ai-in-2024-a-slightly-frazzled-reflection/</guid>
       <description>&lt;p&gt;It has been 9 months since I have written anything here, but yeah folks, buckle up because I&amp;rsquo;m about to take you on a rollercoaster ride through my 2024 AI adventure. And let me tell you, it&amp;rsquo;s been one heck of a journey!&lt;/p&gt;&#xA;&lt;p&gt;First things first: if you&amp;rsquo;re not already blown away by the AI revolution happening right under our noses, it&amp;rsquo;s time to wake up and smell the silicon! This tech is so powerful, it makes my old iPod look like a fancy paperweight with a dysfunctional scroll wheel. (Remember frantically spinning that wheel to find your favorite song? Ah, simpler times!)&lt;/p&gt;</description>
     </item>
   </channel>

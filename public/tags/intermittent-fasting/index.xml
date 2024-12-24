@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Intermittent Fasting on Hido</title>
-    <link>https://heyhido.com/tags/intermittent-fasting/</link>
+    <link>http://localhost:1313/tags/intermittent-fasting/</link>
     <description>Recent content in Intermittent Fasting on Hido</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://heyhido.com/tags/intermittent-fasting/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/intermittent-fasting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Intermittent Fasting is plateaued</title>
-      <link>https://heyhido.com/posts/intermittent-fasting-is-plateaued/</link>
+      <link>http://localhost:1313/posts/intermittent-fasting-is-plateaued/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/intermittent-fasting-is-plateaued/</guid>
+      <guid>http://localhost:1313/posts/intermittent-fasting-is-plateaued/</guid>
       <description>&lt;p&gt;I have been doing intermitten fasting (IF) since 2020. Like with almost every other new experiment I do, I started with the extreme version of IF, called one meal a day (OMAD). To make it even worse, I added on top of that the Ketogenic Diet. One day to the next, my eating habit fully changed. I went through the whole keto flu, hunger crisis, foggy brain, and finally, I did not have to eat breakfast or lunch anymore.&lt;/p&gt;</description>
     </item>
   </channel>

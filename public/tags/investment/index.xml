@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Investment on Hido</title>
-    <link>https://heyhido.com/tags/investment/</link>
+    <link>http://localhost:1313/tags/investment/</link>
     <description>Recent content in Investment on Hido</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://heyhido.com/tags/investment/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/investment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>On Investing and Wealthy Life</title>
-      <link>https://heyhido.com/posts/on-investing-and-wealthy-life/</link>
+      <link>http://localhost:1313/posts/on-investing-and-wealthy-life/</link>
       <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/on-investing-and-wealthy-life/</guid>
+      <guid>http://localhost:1313/posts/on-investing-and-wealthy-life/</guid>
       <description>&lt;p&gt;With the Neolithic Revolution, around 12,000 years ago, several nomadic bands shifted from being hunter-gatherers to larger agrarian settlements. Along with this shift, communities started to establish private property rights, as well store and exchange value. The latter one brought us to invent money, turn it into a virtual value and speculate based on ignorance and emotions.&lt;/p&gt;&#xA;&lt;p&gt;With the rise of globalisation and consumerism, money became the central part of our lives. Moving from just being an exchange tool, money turned into an addiction. We can see it in financial markets. People are losing their minds over gambling in trading markets. Nonetheless, when done correctly investing brings us a financial independence, which frees us from many non-value-adding troubles.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Science on Hido</title>
-    <link>https://heyhido.com/tags/science/</link>
+    <link>http://localhost:1313/tags/science/</link>
     <description>Recent content in Science on Hido</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://heyhido.com/tags/science/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Feedback as a data</title>
-      <link>https://heyhido.com/posts/feedback-as-a-data/</link>
+      <link>http://localhost:1313/posts/feedback-as-a-data/</link>
       <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/feedback-as-a-data/</guid>
+      <guid>http://localhost:1313/posts/feedback-as-a-data/</guid>
       <description>&lt;p&gt;It is difficult to approach feedback as an objective communication of the reflection you have on others, or even on yourself. We are quite defensive when receiving feedback, especially when it is a critique. Nonetheless, we know that the imperfection is a universal trait. To be human is to be imperfect. We are made of our weaknesses and mistakes as much as we are made of our successes and strenghts.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Beginning of oxygen</title>
-      <link>https://heyhido.com/posts/beginning-of-oxygen/</link>
+      <link>http://localhost:1313/posts/beginning-of-oxygen/</link>
       <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/beginning-of-oxygen/</guid>
+      <guid>http://localhost:1313/posts/beginning-of-oxygen/</guid>
       <description>&lt;p&gt;There are so many things in life we take for granted. Have you ever thought about how did oxygen become available? I had not thought about it before, but recently &lt;a href=&#34;%28https://naturalhistory.si.edu/education/teaching-resources/life-science/early-life-earth-animal-origins%29&#34;&gt;an article&lt;/a&gt; I read opened up this box of questions.&lt;/p&gt;&#xA;&lt;p&gt;Oxygen was absent from the atmosphere of earth around 4.5 billion years ago. It was just not there. The conditions were not yet mature enough for the oxygen to survive. What was it then instead? At that time, the earth had a reducing atmosphere, consisting of carbon dioxide, methane, and water vapor. Crazy difficult, yeah?! Although sunlight was evaporating the water in the atmosphere and split ito oxygen and hydrogen, the oxygen was quickly reacting with methane and stay locked away from the earths;&amp;rsquo; crust.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Self-destruction of cells</title>
-      <link>https://heyhido.com/posts/self-destruction-of-cells/</link>
+      <link>http://localhost:1313/posts/self-destruction-of-cells/</link>
       <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/self-destruction-of-cells/</guid>
+      <guid>http://localhost:1313/posts/self-destruction-of-cells/</guid>
       <description>&lt;p&gt;Apoptosis refers to a form of programmed cell death that occurs in multicellular organisms, characterized by a series of biochemical events leading to cell changes and death. We can think of it as a self-elimination of cells, self-induced death.&lt;/p&gt;&#xA;&lt;p&gt;The apoptosis is a very crucial need for cellular organisms to control their cell populations and remove cells that are damaged, potentially harmful, or no longer needed. This need is particularly acute in multicellular organisms, where the coordination of cell growth and death is essential for the organism&amp;rsquo;s development and survival. However the &lt;a href=&#34;https://www.quantamagazine.org/cellular-self-destruction-may-be-ancient-but-why-20240306/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;initial observation&lt;/a&gt; of the self-destruction is traced back to the single-celled organisms — the first eukaryote, or cell bearing a nucleus and mitochondria — that seem to have evolved it as a social behavior.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Can everything be explained by physics?</title>
-      <link>https://heyhido.com/posts/can-everything-be-explained-by-physics/</link>
+      <link>http://localhost:1313/posts/can-everything-be-explained-by-physics/</link>
       <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/can-everything-be-explained-by-physics/</guid>
+      <guid>http://localhost:1313/posts/can-everything-be-explained-by-physics/</guid>
       <description>&lt;p&gt;Few days ago I came across &lt;a href=&#34;https://jsomers.net/e-coli-chemotaxis/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;an article&lt;/a&gt;. It was a story about the process called chemotaxis of Escherichia coli. E. coli uses protein phosphorylation and dephosphorylation reactions to control its flagellar motors in response to environmental chemical changes.&lt;/p&gt;&#xA;&lt;p&gt;The fundamental concept is as follows: E. coli detects chemicals it is drawn to using receptor structures similar to a nose, and based on this sensory information, it makes decisions about its movement. Depending on the chemical signals it detects, the bacterium can either propel itself forward by using its flagellar tails in a coordinated manner, referred to as a &amp;ldquo;run,&amp;rdquo; or it can change its direction randomly by spinning, known as a &amp;ldquo;tumble.&amp;rdquo; By executing runs when the chemical signals are favorable and tumbling when they are not, E. coli follows a winding path towards the attractant. The proportion of runs versus tumbles, and their duration, is meticulously configured to balance “exploitation” and “exploration”: if runs lasted too often or too long, E. coli would pass by its food; otherwise if too seldom or too short, and it’d likely never find food in the first place.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Complex expanding universe and my unwiseness</title>
-      <link>https://heyhido.com/posts/complex-expanding-universe-and-my-unwiseness/</link>
+      <link>http://localhost:1313/posts/complex-expanding-universe-and-my-unwiseness/</link>
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/complex-expanding-universe-and-my-unwiseness/</guid>
+      <guid>http://localhost:1313/posts/complex-expanding-universe-and-my-unwiseness/</guid>
       <description>&lt;p&gt;The day was beautiful. I visited &lt;a href=&#34;https://en.wikipedia.org/wiki/Baden-Baden&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Baden-Baden&lt;/a&gt; and the city is just beautiful. Tucked away in Germany&amp;rsquo;s Black Forest, Baden-Baden is a sight to capture with its charming architecture and vibrant gardens. As twilight descends, the city transforms into a mesmerizing dreamscape. But that&amp;rsquo;s not the main thing I feel enchanted about.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=YNqTamaKMC8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A video I watched&lt;/a&gt; about the galaxy and the spacetime captivated my freely floating thoughts. We are in intergalactic space. We are lost between two neighboring galaxies: Andromade and Milky way. The underlying geometry of the universe is a hot topic of interest for scientists since a long time. Around us space is almost perfectly empty. &amp;lsquo;Almost&amp;rsquo; is intentionally mentioned, because there is still an invisble fabric of universe all around us, the spacetime. This fabric is not made of straight lines, but rahter it is  asubtly distorted by the gravitation pull of massive celestial objects like galaxies, stars and dark matter.&lt;/p&gt;</description>
     </item>
     <item>
       <title>3.14. - Pi (π) Day</title>
-      <link>https://heyhido.com/posts/3.14.-pi-%CF%80-day/</link>
+      <link>http://localhost:1313/posts/3.14.-pi-%CF%80-day/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/3.14.-pi-%CF%80-day/</guid>
+      <guid>http://localhost:1313/posts/3.14.-pi-%CF%80-day/</guid>
       <description>&lt;p&gt;Today is Pi (π) Day. Pi Day is an annual celebration of the mathematical constant π (pi). It is a celebration of mathematics, mystery, and perhaps, a slice of pie. Pi Day is celebrated on March 14th each year. The date is chosen to represent the first three significant digits of π, 3.14. This date also happens to be Albert Einstein&amp;rsquo;s birthday, adding an extra layer of significance for some math and science enthusiasts.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What is this &#39;Oumuamua?</title>
-      <link>https://heyhido.com/posts/what-is-this-oumuamua/</link>
+      <link>http://localhost:1313/posts/what-is-this-oumuamua/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/what-is-this-oumuamua/</guid>
+      <guid>http://localhost:1313/posts/what-is-this-oumuamua/</guid>
       <description>&lt;p&gt;Unknowns open up a new potential of growth. When we face what we had not seen before, we come up with more creative ideas to uncover the reality. There is a highly likelihood of failing exposing it, but what&amp;rsquo;s the fun if not the process of digging up the truth.&lt;/p&gt;&#xA;&lt;p&gt;In 2017, a small object called &amp;lsquo;Oumuamua entered into our solar system, traveled through the inner part of it and left even faster. It was the first confirmed object that have come from an outside planetary system. It has a weird shape. With long and thin-cigar-like-shape &amp;lsquo;Oumuamua accelerated as if something were pushing onto it. By the time we realized its existence, the guest was already out the door with its image fading into the dark street, so we did not have a chance to get a second look at its mysterious qualities.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hacking 1s and 0s via physics</title>
-      <link>https://heyhido.com/posts/hacking-1s-and-0s-via-physics/</link>
+      <link>http://localhost:1313/posts/hacking-1s-and-0s-via-physics/</link>
       <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/hacking-1s-and-0s-via-physics/</guid>
+      <guid>http://localhost:1313/posts/hacking-1s-and-0s-via-physics/</guid>
       <description>&lt;p&gt;I saw a very interesting &lt;a href=&#34;https://www.youtube.com/watch?v=AaZ_RSt0KP8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Veritasium video&lt;/a&gt; on Tiktok today. It talks about how cosmic rays, high-energy particles from space, have been discovered to cause rare yet impactful phenomena on Earth. From triggering bit flips in computer systems to potentially influencing glitches in video games, the effects of cosmic rays are pervasive in modern technology. These rays can do unintended acceleration in vehicles and crashes of supercomputers at high elevations, highlighting the significant role they play in disrupting our technological systems.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Earth keeps the fire monopoly</title>
-      <link>https://heyhido.com/posts/earth-keeps-the-fire-monopoly/</link>
+      <link>http://localhost:1313/posts/earth-keeps-the-fire-monopoly/</link>
       <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/earth-keeps-the-fire-monopoly/</guid>
+      <guid>http://localhost:1313/posts/earth-keeps-the-fire-monopoly/</guid>
       <description>&lt;p&gt;Lighting a cigarette or a gas stove, making fire at picnic site, flaming fireworks at New Years&amp;rsquo; Eve, or heating up the fireplace is easy nowadays. Mostly we need a matchstick or a lighter. A mix of antimony sulfide, potassium chlorate, gum, and starch were all that was required to prototype a &lt;a href=&#34;https://en.wikipedia.org/wiki/Match&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;matchstick&lt;/a&gt; in 19. century. Around the same time was also the &lt;a href=&#34;https://en.wikipedia.org/wiki/D%C3%B6bereiner%27s_lamp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;lighter&lt;/a&gt; invented.&lt;/p&gt;&#xA;&lt;p&gt;Fire, as we know it, is a chemical reaction called combustion that has three ingredients: a fuel (i.e. gasoline, wood), oxidizing agent (i.e. oxygen in the air), and heat. The combustion releases energy in the form of light and heat, and we call it flames.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Survival of the Prettiest?</title>
-      <link>https://heyhido.com/posts/survival-of-the-prettiest/</link>
+      <link>http://localhost:1313/posts/survival-of-the-prettiest/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/survival-of-the-prettiest/</guid>
+      <guid>http://localhost:1313/posts/survival-of-the-prettiest/</guid>
       <description>&lt;p&gt;I started reading the &lt;a href=&#34;https://www.goodreads.com/book/show/40363053-cosmos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cosmos&lt;/a&gt; by Ann Druyan recently. I am a big fan of Carl Sagan, and this is the sequel of his blockbuster. One of the chapters talks about the plants surviving and reproducing solely via winds carrying their polens, until the insects learned to play Cupid with them. Then the evolution of relationship between flowers and insects became ever more colorful.&lt;/p&gt;&#xA;&lt;p&gt;Step into nature&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=nNrieMwfpWQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;grand&lt;/a&gt; &lt;a href=&#34;https://www.youtube.com/watch?v=rX40mBb8bkU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;theater&lt;/a&gt;, where every color, sound, and movement is part of a high-stakes performance aimed at one transcendent goal: reproduction. Here, the bowerbird doesn&amp;rsquo;t just build a nest; it creates a masterpiece, a kaleidoscope of collected treasures designed to impress. Nearby, antelopes lock horns in a show of strength, their fierce battles a testament to their desirability as mates. This is where the currency of survival is not just strength but beauty, and the art of attraction is written into every aspect of life.&lt;/p&gt;</description>
     </item>
   </channel>

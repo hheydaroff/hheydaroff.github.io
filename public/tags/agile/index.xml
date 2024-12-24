@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agile on Hido</title>
-    <link>https://heyhido.com/tags/agile/</link>
+    <link>http://localhost:1313/tags/agile/</link>
     <description>Recent content in Agile on Hido</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://heyhido.com/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/agile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting feedback</title>
-      <link>https://heyhido.com/posts/getting-feedback/</link>
+      <link>http://localhost:1313/posts/getting-feedback/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/getting-feedback/</guid>
+      <guid>http://localhost:1313/posts/getting-feedback/</guid>
       <description>&lt;p&gt;Feedback is a critical component for delivering value. Considering that the value is realised as much as it is perceived and accepted by the receiver, getting feedback increases the likelihood that the intended product value matches the expectations of the receiver.&lt;/p&gt;&#xA;&lt;p&gt;When developing a product, shipping fast and often helps to learn by users what value it brings, to spot the bugs or usability problems that were not evident during the development, and see what additional features are being wanted.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to ditch meetings that prevent productivity</title>
-      <link>https://heyhido.com/posts/how-to-ditch-meetings-that-prevent-productivity/</link>
+      <link>http://localhost:1313/posts/how-to-ditch-meetings-that-prevent-productivity/</link>
       <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/how-to-ditch-meetings-that-prevent-productivity/</guid>
+      <guid>http://localhost:1313/posts/how-to-ditch-meetings-that-prevent-productivity/</guid>
       <description>&lt;p&gt;Another meeting invite is in your inbox&amp;hellip; sigh. There are multiple reasons you probably don&amp;rsquo;t want to attend it at all: it is the only slot available for working, it is at 7 am/pm at your location, it&amp;rsquo;s at lunchtime, or you do not know what the meeting is about. This gives me a real déjà vu.&lt;/p&gt;&#xA;&lt;p&gt;We are all going through this turmoil after remote working became a must, thanks to (or more like damn) COVID. We had to in such a short period adjust to not being in the office, but still learning to deliver outcomes as we were doing before. It was neither an expected nor a planned event for the global economy and human beings themselves. However, it is estimated that around 25% of the global workforce will stay remote.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Psychology of Remote Working and 16 tips to make it work</title>
-      <link>https://heyhido.com/posts/psychology-of-remote-working-and-16-tips-to-make-it-work/</link>
+      <link>http://localhost:1313/posts/psychology-of-remote-working-and-16-tips-to-make-it-work/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/psychology-of-remote-working-and-16-tips-to-make-it-work/</guid>
+      <guid>http://localhost:1313/posts/psychology-of-remote-working-and-16-tips-to-make-it-work/</guid>
       <description>&lt;p&gt;Remote working will more likely stay in long term. If not hundred percent, it will definitely push many companies to adopt hybrid model. With the COVID hit, tens of millions of people had to move their workplaces to their living places, to their homes. In multiple studies (mostly by management consulting companies) it is estimated that more than 20 to 25 percent of the workforce could work three to five days a week remotely. Obviously, the remote work at the moment is possible for only the people whose work does not require physical output. There are many dimensions impacted by workforce going remote, such as counter-urbanization, &amp;ldquo;to-go&amp;rdquo; delivery vs. restaurants, commercial real-estate and so on. These are all business-side changes, however there is as well a direct impact of remote working on human psychology.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Communication is overrated?!</title>
-      <link>https://heyhido.com/posts/communication-is-overrated/</link>
+      <link>http://localhost:1313/posts/communication-is-overrated/</link>
       <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/communication-is-overrated/</guid>
+      <guid>http://localhost:1313/posts/communication-is-overrated/</guid>
       <description>&lt;p&gt;Whether &lt;a href=&#34;https://heydaroff.info/2021/02/22/my-journey-on-managing-a-product-and-lessons-learned/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;building a new product&lt;/a&gt;, &lt;a href=&#34;https://heydaroff.info/2021/04/12/power-of-love-and-expectations/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;exchanging love and affection&lt;/a&gt;, having our &lt;a href=&#34;https://heydaroff.info/2020/12/23/reflecting-on-obstacles-resilience/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;day-to-day issues solved&lt;/a&gt; or generally &lt;a href=&#34;https://heydaroff.info/2021/02/01/reflecting-on-passion-and-perseverance/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pushing towards goals&lt;/a&gt; we have within a &lt;a href=&#34;https://heydaroff.info/2021/01/12/negotiation-a-skill-to-master/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;complex social ecosystem&lt;/a&gt;, communication becomes the most essential component that contributes to the success. Based on my experience as Product Owner, demands are coming from many different areas, issues happen to pop up randomly that impact and get impacted by many different fields, thus the interests and expectations of stakeholders do change because of changes to the product.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Journey on managing a product and lessons learned</title>
-      <link>https://heyhido.com/posts/journey-on-managing-a-product-and-lessons-learned/</link>
+      <link>http://localhost:1313/posts/journey-on-managing-a-product-and-lessons-learned/</link>
       <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/journey-on-managing-a-product-and-lessons-learned/</guid>
+      <guid>http://localhost:1313/posts/journey-on-managing-a-product-and-lessons-learned/</guid>
       <description>&lt;p&gt;I had a very weird dream yesterday. Inside the dream I was still in bed trying to sleep, but there were some numbers and charts flying around and screaming to me. It sounds more of a nightmare, I know. It reminds of the book, &amp;ldquo;&lt;a href=&#34;https://amzn.to/3qL2R13&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Phoenix Project&lt;/a&gt;&amp;rdquo; by Gene, Kevin and George. However, it was not like they were mad at me, but they were asking for more attention. For a moment I could understand them and put them in order for the new realm to reflect itself as a picture. At that moment I was in peace. Then out of nowhere it felt like there is an earthquake, the scene was shaking non-stop and the numbers and charts were gone. I woke up and realised it was my wristband alarm that was on. &lt;a href=&#34;https://heydaroff.info/2021/01/18/what-does-our-brain-tell-us-about-habits/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Every morning&lt;/a&gt; at 5:30 it triggers me to crawl out of bed and start the day with morning routines.&lt;/p&gt;</description>
     </item>
   </channel>

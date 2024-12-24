@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Neuroscience on Hido</title>
-    <link>https://heyhido.com/tags/neuroscience/</link>
+    <link>http://localhost:1313/tags/neuroscience/</link>
     <description>Recent content in Neuroscience on Hido</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://heyhido.com/tags/neuroscience/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/neuroscience/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dual consciousness - how the left hemisphere owns the brain</title>
-      <link>https://heyhido.com/posts/dual-consciousness-how-the-left-hemisphere-owns-the-brain/</link>
+      <link>http://localhost:1313/posts/dual-consciousness-how-the-left-hemisphere-owns-the-brain/</link>
       <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/dual-consciousness-how-the-left-hemisphere-owns-the-brain/</guid>
-      <description>&lt;p&gt;Brain is such a complex mechanism. Over last few centuries the science went so far that we could go explore the depth of universe, understand the initial big-bang event, analyze the black-hole and many more wonders spanning billions of light years. After the Cambrian explosion, some 500 million years ago, [invention of photosynthesis by the Cyanobacteria]https://heyhido.com/posts/beginning-of-oxygen/ led to the sudden blossoming of complex forms.&lt;/p&gt;&#xA;&lt;p&gt;From unicellular organisms to us with central nervous system, the development requires a more sophisticated ways of thinking to understand - memory, imagination, processing science and so forth. However, we have a very limited understanding of how the brain works. I read an article about the &lt;a href=&#34;https://adam-mehdi.medium.com/dual-consciousness-and-the-split-brain-6558751edfb3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Split-brain&lt;/a&gt; that opened up my curiosity and after some reading here are my thoughts.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/dual-consciousness-how-the-left-hemisphere-owns-the-brain/</guid>
+      <description>&lt;p&gt;Brain is such a complex mechanism. Over last few centuries the science went so far that we could go explore the depth of universe, understand the initial big-bang event, analyze the black-hole and many more wonders spanning billions of light years. After the Cambrian explosion, some 500 million years ago, [invention of photosynthesis by the Cyanobacteria]http://localhost:1313/posts/beginning-of-oxygen/ led to the sudden blossoming of complex forms.&lt;/p&gt;&#xA;&lt;p&gt;From unicellular organisms to us with central nervous system, the development requires a more sophisticated ways of thinking to understand - memory, imagination, processing science and so forth. However, we have a very limited understanding of how the brain works. I read an article about the &lt;a href=&#34;https://adam-mehdi.medium.com/dual-consciousness-and-the-split-brain-6558751edfb3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Split-brain&lt;/a&gt; that opened up my curiosity and after some reading here are my thoughts.&lt;/p&gt;</description>
     </item>
     <item>
       <title>You can bullshit a bullshitter</title>
-      <link>https://heyhido.com/posts/you-can-bullshit-a-bullshitter/</link>
+      <link>http://localhost:1313/posts/you-can-bullshit-a-bullshitter/</link>
       <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/you-can-bullshit-a-bullshitter/</guid>
+      <guid>http://localhost:1313/posts/you-can-bullshit-a-bullshitter/</guid>
       <description>&lt;p&gt;Bullshit &lt;a href=&#34;https://uwaterloo.ca/news/media/research-shows-people-who-bs-are-more-likely-fall-bs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;is defined&lt;/a&gt; as information designed to impress, persuade, or otherwise mislead people that is often constructed without concern for the truth. At its core, it reflects a fundamental aspect of human communication: the desire to influence others and shape a perception.&lt;/p&gt;&#xA;&lt;p&gt;From psychology point of view, social norms and cultural values can very much influence one&amp;rsquo;s propensity to engage in bullshitting. In environments where success and status are highly valued, individuals may choose bullshitting to fit to the group. Also people with fragile self-esteem or those who are overly concerned with their image may resort to &amp;ldquo;bullshitting&amp;rdquo; as a way to maintain or enhance their social standing. This behavior can be a defense mechanism to protect one&amp;rsquo;s self-image or to project an idealized version of oneself to others. This creates a discrepancy between one&amp;rsquo;s beliefs and actions, which is called &lt;a href=&#34;https://en.wikipedia.org/wiki/Cognitive_dissonance&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cognitive dissonance&lt;/a&gt;. To reduce the feeling of discomfort the cognitive dissonance creates, individuals may engage in dishonest behavior, I mean bullshitting, rationalizing it in a way that aligns with their self-perception or goals.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Psychology of Remote Working and 16 tips to make it work</title>
-      <link>https://heyhido.com/posts/psychology-of-remote-working-and-16-tips-to-make-it-work/</link>
+      <link>http://localhost:1313/posts/psychology-of-remote-working-and-16-tips-to-make-it-work/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/psychology-of-remote-working-and-16-tips-to-make-it-work/</guid>
+      <guid>http://localhost:1313/posts/psychology-of-remote-working-and-16-tips-to-make-it-work/</guid>
       <description>&lt;p&gt;Remote working will more likely stay in long term. If not hundred percent, it will definitely push many companies to adopt hybrid model. With the COVID hit, tens of millions of people had to move their workplaces to their living places, to their homes. In multiple studies (mostly by management consulting companies) it is estimated that more than 20 to 25 percent of the workforce could work three to five days a week remotely. Obviously, the remote work at the moment is possible for only the people whose work does not require physical output. There are many dimensions impacted by workforce going remote, such as counter-urbanization, &amp;ldquo;to-go&amp;rdquo; delivery vs. restaurants, commercial real-estate and so on. These are all business-side changes, however there is as well a direct impact of remote working on human psychology.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sex in the brain</title>
-      <link>https://heyhido.com/posts/sex-in-the-brain/</link>
+      <link>http://localhost:1313/posts/sex-in-the-brain/</link>
       <pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/sex-in-the-brain/</guid>
+      <guid>http://localhost:1313/posts/sex-in-the-brain/</guid>
       <description>&lt;p&gt;The title of this blog may look like a click-bait, nevertheless it is indeed about the sex in our brains. Gender versus sex discussions have been in philosophy, psychology, sociology and recently in cognitive neuroscience an interesting topic. The topic has many fundamental traits that are way beyond my understanding maturity, thus this article gets more into biological and cognitive research on sex differences.&lt;/p&gt;&#xA;&lt;p&gt;Gender, a socially constructed role, is a combination of roles, behaviors, expressions, identities we assign to girls, boys, men, women and other diverse groups. Gender differences between the mentioned groups have more cultural rather than biological bases, which is a mirror of differential treatment against different genders. The main victims of this differential treatment have been women. Such gendered behavior reinforces subordination of women as a role. However, with the rise of Feminism and other gender rebel wave we have started to question the way we have treated this socially constructed role.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Prosochē - Reflecting on attention</title>
-      <link>https://heyhido.com/posts/prosoch%C4%93-reflecting-on-attention/</link>
+      <link>http://localhost:1313/posts/prosoch%C4%93-reflecting-on-attention/</link>
       <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/prosoch%C4%93-reflecting-on-attention/</guid>
+      <guid>http://localhost:1313/posts/prosoch%C4%93-reflecting-on-attention/</guid>
       <description>&lt;p&gt;I have to admit that it&amp;rsquo;s very difficult for me to put my attention onto one thing and keep it there for long time. I am getting distracted very easily from the incoming e-mail, a call, the feeling of hunger, the beeping sound of the Whatsapp and so many other stuff. While trying to formulate my thoughts into reasonable structure I shortly went on Clubhouse to listen to some friends and it took me twenty minutes to get back to the activity of writing this blog post.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Meaningful Life</title>
-      <link>https://heyhido.com/posts/meaningful-life/</link>
+      <link>http://localhost:1313/posts/meaningful-life/</link>
       <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/meaningful-life/</guid>
+      <guid>http://localhost:1313/posts/meaningful-life/</guid>
       <description>&lt;p&gt;Couple of days ago I saw two videos (&lt;a href=&#34;https://www.youtube.com/watch?v=CZJvBfoHDk0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;1,&lt;/a&gt; &lt;a href=&#34;https://www.youtube.com/watch?v=74SN33t3bwA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2&lt;/a&gt;) that made me go through the topic of living a happy life again. Actually, not really a happy life but rather a meaningful life (&lt;a href=&#34;https://en.wikipedia.org/wiki/Eudaimonia&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eudaimonia&lt;/a&gt;), because the happiness is somehow attached to pleasure (&lt;a href=&#34;https://en.wikipedia.org/wiki/Hedonism&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hedonia&lt;/a&gt;) and can be a misleading word if not used within the specific context. I should admit that it is not very easy to pinpoint specific checklist or features of a meaningful life, but stoics have defined a meaningful life as:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Keeping sanity with Home Office in COVID times</title>
-      <link>https://heyhido.com/posts/keeping-sanity-with-home-office-in-covid-times/</link>
+      <link>http://localhost:1313/posts/keeping-sanity-with-home-office-in-covid-times/</link>
       <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/keeping-sanity-with-home-office-in-covid-times/</guid>
+      <guid>http://localhost:1313/posts/keeping-sanity-with-home-office-in-covid-times/</guid>
       <description>&lt;p&gt;With the vaccination process slightly boosting, some advanced economies are opening up slowly. City centers begin to get crowded, eating at restaurants sounds exciting and social life blossoms again. Some of us are even scared that people create the risk of a new wave with their careless attitude.&lt;/p&gt;&#xA;&lt;p&gt;It was definitely a difficult year and &lt;a href=&#34;https://heydaroff.info/2021/01/25/the-uncomfortable-truth-about-hope/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;full of uncertainty&lt;/a&gt; for everyone and still is. The quarantine period fed us with &lt;a href=&#34;https://heydaroff.info/2020/12/23/reflecting-on-obstacles-resilience/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;various stressors&lt;/a&gt; that made the process of social distancing even more unbearable. During the long lock-down periods we developed feelings of anger, PTSD and phobic avoidance behaviors. The concern of infecting our beloved ones made us stick to isolation. The economic downgrade increased the fear of losing our job. Sense of loneliness, demoralization, boredom, fear, anxiety and depression has become a new normal for all of us.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mindful Listening - why is it so difficult and what can we do about it?</title>
-      <link>https://heyhido.com/posts/mindful-listening-why-is-it-so-difficult-and-what-can-we-do-about-it/</link>
+      <link>http://localhost:1313/posts/mindful-listening-why-is-it-so-difficult-and-what-can-we-do-about-it/</link>
       <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/mindful-listening-why-is-it-so-difficult-and-what-can-we-do-about-it/</guid>
+      <guid>http://localhost:1313/posts/mindful-listening-why-is-it-so-difficult-and-what-can-we-do-about-it/</guid>
       <description>&lt;p&gt;Since the start of the COVID lock-down, we&amp;rsquo;ve realized the importance of social interaction even more. Given all the talking and listening, we usually think that we are good listeners. In reality, most of us are very bad at listening, remembering only 25-50 percent of what our hearing senses transmit. Just to make the point clear, at most, on average, only the half of what people tell us we listen to and perceive, the rest we just hear. It does not necessarily mean that we do not care about the people we talk to, but we simply cannot grasp it all. Instead, we daydream about different issue, we tend to formulate responses and try to push our ideas before knowing the whole point the other person tries to make.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Exploiting Intermittent Fasting to starve diseases and to feed Autophagy</title>
-      <link>https://heyhido.com/posts/exploiting-intermittent-fasting-to-starve-diseases-and-to-feed-autophagy/</link>
+      <link>http://localhost:1313/posts/exploiting-intermittent-fasting-to-starve-diseases-and-to-feed-autophagy/</link>
       <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/exploiting-intermittent-fasting-to-starve-diseases-and-to-feed-autophagy/</guid>
+      <guid>http://localhost:1313/posts/exploiting-intermittent-fasting-to-starve-diseases-and-to-feed-autophagy/</guid>
       <description>&lt;p&gt;Our body constructor, &lt;a href=&#34;https://heydaroff.info/2021/03/15/learning-for-longer-and-healthier-life/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DNA, can break down&lt;/a&gt; every time there is a copying activity of a cell. As DNA carries our genes and provides guideline to proteins on how to build a human being, the rules it transmits are important to be correct. If the letters of the gene get mistaken, deleted, duplicated or mutated in other ways, they can be misunderstood by the proteins and incorrect outcomes may appear. For us, humans, it means getting a cancer, growing Alzheimer&amp;rsquo;s or Parkinson&amp;rsquo;s, and many other diseases. Our primordial “survival kit” is there to support correcting those mistakes. However, when overwhelmed with so many tasks, they lose their positions and functions and become useless at one point, even harmful. This is how we grow old and most of those diseases here or beyond mentioned are probably the symptoms of this aging process.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How does learning help for longer and healthier life?</title>
-      <link>https://heyhido.com/posts/how-does-learning-help-for-longer-and-healthier-life/</link>
+      <link>http://localhost:1313/posts/how-does-learning-help-for-longer-and-healthier-life/</link>
       <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/how-does-learning-help-for-longer-and-healthier-life/</guid>
+      <guid>http://localhost:1313/posts/how-does-learning-help-for-longer-and-healthier-life/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s so weird how ignorant we are about aging or living longer. I don&amp;rsquo;t remember the last time I was questioning how I can support my body and mind to live a bit longer and in better health, or even understanding how aging works never occurred to me. Contrary to it, I always conceded that we are mortal and we mostly do not have an influence on the speed of aging. The former assumption is still valid, namely we have not yet found immortality. However, the latter thought of mine got shattered after the recent reads and researches. There is obviously a way of slightly increasing the probability of longer and healthier life.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What does our brain tell us about habits?</title>
-      <link>https://heyhido.com/posts/what-does-our-brain-tell-us-about-habits/</link>
+      <link>http://localhost:1313/posts/what-does-our-brain-tell-us-about-habits/</link>
       <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/what-does-our-brain-tell-us-about-habits/</guid>
+      <guid>http://localhost:1313/posts/what-does-our-brain-tell-us-about-habits/</guid>
       <description>&lt;p&gt;Big part of our life is, without us consciously thinking about it, occupied with habitual processes, such as eating 3 meals a day (breakfast, lunch and dinner&amp;hellip; all at specific hours of day), sleeping (due to our circardian rythym), working (9am-5pm), and so on. We do not question these habits, neither do we have difficulty in remembering to do them, nor do we feel like not doing them. It is sort of automatic and instinctive. Habits let us do things automatically without thinking. This &amp;rsquo;not thinking&amp;rsquo; part should be, obviously, inherent to our brain. What does our brain do about habits?&lt;/p&gt;</description>
     </item>
   </channel>

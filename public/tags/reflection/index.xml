@@ -2,164 +2,164 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reflection on Hido</title>
-    <link>https://heyhido.com/tags/reflection/</link>
+    <link>http://localhost:1313/tags/reflection/</link>
     <description>Recent content in Reflection on Hido</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://heyhido.com/tags/reflection/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/reflection/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Wild Ride with AI in 2024: A Slightly Frazzled Reflection</title>
-      <link>https://heyhido.com/posts/my-wild-ride-with-ai-in-2024-a-slightly-frazzled-reflection/</link>
+      <link>http://localhost:1313/posts/my-wild-ride-with-ai-in-2024-a-slightly-frazzled-reflection/</link>
       <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/my-wild-ride-with-ai-in-2024-a-slightly-frazzled-reflection/</guid>
+      <guid>http://localhost:1313/posts/my-wild-ride-with-ai-in-2024-a-slightly-frazzled-reflection/</guid>
       <description>&lt;p&gt;It has been 9 months since I have written anything here, but yeah folks, buckle up because I&amp;rsquo;m about to take you on a rollercoaster ride through my 2024 AI adventure. And let me tell you, it&amp;rsquo;s been one heck of a journey!&lt;/p&gt;&#xA;&lt;p&gt;First things first: if you&amp;rsquo;re not already blown away by the AI revolution happening right under our noses, it&amp;rsquo;s time to wake up and smell the silicon! This tech is so powerful, it makes my old iPod look like a fancy paperweight with a dysfunctional scroll wheel. (Remember frantically spinning that wheel to find your favorite song? Ah, simpler times!)&lt;/p&gt;</description>
     </item>
     <item>
       <title>I am forgetful</title>
-      <link>https://heyhido.com/posts/i-am-forgetful/</link>
+      <link>http://localhost:1313/posts/i-am-forgetful/</link>
       <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/i-am-forgetful/</guid>
+      <guid>http://localhost:1313/posts/i-am-forgetful/</guid>
       <description>&lt;p&gt;There are some tricky interview questions you hear when applying for jobs. One of the most famous is &amp;ldquo;What are your weaknesses?&amp;rdquo;. I don&amp;rsquo;t think many people answer it honestly. It is important to find a diplomatically correct answer before this question gets answered. Nevertheless, if someone would ask me what my biggest weakness is, and assuming I&amp;rsquo;d answer it honestly, the answer is &amp;ldquo;I am forgetful&amp;rdquo;. I do forget things easily.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Intermittent Fasting is plateaued</title>
-      <link>https://heyhido.com/posts/intermittent-fasting-is-plateaued/</link>
+      <link>http://localhost:1313/posts/intermittent-fasting-is-plateaued/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/intermittent-fasting-is-plateaued/</guid>
+      <guid>http://localhost:1313/posts/intermittent-fasting-is-plateaued/</guid>
       <description>&lt;p&gt;I have been doing intermitten fasting (IF) since 2020. Like with almost every other new experiment I do, I started with the extreme version of IF, called one meal a day (OMAD). To make it even worse, I added on top of that the Ketogenic Diet. One day to the next, my eating habit fully changed. I went through the whole keto flu, hunger crisis, foggy brain, and finally, I did not have to eat breakfast or lunch anymore.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Can everything be explained by physics?</title>
-      <link>https://heyhido.com/posts/can-everything-be-explained-by-physics/</link>
+      <link>http://localhost:1313/posts/can-everything-be-explained-by-physics/</link>
       <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/can-everything-be-explained-by-physics/</guid>
+      <guid>http://localhost:1313/posts/can-everything-be-explained-by-physics/</guid>
       <description>&lt;p&gt;Few days ago I came across &lt;a href=&#34;https://jsomers.net/e-coli-chemotaxis/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;an article&lt;/a&gt;. It was a story about the process called chemotaxis of Escherichia coli. E. coli uses protein phosphorylation and dephosphorylation reactions to control its flagellar motors in response to environmental chemical changes.&lt;/p&gt;&#xA;&lt;p&gt;The fundamental concept is as follows: E. coli detects chemicals it is drawn to using receptor structures similar to a nose, and based on this sensory information, it makes decisions about its movement. Depending on the chemical signals it detects, the bacterium can either propel itself forward by using its flagellar tails in a coordinated manner, referred to as a &amp;ldquo;run,&amp;rdquo; or it can change its direction randomly by spinning, known as a &amp;ldquo;tumble.&amp;rdquo; By executing runs when the chemical signals are favorable and tumbling when they are not, E. coli follows a winding path towards the attractant. The proportion of runs versus tumbles, and their duration, is meticulously configured to balance “exploitation” and “exploration”: if runs lasted too often or too long, E. coli would pass by its food; otherwise if too seldom or too short, and it’d likely never find food in the first place.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Complex expanding universe and my unwiseness</title>
-      <link>https://heyhido.com/posts/complex-expanding-universe-and-my-unwiseness/</link>
+      <link>http://localhost:1313/posts/complex-expanding-universe-and-my-unwiseness/</link>
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/complex-expanding-universe-and-my-unwiseness/</guid>
+      <guid>http://localhost:1313/posts/complex-expanding-universe-and-my-unwiseness/</guid>
       <description>&lt;p&gt;The day was beautiful. I visited &lt;a href=&#34;https://en.wikipedia.org/wiki/Baden-Baden&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Baden-Baden&lt;/a&gt; and the city is just beautiful. Tucked away in Germany&amp;rsquo;s Black Forest, Baden-Baden is a sight to capture with its charming architecture and vibrant gardens. As twilight descends, the city transforms into a mesmerizing dreamscape. But that&amp;rsquo;s not the main thing I feel enchanted about.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=YNqTamaKMC8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A video I watched&lt;/a&gt; about the galaxy and the spacetime captivated my freely floating thoughts. We are in intergalactic space. We are lost between two neighboring galaxies: Andromade and Milky way. The underlying geometry of the universe is a hot topic of interest for scientists since a long time. Around us space is almost perfectly empty. &amp;lsquo;Almost&amp;rsquo; is intentionally mentioned, because there is still an invisble fabric of universe all around us, the spacetime. This fabric is not made of straight lines, but rahter it is  asubtly distorted by the gravitation pull of massive celestial objects like galaxies, stars and dark matter.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Before it is too late</title>
-      <link>https://heyhido.com/posts/before-it-is-too-late/</link>
+      <link>http://localhost:1313/posts/before-it-is-too-late/</link>
       <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/before-it-is-too-late/</guid>
+      <guid>http://localhost:1313/posts/before-it-is-too-late/</guid>
       <description>&lt;p&gt;I am not sure how the time works in other realities, parallel universes or the alternative simulations. In our world though time is ticking in one direction, relentlessly marching towards the next cycle of beginnings while ending the existing ones. It is a treasury that you have to pick as it is there, because once it has passed you can never recover it. Sounds crazy, but it is the truth. The phrase &amp;ldquo;before it is too late&amp;rdquo; is a call to action, a prompt to awaken to the present and seize the day before the opportunity passes by.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Embracing the chaos with german bureaucracy </title>
-      <link>https://heyhido.com/posts/embracing-the-chaos-with-german-bureaucracy/</link>
+      <link>http://localhost:1313/posts/embracing-the-chaos-with-german-bureaucracy/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/embracing-the-chaos-with-german-bureaucracy/</guid>
+      <guid>http://localhost:1313/posts/embracing-the-chaos-with-german-bureaucracy/</guid>
       <description>&lt;p&gt;You have received your university admission or your job offer from Germany. Amazing. Finally you will move to this amazing country and build you future here. First you have to apply for visa at the embassy in your country. There already you get into the examination of your resilience through german bureaucracy. If you are lucky, you can find an appointment for quite an early date, but usually it is 3+ months of waiting until the appointment. My wife had to wait for 8 months to get her family reunion visum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>31 days of writing</title>
-      <link>https://heyhido.com/posts/31-days-of-writing/</link>
+      <link>http://localhost:1313/posts/31-days-of-writing/</link>
       <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/31-days-of-writing/</guid>
-      <description>&lt;p&gt;I had written 31 articles (including this one) in last 31 days. When I said I am &lt;a href=&#34;https://heyhido.com/posts/back-to-writing-hopefully-this-time-more-often/&#34;&gt;getting back to writing&lt;/a&gt;, I thought I was ambitious with daily writing,and I was. Here are my reflections overall.&lt;/p&gt;&#xA;&lt;p&gt;I wrote on average between 250-600 words per article. While writing an article, I used to have a proper structure built around it. It had taken few hours until I could&amp;rsquo;ve come up with a single outlay. That was before. Since I started writing on a daily basis, planning or editing did not take a priority in the process. I am pretty sure I have many grammar mistakes or typos in the posts shared. I purposefully did not care about it. Otherwise I would have slept over it, which I actually had done few times.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/31-days-of-writing/</guid>
+      <description>&lt;p&gt;I had written 31 articles (including this one) in last 31 days. When I said I am &lt;a href=&#34;http://localhost:1313/posts/back-to-writing-hopefully-this-time-more-often/&#34;&gt;getting back to writing&lt;/a&gt;, I thought I was ambitious with daily writing,and I was. Here are my reflections overall.&lt;/p&gt;&#xA;&lt;p&gt;I wrote on average between 250-600 words per article. While writing an article, I used to have a proper structure built around it. It had taken few hours until I could&amp;rsquo;ve come up with a single outlay. That was before. Since I started writing on a daily basis, planning or editing did not take a priority in the process. I am pretty sure I have many grammar mistakes or typos in the posts shared. I purposefully did not care about it. Otherwise I would have slept over it, which I actually had done few times.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Never-ending noteapp.txt</title>
-      <link>https://heyhido.com/posts/never-ending-noteapp.txt/</link>
+      <link>http://localhost:1313/posts/never-ending-noteapp.txt/</link>
       <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/never-ending-noteapp.txt/</guid>
+      <guid>http://localhost:1313/posts/never-ending-noteapp.txt/</guid>
       <description>&lt;p&gt;Keeping a to-do list is already quite difficult. Moving between apps, getting the todos done, adding new ones, organizing them. Setting up the setup itself can easily derail me from doing the actual, thing, the todo itself. Now I have a more or less consistent way of taking care of my todos.&lt;/p&gt;&#xA;&lt;p&gt;While reading a book yesterday, I wanted to write a note from the book. I did have no place to do it. I quickly searched for dusty memory pieces of mine about where I used to write my daily stuff. I have used few techniques in the past.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Make the decision and do not regret</title>
-      <link>https://heyhido.com/posts/make-the-decision-and-do-not-regret/</link>
+      <link>http://localhost:1313/posts/make-the-decision-and-do-not-regret/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/make-the-decision-and-do-not-regret/</guid>
+      <guid>http://localhost:1313/posts/make-the-decision-and-do-not-regret/</guid>
       <description>&lt;p&gt;There are certain times in life that you face the difficulty of making a decision. You know what I am talking about, right?! Those decisions that make you feel uncomfortable. Those are the ones that keep you awake at the night, or just get into your dreams and haunt you there as well. Those are the ones where you know that one of them will definitely make you better off (possible also to be worse off) and the other won&amp;rsquo;t, but you don&amp;rsquo;t know which one it is.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Electric car for a long ride?! Nope, thanks</title>
-      <link>https://heyhido.com/posts/electric-car-for-a-long-ride-nope-thanks/</link>
+      <link>http://localhost:1313/posts/electric-car-for-a-long-ride-nope-thanks/</link>
       <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/electric-car-for-a-long-ride-nope-thanks/</guid>
+      <guid>http://localhost:1313/posts/electric-car-for-a-long-ride-nope-thanks/</guid>
       <description>&lt;p&gt;Nowadays I am driving an electric car. It has nice exterior and interior design, cool features in the infotainment, and a decent range. Although the range is decent, it is unpredictable.&lt;/p&gt;&#xA;&lt;p&gt;I did drive total of 750kms on the weekend. Usually with 2 times full charging the tour should&amp;rsquo;ve been possible to complete. I had to but charge 3-4 times, with a total of 3+ hours waiting.&lt;/p&gt;&#xA;&lt;p&gt;Driving around ~100 km/h, the predicted consumption matches the reality, but on a German Autobahn where there is no speed limit, driving 800kms with just 100 km/h is not possible. I did drive ~120 km/h and the battery energy became higher, so much that I had 70 kms range loss.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Courage as a skill to grow</title>
-      <link>https://heyhido.com/posts/courage-as-a-skill-to-grow/</link>
+      <link>http://localhost:1313/posts/courage-as-a-skill-to-grow/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/courage-as-a-skill-to-grow/</guid>
+      <guid>http://localhost:1313/posts/courage-as-a-skill-to-grow/</guid>
       <description>&lt;p&gt;According to &lt;a href=&#34;https://dictionary.cambridge.org/dictionary/english/courage&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the Cambridge Dictionary&lt;/a&gt;, courage is the ability to control your fear in a dangerous or difficult situation. Let&amp;rsquo;s analyse this definition word-by-word to see what courage is about.&lt;/p&gt;&#xA;&lt;p&gt;Courage is &lt;strong&gt;an ability&lt;/strong&gt;. Ability is having the skill or a proficiency to do something. In this case, courage is not an inherent trait, but rather a skill to learn. As with every skill, it is something one can grow by learning and practicing it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to find what to develop</title>
-      <link>https://heyhido.com/posts/how-to-find-what-to-develop/</link>
+      <link>http://localhost:1313/posts/how-to-find-what-to-develop/</link>
       <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/how-to-find-what-to-develop/</guid>
-      <description>&lt;p&gt;I had &lt;a href=&#34;https://heyhido.com/posts/dealing-with-toxic-stakeholders/&#34;&gt;mentioned before&lt;/a&gt; that the product development is all about finding the right problem and the adequate solution to that problem. To develop the right product, we need to have the vision and the need for a solution.&lt;/p&gt;&#xA;&lt;p&gt;There is no easy guideline on how to do it, since the conditions for the discovery can vary a lot. There are many ways requirements are gathered. There are some collected via user research (interviews, surveys, etc.), some are spotted when people use the product and give feedback, some are gathered from market research, some others are just pushed by stakeholders.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/how-to-find-what-to-develop/</guid>
+      <description>&lt;p&gt;I had &lt;a href=&#34;http://localhost:1313/posts/dealing-with-toxic-stakeholders/&#34;&gt;mentioned before&lt;/a&gt; that the product development is all about finding the right problem and the adequate solution to that problem. To develop the right product, we need to have the vision and the need for a solution.&lt;/p&gt;&#xA;&lt;p&gt;There is no easy guideline on how to do it, since the conditions for the discovery can vary a lot. There are many ways requirements are gathered. There are some collected via user research (interviews, surveys, etc.), some are spotted when people use the product and give feedback, some are gathered from market research, some others are just pushed by stakeholders.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Missing a day</title>
-      <link>https://heyhido.com/posts/missing-a-day/</link>
+      <link>http://localhost:1313/posts/missing-a-day/</link>
       <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/missing-a-day/</guid>
-      <description>&lt;p&gt;Being [back to writing]https://heyhido.com/posts/back-to-writing-hopefully-this-time-more-often/ on a daily basis, the first failure milestone was achieved yesterday. I forgot to write. I completely have forgotten it. Until today 11pm. Why?!&lt;/p&gt;&#xA;&lt;p&gt;What has worked for me in the last 12 days was that I have a fixed time of the day to write. ~11pm is my writing before going to bed time. It&amp;rsquo;s a good time, because there is usually now work left to do. I am almost always at home around that time. It&amp;rsquo;s my reading and writing time in general. I also do my &lt;a href=&#34;https://heyhido.com/posts/self-reflection-for-a-satisfying-life/&#34;&gt;reflection&lt;/a&gt; of the day during that time. So, I can &lt;a href=&#34;https://heyhido.com/posts/daily-doses-of-new-deeds/&#34;&gt;integrate&lt;/a&gt; writing easily into that routine.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/missing-a-day/</guid>
+      <description>&lt;p&gt;Being [back to writing]http://localhost:1313/posts/back-to-writing-hopefully-this-time-more-often/ on a daily basis, the first failure milestone was achieved yesterday. I forgot to write. I completely have forgotten it. Until today 11pm. Why?!&lt;/p&gt;&#xA;&lt;p&gt;What has worked for me in the last 12 days was that I have a fixed time of the day to write. ~11pm is my writing before going to bed time. It&amp;rsquo;s a good time, because there is usually now work left to do. I am almost always at home around that time. It&amp;rsquo;s my reading and writing time in general. I also do my &lt;a href=&#34;http://localhost:1313/posts/self-reflection-for-a-satisfying-life/&#34;&gt;reflection&lt;/a&gt; of the day during that time. So, I can &lt;a href=&#34;http://localhost:1313/posts/daily-doses-of-new-deeds/&#34;&gt;integrate&lt;/a&gt; writing easily into that routine.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Never-ending todo lists</title>
-      <link>https://heyhido.com/posts/never-ending-todo-lists/</link>
+      <link>http://localhost:1313/posts/never-ending-todo-lists/</link>
       <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/never-ending-todo-lists/</guid>
+      <guid>http://localhost:1313/posts/never-ending-todo-lists/</guid>
       <description>&lt;p&gt;Keeping to-dos helps to organize and create focus for the given limited time period. There are many tasks that flow in non-stop. Some of those tasks are to be done urgently, some are important but not urgent, some are &amp;ldquo;waiting&amp;rdquo; tasks, some are to be delegated, and so on.&lt;/p&gt;&#xA;&lt;p&gt;As it is quite an important and an easy-to-excel-at skill to have, there are many tools that try to provide people with this magic power. My favorites are &lt;a href=&#34;https://asana.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Asana&lt;/a&gt; and &lt;a href=&#34;https://www.notion.so/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Notion&lt;/a&gt;. Not going to mention the reasons, maybe in another post I can do that.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dead sunday</title>
-      <link>https://heyhido.com/posts/dead-sunday/</link>
+      <link>http://localhost:1313/posts/dead-sunday/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/dead-sunday/</guid>
+      <guid>http://localhost:1313/posts/dead-sunday/</guid>
       <description>&lt;p&gt;With few friends I have a Sunday routine of visiting &lt;a href=&#34;https://www.panorama-therme.de/startseite/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;thermal&lt;/a&gt; &lt;a href=&#34;https://caracalla.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;baths&lt;/a&gt;. It&amp;rsquo;s one of the few activities that keeps me look forward for Sunday.&lt;/p&gt;&#xA;&lt;p&gt;Going to Baden-Baden Caracalla thermal bath, we did do a short city tour and had a coffee at a nice &lt;a href=&#34;https://www.hotel-beek.de/cafe-patisserie-restaurant/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;patisserie&lt;/a&gt;, and an amazing dinner at a &lt;a href=&#34;https://restaurant-nani.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;georgian restaurant&lt;/a&gt;. All good, all nice, we are happy. Then one of my friends mentioned that the city is empty. There is no one at the city centre, it&amp;rsquo;s all quite. Feels deserted.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fostering workplace camaraderie</title>
-      <link>https://heyhido.com/posts/fostering-workplace-camaraderie/</link>
+      <link>http://localhost:1313/posts/fostering-workplace-camaraderie/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/fostering-workplace-camaraderie/</guid>
-      <description>&lt;p&gt;Socializing is part of human nature, historically. In an earlier post I have talked about &lt;a href=&#34;https://heyhido.com/posts/reflecting-on-the-why-of-working/&#34;&gt;the &amp;lsquo;why&amp;rsquo; of working&lt;/a&gt;. The evolution of work can be divided into three stages: Work, Job, and Career. Initially, as humans transitioned from nomadic hunter-gatherers to agrarian societies, collective tasks and labor hierarchies emerged, transforming the nature of work. In recent centuries, the concept of a &amp;lsquo;job&amp;rsquo; developed, characterized by the professional image and the need for basic qualifications to operate machinery. The most recent phase, the &amp;lsquo;career,&amp;rsquo; reflects a shift where people work not just for money but for professional growth, making it harder for organizations to retain employees.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/fostering-workplace-camaraderie/</guid>
+      <description>&lt;p&gt;Socializing is part of human nature, historically. In an earlier post I have talked about &lt;a href=&#34;http://localhost:1313/posts/reflecting-on-the-why-of-working/&#34;&gt;the &amp;lsquo;why&amp;rsquo; of working&lt;/a&gt;. The evolution of work can be divided into three stages: Work, Job, and Career. Initially, as humans transitioned from nomadic hunter-gatherers to agrarian societies, collective tasks and labor hierarchies emerged, transforming the nature of work. In recent centuries, the concept of a &amp;lsquo;job&amp;rsquo; developed, characterized by the professional image and the need for basic qualifications to operate machinery. The most recent phase, the &amp;lsquo;career,&amp;rsquo; reflects a shift where people work not just for money but for professional growth, making it harder for organizations to retain employees.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Where to be</title>
-      <link>https://heyhido.com/posts/where-to-be/</link>
+      <link>http://localhost:1313/posts/where-to-be/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/where-to-be/</guid>
+      <guid>http://localhost:1313/posts/where-to-be/</guid>
       <description>&lt;p&gt;We cannot choose the first city we live in. Wherever we are born usually becomes our home. I won&amp;rsquo;t mention names, but there are some cities where one is lucky to be born in, whereas there are some other cities where you curse for living in there. It&amp;rsquo;s a matter of probability and not under your control.&lt;/p&gt;&#xA;&lt;p&gt;What is possible, though, is to move to another city or country in the later years of the life. It usually happens via studying abroad or working abroad, or finding other possible ways of migrating to a place. Regardless of how it is done, moving to a new place does change the life fundamentally. One cannot easily know these changes before making the decision of moving.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Questioning if it makes sense</title>
-      <link>https://heyhido.com/posts/questioning-if-it-makes-sense/</link>
+      <link>http://localhost:1313/posts/questioning-if-it-makes-sense/</link>
       <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/questioning-if-it-makes-sense/</guid>
-      <description>&lt;p&gt;I have written before my thoughts about the &lt;a href=&#34;https://heyhido.com/posts/reflecting-on-the-point-of-living/&#34;&gt;point of living&lt;/a&gt;, benefits of the &lt;a href=&#34;https://heyhido.com/posts/self-reflection-for-a-satisfying-life/&#34;&gt;self-reflection&lt;/a&gt;, and some other topics. Those topics come out of questioning things. Questioning and reflecting on our thoughts, actions, beliefs, observations do help us to differentiate meaningful from meaningless, the true value from the false illusion.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://heyhido.com/posts/daily-doses-of-new-deeds/&#34;&gt;repetition&lt;/a&gt; turns the uncomfortable and easy-to-forget things into a habit. Questioning things is not an exception. I believe one should spend on a daily basis at least 15-30 minutes to think about a topic of interest. It can be about how a person can have a high position at work knowing the person is an idiot, how children are playing in a park without being afraid of falling and hurting themselves, how you decided to live in an ugly city, what could be the next groundbraking technology after AR/VR headsets, or could it be that there is no an afterlife. These are just 5-6 topics out of millions you can come up every day.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/questioning-if-it-makes-sense/</guid>
+      <description>&lt;p&gt;I have written before my thoughts about the &lt;a href=&#34;http://localhost:1313/posts/reflecting-on-the-point-of-living/&#34;&gt;point of living&lt;/a&gt;, benefits of the &lt;a href=&#34;http://localhost:1313/posts/self-reflection-for-a-satisfying-life/&#34;&gt;self-reflection&lt;/a&gt;, and some other topics. Those topics come out of questioning things. Questioning and reflecting on our thoughts, actions, beliefs, observations do help us to differentiate meaningful from meaningless, the true value from the false illusion.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;http://localhost:1313/posts/daily-doses-of-new-deeds/&#34;&gt;repetition&lt;/a&gt; turns the uncomfortable and easy-to-forget things into a habit. Questioning things is not an exception. I believe one should spend on a daily basis at least 15-30 minutes to think about a topic of interest. It can be about how a person can have a high position at work knowing the person is an idiot, how children are playing in a park without being afraid of falling and hurting themselves, how you decided to live in an ugly city, what could be the next groundbraking technology after AR/VR headsets, or could it be that there is no an afterlife. These are just 5-6 topics out of millions you can come up every day.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Back to writing, hopefully this time more often</title>
-      <link>https://heyhido.com/posts/back-to-writing-hopefully-this-time-more-often/</link>
+      <link>http://localhost:1313/posts/back-to-writing-hopefully-this-time-more-often/</link>
       <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/back-to-writing-hopefully-this-time-more-often/</guid>
-      <description>&lt;p&gt;I have not written a blog post since long time. Actually the &lt;a href=&#34;https://heyhido.com/posts/transparency-and-candor-empowering-employees-with-confidence-and-trust/&#34;&gt;previous post&lt;/a&gt; was written on 22.06.2023. That does not mean I have not written anything though. In the meantime, I have published few posts on Linkedin, mostly on the communication of my &lt;a href=&#34;https://www.linkedin.com/posts/heyhido_app-activity-7150062233580965888-Pken&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;weekend&lt;/a&gt; &lt;a href=&#34;https://www.linkedin.com/posts/heyhido_github-hheydaroffdostgpt-this-is-a-repo-activity-7116387953202864128-iUTy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hustles&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/posts/heyhido_to-finish-the-year-with-a-gift-to-activity-7142168222023262208-NN9Z&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;certificate&lt;/a&gt; &lt;a href=&#34;https://www.linkedin.com/posts/heyhido_im-happy-to-share-that-ive-finished-activity-7112813835270426624-_Krj&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;achievements&lt;/a&gt;, and sometimes commenting on the posts I have read online.&lt;/p&gt;&#xA;&lt;p&gt;I also have written quite a lot at my work as a Product Manager. Meeting summaries, incident analyses, rollout posts, PRDs, monthly updates, and many more types of different contents, written for different types of personas. But I feel like I&amp;rsquo;m not writing much. To make it more explicit, I realised I am not writing often. I just do big-chunk-writings irregularly.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/back-to-writing-hopefully-this-time-more-often/</guid>
+      <description>&lt;p&gt;I have not written a blog post since long time. Actually the &lt;a href=&#34;http://localhost:1313/posts/transparency-and-candor-empowering-employees-with-confidence-and-trust/&#34;&gt;previous post&lt;/a&gt; was written on 22.06.2023. That does not mean I have not written anything though. In the meantime, I have published few posts on Linkedin, mostly on the communication of my &lt;a href=&#34;https://www.linkedin.com/posts/heyhido_app-activity-7150062233580965888-Pken&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;weekend&lt;/a&gt; &lt;a href=&#34;https://www.linkedin.com/posts/heyhido_github-hheydaroffdostgpt-this-is-a-repo-activity-7116387953202864128-iUTy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hustles&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/posts/heyhido_to-finish-the-year-with-a-gift-to-activity-7142168222023262208-NN9Z&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;certificate&lt;/a&gt; &lt;a href=&#34;https://www.linkedin.com/posts/heyhido_im-happy-to-share-that-ive-finished-activity-7112813835270426624-_Krj&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;achievements&lt;/a&gt;, and sometimes commenting on the posts I have read online.&lt;/p&gt;&#xA;&lt;p&gt;I also have written quite a lot at my work as a Product Manager. Meeting summaries, incident analyses, rollout posts, PRDs, monthly updates, and many more types of different contents, written for different types of personas. But I feel like I&amp;rsquo;m not writing much. To make it more explicit, I realised I am not writing often. I just do big-chunk-writings irregularly.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Transparency and Candor: Empowering Employees with Confidence and Trust</title>
-      <link>https://heyhido.com/posts/transparency-and-candor-empowering-employees-with-confidence-and-trust/</link>
+      <link>http://localhost:1313/posts/transparency-and-candor-empowering-employees-with-confidence-and-trust/</link>
       <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/transparency-and-candor-empowering-employees-with-confidence-and-trust/</guid>
-      <description>&lt;p&gt;We&amp;rsquo;re all grown-up professionals working in organizations to contribute to the success of it and advance our &lt;a href=&#34;https://heyhido.com/posts/reflecting-on-the-why-of-working/&#34;&gt;careers&lt;/a&gt;. Along the way, we&amp;rsquo;ve undoubtedly experienced &lt;a href=&#34;https://heyhido.com/posts/from-flappy-bird-to-success-in-life-how-to-keep-moving-forward/&#34;&gt;obstacles and opportunities&lt;/a&gt;. But what keeps us going strong is the sense of togetherness, the spirit of camaraderie, the feeling that we&amp;rsquo;re in it together, fighting the good fight, and celebrating our wins as a team. And you know what? It all boils down to one crucial thing: transparency and candor.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/transparency-and-candor-empowering-employees-with-confidence-and-trust/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;re all grown-up professionals working in organizations to contribute to the success of it and advance our &lt;a href=&#34;http://localhost:1313/posts/reflecting-on-the-why-of-working/&#34;&gt;careers&lt;/a&gt;. Along the way, we&amp;rsquo;ve undoubtedly experienced &lt;a href=&#34;http://localhost:1313/posts/from-flappy-bird-to-success-in-life-how-to-keep-moving-forward/&#34;&gt;obstacles and opportunities&lt;/a&gt;. But what keeps us going strong is the sense of togetherness, the spirit of camaraderie, the feeling that we&amp;rsquo;re in it together, fighting the good fight, and celebrating our wins as a team. And you know what? It all boils down to one crucial thing: transparency and candor.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reflecting the Way of Zen</title>
-      <link>https://heyhido.com/posts/reflecting-the-way-of-zen/</link>
+      <link>http://localhost:1313/posts/reflecting-the-way-of-zen/</link>
       <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/reflecting-the-way-of-zen/</guid>
+      <guid>http://localhost:1313/posts/reflecting-the-way-of-zen/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://heydaroff.files.wordpress.com/2020/12/screenshot-2020-12-16-at-14.35.57.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;p class=&#34;markdown-image&#34;&gt;&#xA;  &lt;img src=&#34;https://heydaroff.files.wordpress.com/2020/12/screenshot-2020-12-16-at-14.35.57.png?w=503&#34; alt=&#34;&#34;  /&gt;&#xA;&lt;/p&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;sumi-e painting&lt;/p&gt;&#xA;&lt;p&gt;Intensity and dynamics of life is changing intermittently. Making plans for the future, describing the things based on the bias of past, and &amp;ldquo;trying&amp;rdquo; to influence the now brings us the frustration of &amp;ldquo;the complexity of ourselves&amp;rdquo;. Alan Watts, in his book &amp;ldquo;The Way of Zen&amp;rdquo;, uses the Thermostat Analogy to explain this frustration.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The system can be paralyzed in yet another way. Every feedback system needs a margin of “lag” or error. If we try to make a thermostat absolutely accurate–that is, if we bring the upper and lower limits of temperature very close together in an attempt to hold the temperature at a constant 70 degrees–the whole system will break down. For to the extent that the upper and lower limits coincide, the signals for switching off and switching on will coincide! If 70 degrees is both the lower and upper limit the “go” sign will also be the “stop” sign; “yes” will imply “no” and “no” will imply “yes.” Whereupon the mechanism will start “trembling,” going on and off, on and off, until it shakes itself to pieces. The system is too sensitive and shows symptoms which are startlingly like human anxiety. For when a human being is so self-conscious, so self-controlled that he cannot let go of himself, he dithers or wobbles between opposites. This is precisely what is meant in Zen by going round and round on “the wheel of birth-and-death,” for the Buddhist samsara is the prototype of all vicious circles. We saw that when the furnace responds too closely to the thermostat, it cannot go ahead without also trying to stop, or stop without also trying to go ahead. This is just what happens to the human being, to the mind, when the desire for certainty and security prompts identification between the mind and its own image of itself. It cannot let go of itself. It feels that it should not do what it is doing, and that it should do what it is not doing. It feels that it should not be what it is, and be what it isn’t. Furthermore, the effort to remain always “good” or “happy” is like trying to hold the thermostat to a constant 70 degrees by making the lower limit the same as the upper.&lt;/p&gt;</description>
     </item>
   </channel>

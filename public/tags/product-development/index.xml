@@ -2,115 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Product-Development on Hido</title>
-    <link>https://heyhido.com/tags/product-development/</link>
+    <link>http://localhost:1313/tags/product-development/</link>
     <description>Recent content in Product-Development on Hido</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 30 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://heyhido.com/tags/product-development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/product-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Running an enablement session</title>
-      <link>https://heyhido.com/posts/running-an-enablement-session/</link>
+      <link>http://localhost:1313/posts/running-an-enablement-session/</link>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/running-an-enablement-session/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://heyhido.com/posts/enablement-as-part-of-a-product/&#34;&gt;Rolling out enablement&lt;/a&gt; as part of a product release ensures the usage is smooth and seamless. There are multiple ways one can integrate enablement into user experience. This post will focus on running an enablement session within organisation. Enablement sessions are crucial for sharing knowledge, aligning product features, gathering feedback, growing the skills of users which adds to the innovative culture of the ogranisation. Running an effective enablement session requires careful planning and execution. There are several key strategies to ensure your enablement sessions are engaging, informative, and valuable for all participants. Let&amp;rsquo;s look at some of them in detail:&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/running-an-enablement-session/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/enablement-as-part-of-a-product/&#34;&gt;Rolling out enablement&lt;/a&gt; as part of a product release ensures the usage is smooth and seamless. There are multiple ways one can integrate enablement into user experience. This post will focus on running an enablement session within organisation. Enablement sessions are crucial for sharing knowledge, aligning product features, gathering feedback, growing the skills of users which adds to the innovative culture of the ogranisation. Running an effective enablement session requires careful planning and execution. There are several key strategies to ensure your enablement sessions are engaging, informative, and valuable for all participants. Let&amp;rsquo;s look at some of them in detail:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Releasing a major product change</title>
-      <link>https://heyhido.com/posts/releasing-a-major-product-change/</link>
+      <link>http://localhost:1313/posts/releasing-a-major-product-change/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/releasing-a-major-product-change/</guid>
+      <guid>http://localhost:1313/posts/releasing-a-major-product-change/</guid>
       <description>&lt;p&gt;Doing minor releases to products are easy to roll out without disrupting the adoption and the usage of the overall product. Doing  early user tests and a timely communication and a hypercare period facilitates the release. Whereas when releasing a major product change where some functionalities are completely new and some existing functionalities are unavailable for a while, there is a strategic decision to make. There are two main paths: keep the old version for a while in parallel, or move completely to the new one.&lt;/p&gt;</description>
     </item>
     <item>
       <title>So, what now?</title>
-      <link>https://heyhido.com/posts/so-what-now/</link>
+      <link>http://localhost:1313/posts/so-what-now/</link>
       <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/so-what-now/</guid>
-      <description>&lt;p&gt;For people working in &lt;a href=&#34;https://heyhido.com/posts/psychology-of-remote-working-and-16-tips-to-make-it-work/&#34;&gt;remote setup&lt;/a&gt;, it is such an enlightening thing to get together physically with the people you see usually only on screen. The importance of a regular physical space meetings create a team bond that no virtual setup can enable, at least not in my opinion.&lt;/p&gt;&#xA;&lt;p&gt;Group exercises, such as &amp;ldquo;defining &lt;a href=&#34;https://heyhido.com/posts/core-values-of-a-team/&#34;&gt;core values&lt;/a&gt;&amp;rdquo; or &amp;ldquo;focus of the year&amp;rdquo; or &amp;ldquo;way of working&amp;rdquo; workshops, have the potential to transform team dynamics and drive positive change. They help to foster collaboration, generate ideas and increase inclusion of individuals. However, to maximize their impact, it is crucial to follow up with actionable steps.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/so-what-now/</guid>
+      <description>&lt;p&gt;For people working in &lt;a href=&#34;http://localhost:1313/posts/psychology-of-remote-working-and-16-tips-to-make-it-work/&#34;&gt;remote setup&lt;/a&gt;, it is such an enlightening thing to get together physically with the people you see usually only on screen. The importance of a regular physical space meetings create a team bond that no virtual setup can enable, at least not in my opinion.&lt;/p&gt;&#xA;&lt;p&gt;Group exercises, such as &amp;ldquo;defining &lt;a href=&#34;http://localhost:1313/posts/core-values-of-a-team/&#34;&gt;core values&lt;/a&gt;&amp;rdquo; or &amp;ldquo;focus of the year&amp;rdquo; or &amp;ldquo;way of working&amp;rdquo; workshops, have the potential to transform team dynamics and drive positive change. They help to foster collaboration, generate ideas and increase inclusion of individuals. However, to maximize their impact, it is crucial to follow up with actionable steps.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Knowing when to act</title>
-      <link>https://heyhido.com/posts/knowing-when-to-act/</link>
+      <link>http://localhost:1313/posts/knowing-when-to-act/</link>
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/knowing-when-to-act/</guid>
+      <guid>http://localhost:1313/posts/knowing-when-to-act/</guid>
       <description>&lt;p&gt;An enough amount of patience is difficult to have. I want things to happen a bit faster, earlier, quicker. I even put more effort and commitment to try to make it happen as early as possible. But then it is not happening. Why?!&lt;/p&gt;&#xA;&lt;p&gt;The answer is quite simple: Things take their time. Diamonds are formed within the Earth&amp;rsquo;s mantle under high pressure and temperature conditions. This process can take between 1 billion to 3.3 billion years. A butterfly goes through a transformation from an egg to a caterpillar, then to a chrysalis, and finally to a beautiful winged adult. Many high-quality wines, such as vintage ports or aged red wines, require years or even decades of aging to reach their full potential. This process allows the flavors to develop and mellow, creating a complex and delicious end product.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Enablement as part of a product</title>
-      <link>https://heyhido.com/posts/enablement-as-part-of-a-product/</link>
+      <link>http://localhost:1313/posts/enablement-as-part-of-a-product/</link>
       <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/enablement-as-part-of-a-product/</guid>
+      <guid>http://localhost:1313/posts/enablement-as-part-of-a-product/</guid>
       <description>&lt;p&gt;I have had few experiences already with software, or a hardware that I tried to use, but stopped after few moments of interacting with it. Main reason has always been &amp;ldquo;not knowing how to use&amp;rdquo;. When something is not working easily, I usually give up using it. I am one of those, yes.&lt;/p&gt;&#xA;&lt;p&gt;Data products, such as reports or data analysis, require more cognitive load to understand and use. Main purpose of using data products is to extract insights from them and apply to optimize the business processes. Certain visual representation of a specific metric over a dimension can ease the understanding, but in a report where multiple metrics and views are presented can become complex.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Electric car for a long ride?! Nope, thanks</title>
-      <link>https://heyhido.com/posts/electric-car-for-a-long-ride-nope-thanks/</link>
+      <link>http://localhost:1313/posts/electric-car-for-a-long-ride-nope-thanks/</link>
       <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/electric-car-for-a-long-ride-nope-thanks/</guid>
+      <guid>http://localhost:1313/posts/electric-car-for-a-long-ride-nope-thanks/</guid>
       <description>&lt;p&gt;Nowadays I am driving an electric car. It has nice exterior and interior design, cool features in the infotainment, and a decent range. Although the range is decent, it is unpredictable.&lt;/p&gt;&#xA;&lt;p&gt;I did drive total of 750kms on the weekend. Usually with 2 times full charging the tour should&amp;rsquo;ve been possible to complete. I had to but charge 3-4 times, with a total of 3+ hours waiting.&lt;/p&gt;&#xA;&lt;p&gt;Driving around ~100 km/h, the predicted consumption matches the reality, but on a German Autobahn where there is no speed limit, driving 800kms with just 100 km/h is not possible. I did drive ~120 km/h and the battery energy became higher, so much that I had 70 kms range loss.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Getting feedback</title>
-      <link>https://heyhido.com/posts/getting-feedback/</link>
+      <link>http://localhost:1313/posts/getting-feedback/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/getting-feedback/</guid>
+      <guid>http://localhost:1313/posts/getting-feedback/</guid>
       <description>&lt;p&gt;Feedback is a critical component for delivering value. Considering that the value is realised as much as it is perceived and accepted by the receiver, getting feedback increases the likelihood that the intended product value matches the expectations of the receiver.&lt;/p&gt;&#xA;&lt;p&gt;When developing a product, shipping fast and often helps to learn by users what value it brings, to spot the bugs or usability problems that were not evident during the development, and see what additional features are being wanted.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Conway&#39;s law on data</title>
-      <link>https://heyhido.com/posts/conways-law-on-data/</link>
+      <link>http://localhost:1313/posts/conways-law-on-data/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/conways-law-on-data/</guid>
+      <guid>http://localhost:1313/posts/conways-law-on-data/</guid>
       <description>&lt;p&gt;Conway&amp;rsquo;s Law is an adage that explains how the communication structures of the organizations are mirrored in their design systems.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;[O]rganizations which design systems (in the broad sense used here) are constrained to produce designs which are copies of the communication structures of these organizations.&#xA;&lt;p&gt;— Melvin E. Conway, How Do Committees Invent?&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;In order to build one or more products within a complex adaptive system, the engineers, designers, and other members of the product team should communicate about the overall development steps, assumptions, processes and components. The output of that communication is fed into the product development. Namely, at the end the product looks like how it was communicated.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dealing with toxic stakeholders</title>
-      <link>https://heyhido.com/posts/dealing-with-toxic-stakeholders/</link>
+      <link>http://localhost:1313/posts/dealing-with-toxic-stakeholders/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/dealing-with-toxic-stakeholders/</guid>
+      <guid>http://localhost:1313/posts/dealing-with-toxic-stakeholders/</guid>
       <description>&lt;p&gt;Product development is all about finding the right problem and the adequate solution to that problem. As you can imagine, it starts with the right problem. It&amp;rsquo;s of utmost importance to identify what you are trying to find a solution for. It&amp;rsquo;s a complex and collaborative process that demands the best from all stakeholders involved.&lt;/p&gt;&#xA;&lt;p&gt;As a Product Manager, you have to collaborate with stakeholders, regardless if you like it or not, and you do not choose how the stakeholder should behave like. Some of them are very pleasant to work with, while some are simply a nuisance. That&amp;rsquo;s just the way it is with people.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reflecting on managing</title>
-      <link>https://heyhido.com/posts/reflecting-on-managing/</link>
+      <link>http://localhost:1313/posts/reflecting-on-managing/</link>
       <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/reflecting-on-managing/</guid>
+      <guid>http://localhost:1313/posts/reflecting-on-managing/</guid>
       <description>&lt;p&gt;I read an &lt;a href=&#34;https://govleaders.org/rickover.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;article&lt;/a&gt; about leading people by &lt;a href=&#34;https://en.wikipedia.org/wiki/Hyman_G._Rickover&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adm. Hyman G. Rickover&lt;/a&gt; of United States Navy. The first 3 sentences were more than enough to understand the whole article.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Human experience shows that people, not organizations or management systems, get things done. For this reason, subordinates must be given authority and responsibility early in their careers. In this way they develop quickly and can help the manager do his work. The manager, of course, remains ultimately responsible and must accept the blame if subordinates make mistakes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ego-driven optimization</title>
-      <link>https://heyhido.com/posts/ego-driven-optimization/</link>
+      <link>http://localhost:1313/posts/ego-driven-optimization/</link>
       <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/ego-driven-optimization/</guid>
+      <guid>http://localhost:1313/posts/ego-driven-optimization/</guid>
       <description>&lt;p&gt;Most of the organisations are like a complex system consisting the self-interested agents who are supposed to optimize the output expected on macro level. It means the agents are assumed to work for the interests of the whole system. Or maybe not. Maybe they are supposed to deliver what is required from them, without caring much about the working principles of the system as a whole. They do what they should do to satisfy the needs of the system.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Communication is overrated?!</title>
-      <link>https://heyhido.com/posts/communication-is-overrated/</link>
+      <link>http://localhost:1313/posts/communication-is-overrated/</link>
       <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/communication-is-overrated/</guid>
+      <guid>http://localhost:1313/posts/communication-is-overrated/</guid>
       <description>&lt;p&gt;Whether &lt;a href=&#34;https://heydaroff.info/2021/02/22/my-journey-on-managing-a-product-and-lessons-learned/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;building a new product&lt;/a&gt;, &lt;a href=&#34;https://heydaroff.info/2021/04/12/power-of-love-and-expectations/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;exchanging love and affection&lt;/a&gt;, having our &lt;a href=&#34;https://heydaroff.info/2020/12/23/reflecting-on-obstacles-resilience/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;day-to-day issues solved&lt;/a&gt; or generally &lt;a href=&#34;https://heydaroff.info/2021/02/01/reflecting-on-passion-and-perseverance/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pushing towards goals&lt;/a&gt; we have within a &lt;a href=&#34;https://heydaroff.info/2021/01/12/negotiation-a-skill-to-master/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;complex social ecosystem&lt;/a&gt;, communication becomes the most essential component that contributes to the success. Based on my experience as Product Owner, demands are coming from many different areas, issues happen to pop up randomly that impact and get impacted by many different fields, thus the interests and expectations of stakeholders do change because of changes to the product.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Specializing at becoming a generalist</title>
-      <link>https://heyhido.com/posts/specializing-at-becoming-a-generalist/</link>
+      <link>http://localhost:1313/posts/specializing-at-becoming-a-generalist/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/specializing-at-becoming-a-generalist/</guid>
+      <guid>http://localhost:1313/posts/specializing-at-becoming-a-generalist/</guid>
       <description>&lt;p&gt;I always had this feeling that I was not good at anything. What I mean is being really good at something, being an expert, master or shihan of it. People who are experts in a specific field have always been target of my appreciation. At the same time, I feel like knowing and being capable at doing various things as well is very attractive, something I &lt;a href=&#34;https://heydaroff.info/2021/01/04/how-self-reflection-leads/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;reflect about myself&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Innovation, being a critical competitive advantage, is the creative combination of various kinds of knowledge. To bring up innovation, the breadth of the knowledge and expertise base should be large enough. On top of that, these compounds should have a bonding feature which that is a general applicable type within the various shapes and sizes of input.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reflecting on the &#34;why&#34; of working</title>
-      <link>https://heyhido.com/posts/reflecting-on-the-why-of-working/</link>
+      <link>http://localhost:1313/posts/reflecting-on-the-why-of-working/</link>
       <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/reflecting-on-the-why-of-working/</guid>
-      <description>&lt;p&gt;Human beings have been working since quite a long time. Even our primate ancestors worked tools out for hunting of different stones and other materials taken from the nature. So, it should not be such a new concept to reflect upon, thus let&amp;rsquo;s try it. We can put the development of working into three phases: 1) Work, 2) Job, 3) Career.&lt;/p&gt;&#xA;&lt;p&gt;Once humans shifted from hunter-gatherer nomad bands into &lt;a href=&#34;https://heyhido.com/posts/on-investing-and-wealthy-life/&#34;&gt;agrarian settlements&lt;/a&gt;, the design of work changed as well. It was the first time some collective tasks formed and hierarchies of labor emerged, thanks to private property. For quite a long time this work modus operandi continued. Only in the last couple of centuries the idea of &amp;ldquo;job&amp;rdquo; showed up. The main differentiating characteristic of job from work is the professional image. If it was only physical labor that was needed before, now we have a job where we can manage some machinery, which requires a basic qualification we need to amass. Yet very infant, the &amp;ldquo;career&amp;rdquo; concept is what we are living now with. People are not working just to earn money anymore, but rather as well improve their qualifications to move to the next step of their professional growth ladder. Thus the organisations have more difficulty to get their employees stick with them.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/reflecting-on-the-why-of-working/</guid>
+      <description>&lt;p&gt;Human beings have been working since quite a long time. Even our primate ancestors worked tools out for hunting of different stones and other materials taken from the nature. So, it should not be such a new concept to reflect upon, thus let&amp;rsquo;s try it. We can put the development of working into three phases: 1) Work, 2) Job, 3) Career.&lt;/p&gt;&#xA;&lt;p&gt;Once humans shifted from hunter-gatherer nomad bands into &lt;a href=&#34;http://localhost:1313/posts/on-investing-and-wealthy-life/&#34;&gt;agrarian settlements&lt;/a&gt;, the design of work changed as well. It was the first time some collective tasks formed and hierarchies of labor emerged, thanks to private property. For quite a long time this work modus operandi continued. Only in the last couple of centuries the idea of &amp;ldquo;job&amp;rdquo; showed up. The main differentiating characteristic of job from work is the professional image. If it was only physical labor that was needed before, now we have a job where we can manage some machinery, which requires a basic qualification we need to amass. Yet very infant, the &amp;ldquo;career&amp;rdquo; concept is what we are living now with. People are not working just to earn money anymore, but rather as well improve their qualifications to move to the next step of their professional growth ladder. Thus the organisations have more difficulty to get their employees stick with them.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Journey on managing a product and lessons learned</title>
-      <link>https://heyhido.com/posts/journey-on-managing-a-product-and-lessons-learned/</link>
+      <link>http://localhost:1313/posts/journey-on-managing-a-product-and-lessons-learned/</link>
       <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/posts/journey-on-managing-a-product-and-lessons-learned/</guid>
+      <guid>http://localhost:1313/posts/journey-on-managing-a-product-and-lessons-learned/</guid>
       <description>&lt;p&gt;I had a very weird dream yesterday. Inside the dream I was still in bed trying to sleep, but there were some numbers and charts flying around and screaming to me. It sounds more of a nightmare, I know. It reminds of the book, &amp;ldquo;&lt;a href=&#34;https://amzn.to/3qL2R13&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Phoenix Project&lt;/a&gt;&amp;rdquo; by Gene, Kevin and George. However, it was not like they were mad at me, but they were asking for more attention. For a moment I could understand them and put them in order for the new realm to reflect itself as a picture. At that moment I was in peace. Then out of nowhere it felt like there is an earthquake, the scene was shaking non-stop and the numbers and charts were gone. I woke up and realised it was my wristband alarm that was on. &lt;a href=&#34;https://heydaroff.info/2021/01/18/what-does-our-brain-tell-us-about-habits/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Every morning&lt;/a&gt; at 5:30 it triggers me to crawl out of bed and start the day with morning routines.&lt;/p&gt;</description>
     </item>
   </channel>
