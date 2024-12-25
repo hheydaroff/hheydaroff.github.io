@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine-Learning on Hido</title>
-    <link>http://localhost:1313/tags/machine-learning/</link>
+    <link>https://heyhido.com/tags/machine-learning/</link>
     <description>Recent content in Machine-Learning on Hido</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 18 Jul 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://heyhido.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What will A.I. do to us?</title>
-      <link>http://localhost:1313/posts/what-will-a.i.-do-to-us/</link>
+      <link>https://heyhido.com/posts/what-will-a.i.-do-to-us/</link>
       <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/what-will-a.i.-do-to-us/</guid>
+      <guid>https://heyhido.com/posts/what-will-a.i.-do-to-us/</guid>
       <description>&lt;p&gt;The recent developments in A.I. have been extraordinary. Starting in mid of 20th century, A.I. lived through couple of winters and had not given up. Thanks also to the development of the hardware, early 1990s the exponential growth had begun and moving on in unprecedented speed. OpenAIs &lt;a href=&#34;https://en.wikipedia.org/wiki/GPT-3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GPT3&lt;/a&gt; or &lt;a href=&#34;https://openai.com/blog/dall-e/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dall-E&lt;/a&gt; in natural language processing (NLP), Deepmind&amp;rsquo;s &lt;a href=&#34;https://deepmind.com/blog/article/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AlphaFold&lt;/a&gt; or &lt;a href=&#34;https://deepmind.com/blog/article/muzero-mastering-go-chess-shogi-and-atari-without-rules&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MuZero&lt;/a&gt; (successor of &lt;a href=&#34;https://deepmind.com/research/case-studies/alphago-the-story-so-far&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AlphaGo&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://deepmind.com/blog/article/alphazero-shedding-new-light-grand-games-chess-shogi-and-go&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AlphaZero&lt;/a&gt;) in Reinforcement Learning, Tesla&amp;rsquo;s Self-Driving &lt;a href=&#34;https://en.wikipedia.org/wiki/Tesla_Autopilot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Autopilot&lt;/a&gt; in Deep Learning are the developments of only the last few years. The field is indeed growing very fast, however it is yet not the level jump we are expecting for, moving from narrow specific problem solving A.I. to general self-aware A.I. (&lt;a href=&#34;https://en.wikipedia.org/wiki/Artificial_general_intelligence&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AGI&lt;/a&gt;). There are many more, although not generally accepted, characteristics that we assign to AGI to evaluate it.&lt;/p&gt;</description>
     </item>
   </channel>

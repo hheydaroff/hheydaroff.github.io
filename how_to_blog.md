@@ -58,7 +58,7 @@ This guide will walk you through the process of writing a new blog post and depl
 
 4. Push your changes to GitHub:
    ```
-   git push origin main
+   git push origin master
    ```
 
 5. Your blog will be automatically deployed if you have set up GitHub Actions for deployment. If not, you may need to manually trigger a deployment or follow your hosting provider's instructions.

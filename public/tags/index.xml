@@ -2,206 +2,206 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hido</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://heyhido.com/tags/</link>
     <description>Recent content in Tags on Hido</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Artificial Intelligence</title>
-      <link>http://localhost:1313/tags/artificial-intelligence/</link>
-      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/artificial-intelligence/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Wed, 25 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://heyhido.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reflection</title>
-      <link>http://localhost:1313/tags/reflection/</link>
-      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/reflection/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Technology</title>
-      <link>http://localhost:1313/tags/technology/</link>
-      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/technology/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Neuroscience</title>
-      <link>http://localhost:1313/tags/neuroscience/</link>
-      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/neuroscience/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Psychology</title>
-      <link>http://localhost:1313/tags/psychology/</link>
-      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/psychology/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Product-Development</title>
-      <link>http://localhost:1313/tags/product-development/</link>
-      <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/product-development/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Science</title>
-      <link>http://localhost:1313/tags/science/</link>
-      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Intermittent Fasting</title>
-      <link>http://localhost:1313/tags/intermittent-fasting/</link>
-      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/intermittent-fasting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Productivity</title>
-      <link>http://localhost:1313/tags/productivity/</link>
-      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/productivity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Leadership</title>
-      <link>http://localhost:1313/tags/leadership/</link>
-      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/leadership/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Politics</title>
-      <link>http://localhost:1313/tags/politics/</link>
-      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/politics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Reading</title>
-      <link>http://localhost:1313/tags/reading/</link>
-      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/reading/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nature</title>
-      <link>http://localhost:1313/tags/nature/</link>
-      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/nature/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Agile</title>
-      <link>http://localhost:1313/tags/agile/</link>
-      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/agile/</guid>
+      <link>https://heyhido.com/tags/reflection/</link>
+      <pubDate>Wed, 25 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/tags/reflection/</guid>
       <description></description>
     </item>
     <item>
       <title>Writing</title>
-      <link>http://localhost:1313/tags/writing/</link>
-      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/writing/</guid>
+      <link>https://heyhido.com/tags/writing/</link>
+      <pubDate>Wed, 25 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/tags/writing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Artificial Intelligence</title>
+      <link>https://heyhido.com/tags/artificial-intelligence/</link>
+      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/tags/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology</title>
+      <link>https://heyhido.com/tags/technology/</link>
+      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/tags/technology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neuroscience</title>
+      <link>https://heyhido.com/tags/neuroscience/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/tags/neuroscience/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Psychology</title>
+      <link>https://heyhido.com/tags/psychology/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/tags/psychology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Product-Development</title>
+      <link>https://heyhido.com/tags/product-development/</link>
+      <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/tags/product-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Science</title>
+      <link>https://heyhido.com/tags/science/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/tags/science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Intermittent Fasting</title>
+      <link>https://heyhido.com/tags/intermittent-fasting/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/tags/intermittent-fasting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>https://heyhido.com/tags/productivity/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/tags/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Leadership</title>
+      <link>https://heyhido.com/tags/leadership/</link>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/tags/leadership/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Politics</title>
+      <link>https://heyhido.com/tags/politics/</link>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/tags/politics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reading</title>
+      <link>https://heyhido.com/tags/reading/</link>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/tags/reading/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nature</title>
+      <link>https://heyhido.com/tags/nature/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/tags/nature/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agile</title>
+      <link>https://heyhido.com/tags/agile/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/tags/agile/</guid>
       <description></description>
     </item>
     <item>
       <title>Data</title>
-      <link>http://localhost:1313/tags/data/</link>
+      <link>https://heyhido.com/tags/data/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/data/</guid>
+      <guid>https://heyhido.com/tags/data/</guid>
       <description></description>
     </item>
     <item>
       <title>Self-Development</title>
-      <link>http://localhost:1313/tags/self-development/</link>
+      <link>https://heyhido.com/tags/self-development/</link>
       <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/self-development/</guid>
+      <guid>https://heyhido.com/tags/self-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Philosophy</title>
-      <link>http://localhost:1313/tags/philosophy/</link>
+      <link>https://heyhido.com/tags/philosophy/</link>
       <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/philosophy/</guid>
+      <guid>https://heyhido.com/tags/philosophy/</guid>
       <description></description>
     </item>
     <item>
       <title>Product-Management</title>
-      <link>http://localhost:1313/tags/product-management/</link>
+      <link>https://heyhido.com/tags/product-management/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/product-management/</guid>
+      <guid>https://heyhido.com/tags/product-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine-Learning</title>
-      <link>http://localhost:1313/tags/machine-learning/</link>
+      <link>https://heyhido.com/tags/machine-learning/</link>
       <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/machine-learning/</guid>
+      <guid>https://heyhido.com/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Health</title>
-      <link>http://localhost:1313/tags/health/</link>
+      <link>https://heyhido.com/tags/health/</link>
       <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/health/</guid>
+      <guid>https://heyhido.com/tags/health/</guid>
       <description></description>
     </item>
     <item>
       <title>Finance</title>
-      <link>http://localhost:1313/tags/finance/</link>
+      <link>https://heyhido.com/tags/finance/</link>
       <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/finance/</guid>
+      <guid>https://heyhido.com/tags/finance/</guid>
       <description></description>
     </item>
     <item>
       <title>Investment</title>
-      <link>http://localhost:1313/tags/investment/</link>
+      <link>https://heyhido.com/tags/investment/</link>
       <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/investment/</guid>
+      <guid>https://heyhido.com/tags/investment/</guid>
       <description></description>
     </item>
     <item>
       <title>Grit</title>
-      <link>http://localhost:1313/tags/grit/</link>
+      <link>https://heyhido.com/tags/grit/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/grit/</guid>
+      <guid>https://heyhido.com/tags/grit/</guid>
       <description></description>
     </item>
     <item>
       <title>Passion</title>
-      <link>http://localhost:1313/tags/passion/</link>
+      <link>https://heyhido.com/tags/passion/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/passion/</guid>
+      <guid>https://heyhido.com/tags/passion/</guid>
       <description></description>
     </item>
     <item>
       <title>Preservance</title>
-      <link>http://localhost:1313/tags/preservance/</link>
+      <link>https://heyhido.com/tags/preservance/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/preservance/</guid>
+      <guid>https://heyhido.com/tags/preservance/</guid>
       <description></description>
     </item>
     <item>
       <title>Resilience</title>
-      <link>http://localhost:1313/tags/resilience/</link>
+      <link>https://heyhido.com/tags/resilience/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/resilience/</guid>
+      <guid>https://heyhido.com/tags/resilience/</guid>
       <description></description>
     </item>
     <item>
       <title>Zen</title>
-      <link>http://localhost:1313/tags/zen/</link>
+      <link>https://heyhido.com/tags/zen/</link>
       <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/zen/</guid>
+      <guid>https://heyhido.com/tags/zen/</guid>
       <description></description>
     </item>
   </channel>
