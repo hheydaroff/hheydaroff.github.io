@@ -119,11 +119,11 @@ To create an effective learning experience, I should:
 
 But there is more. You have some options. Here's what you can do with this prompt: 
 
-    CustomGPT on OpenAI: If you're feeling fancy, you can create your own CustomGPT in ChatGPT. You do not have to copy the long prompt text each time. 
+- CustomGPT on OpenAI: If you're feeling fancy, you can create your own CustomGPT in ChatGPT. You do not have to copy the long prompt text each time. 
 
-    Poe.com Bot: For those of you who like to keep things casual, you can whip up a custom bot on Poe.com. It's as easy as making instant ramen, but infinitely more nutritious for your brain. 
+- Poe.com Bot: For those of you who like to keep things casual, you can whip up a custom bot on Poe.com. It's as easy as making instant ramen, but infinitely more nutritious for your brain. 
 
-    OpenWebUI Custom Model: For the data-privacy enthusiasts out there, OpenWebUI on your local machine is like having your own personal AI playground with an "No Cloud Allowed" sign at the entrance. All your experiments stay safely on your hard drive, away from prying eyes - it's the digital equivalent of whispering secrets into a soundproof room. (Tip connect it to Ollama.)
+- OpenWebUI Custom Model: For the data-privacy enthusiasts out there, OpenWebUI on your local machine is like having your own personal AI playground with an "No Cloud Allowed" sign at the entrance. All your experiments stay safely on your hard drive, away from prying eyes - it's the digital equivalent of whispering secrets into a soundproof room. (Tip connect it to Ollama.)
 
 Now go forth and learn, knowledge seekers! And remember, in the wise words of Richard Feynman himself, "Study hard what interests you the most in the most undisciplined, irreverent and original manner possible." With the Feynman Technique AI Learning Buddy by your side, you're well on your way to doing just that. 
 
