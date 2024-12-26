@@ -9,7 +9,7 @@ tags = [
 ]
 draft = false
 +++
-Remember [[when I said]]({{<ref "posts/2024-12-22-my-wild-ride-with-ai-in-2024.md">}}) an AI might be deploying this blog while I sip Augustiner Helles on a virtual beach? Well, I am not quite there yet (still working on that virtual beach), but wait, do I have something exciting to share!
+Remember [when I said]({{<ref "posts/2024-12-22-my-wild-ride-with-ai-in-2024.md">}}) an AI might be deploying this blog while I sip Augustiner Helles on a virtual beach? Well, I am not quite there yet (still working on that virtual beach), but wait, do I have something exciting to share!
 
 Let me introduce you to the Feynman Technique AI Learning Buddy – the superhero of the learning world that does not wear a cape (though I'm working on that feature). This AI brainiac is like having Einstein, Mr. Rogers, and your favorite teacher all rolled into one, minus the wild hair and cardigans. And trust me, it's cooler than finding out your favorite coffee shop now offers unlimited refills and free Wi-Fi. (Productivity levels: skyrocketing!)
 
