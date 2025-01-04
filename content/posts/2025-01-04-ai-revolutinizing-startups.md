@@ -1,6 +1,6 @@
 +++
 author = "Hido"
-title = "What AI might look like in 2025"
+title = "Critique: How AI is Revolutionizing Startup Creation"
 date = "2025-01-04"
 tags = [
     "ai"
