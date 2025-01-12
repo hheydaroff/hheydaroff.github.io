@@ -6,8 +6,15 @@
     <description>Recent content on Hido</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://heyhido.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conway&#39;s Law: Shaping Products Through Organizational Design</title>
+      <link>https://heyhido.com/posts/conways-law-shaping-products-through-organizational-design/</link>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/posts/conways-law-shaping-products-through-organizational-design/</guid>
+      <description>&lt;p&gt;Have you ever wondered why some companies consistently deliver cohesive, user-friendly products while others struggle with disjointed experiences? The answer might lie in a principle that&amp;rsquo;s been influencing the tech world for a long time: Conway&amp;rsquo;s Law.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations.&amp;rdquo; - Melvin Conway, 1967&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;This seemingly simple observation has profound implications for how we build products, structure our teams, and shape our organizations. Let me take you on a journey through my experiences as a Product Manager with Conway&amp;rsquo;s Law and explore how it might be silently influencing your work environment too.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Critique: How AI is Revolutionizing Startup Creation</title>
       <link>https://heyhido.com/posts/critique-how-ai-is-revolutionizing-startup-creation/</link>

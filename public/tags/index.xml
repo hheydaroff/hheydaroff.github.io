@@ -6,8 +6,15 @@
     <description>Recent content in Tags on Hido</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://heyhido.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Product</title>
+      <link>https://heyhido.com/tags/product/</link>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/tags/product/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Ai</title>
       <link>https://heyhido.com/tags/ai/</link>
@@ -69,13 +76,6 @@
       <link>https://heyhido.com/tags/psychology/</link>
       <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://heyhido.com/tags/psychology/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Product-Development</title>
-      <link>https://heyhido.com/tags/product-development/</link>
-      <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/tags/product-development/</guid>
       <description></description>
     </item>
     <item>
@@ -153,13 +153,6 @@
       <link>https://heyhido.com/tags/philosophy/</link>
       <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://heyhido.com/tags/philosophy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Product-Management</title>
-      <link>https://heyhido.com/tags/product-management/</link>
-      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://heyhido.com/tags/product-management/</guid>
       <description></description>
     </item>
     <item>

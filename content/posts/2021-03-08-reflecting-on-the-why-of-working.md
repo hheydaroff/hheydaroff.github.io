@@ -3,8 +3,8 @@ author = "Hido"
 title = "Reflecting on the \"why\" of working"
 date = "2021-03-08"
 tags = [
-  "product-development",
-  "product-management",
+  "product",
+  "product",
   "productivity",
   "self-development"
 ]

@@ -3,7 +3,7 @@ author = "Hido"
 title = "So, what now?"
 date = "2024-03-06"
 tags = [
-  "product-development"
+  "product"
 ]
 draft = false
 +++

@@ -3,7 +3,7 @@ author = "Hido"
 title = "Running an enablement session"
 date = "2024-03-30"
 tags = [
-  "product-development",
+  "product",
   "psychology"
 ]
 draft = false

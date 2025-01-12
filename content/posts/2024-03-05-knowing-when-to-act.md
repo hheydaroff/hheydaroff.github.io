@@ -3,7 +3,7 @@ author = "Hido"
 title = "Knowing when to act"
 date = "2024-03-05"
 tags = [
-  "product-development",
+  "product",
   "leadership"
 ]
 draft = false

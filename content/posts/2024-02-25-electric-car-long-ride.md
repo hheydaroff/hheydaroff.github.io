@@ -3,7 +3,7 @@ author = "Hido"
 title = "Electric car for a long ride?! Nope, thanks"
 date = "2024-02-25"
 tags = [
-  "product-development",
+  "product",
   "reflection"
 ]
 draft = false

@@ -3,7 +3,7 @@ author = "Hido"
 title = "Reflecting on managing"
 date = "2024-02-13"
 tags = [
-    "product-development",
+    "product",
     "leadership"
 ]
 draft = false

@@ -3,7 +3,7 @@ author = "Hido"
 title = "Ego-driven optimization"
 date = "2024-02-12"
 tags = [
-    "product-development"
+    "product"
 ]
 draft = false
 +++

@@ -4,8 +4,8 @@ title = "Journey on managing a product and lessons learned"
 date = "2021-02-22"
 tags = [
   "agile",
-  "product-management",
-  "product-development"
+  "product",
+  "product"
 ]
 draft = false
 +++

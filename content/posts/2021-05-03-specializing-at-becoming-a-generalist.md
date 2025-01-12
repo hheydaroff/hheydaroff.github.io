@@ -3,8 +3,8 @@ author = "Hido"
 title = "Specializing at becoming a generalist"
 date = "2021-05-03"
 tags = [
-  "product-development",
-  "product-management",
+  "product",
+  "product",
   "self-development"
 ]
 draft = false

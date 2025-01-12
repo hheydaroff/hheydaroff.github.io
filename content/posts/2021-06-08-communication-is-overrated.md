@@ -4,7 +4,7 @@ title = "Communication is overrated?!"
 date = "2021-06-08"
 tags = [
   "agile",
-  "product-development",
+  "product",
   "self-development"
 ]
 draft = false

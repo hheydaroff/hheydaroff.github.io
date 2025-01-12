@@ -3,7 +3,7 @@ author = "Hido"
 title = "Releasing a major product change"
 date = "2024-03-15"
 tags = [
-  "product-development"
+  "product"
 ]
 draft = false
 +++

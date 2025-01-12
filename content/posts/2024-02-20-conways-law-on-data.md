@@ -4,7 +4,7 @@ title = "Conway's law on data"
 date = "2024-02-20"
 tags = [
   "data",
-  "product-development"
+  "product"
 ]
 draft = false
 +++

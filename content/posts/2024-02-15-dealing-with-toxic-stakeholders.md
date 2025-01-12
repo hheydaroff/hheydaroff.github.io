@@ -3,7 +3,7 @@ author = "Hido"
 title = "Dealing with toxic stakeholders"
 date = "2024-02-15"
 tags = [
-    "product-development",
+    "product",
     "leadership"
 ]
 draft = false

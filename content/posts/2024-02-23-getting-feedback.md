@@ -3,7 +3,7 @@ author = "Hido"
 title = "Getting feedback"
 date = "2024-02-23"
 tags = [
-  "product-development",
+  "product",
   "agile"
 ]
 draft = false
