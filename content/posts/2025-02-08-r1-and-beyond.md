@@ -30,6 +30,8 @@ The core idea behind these advanced AI models is something called "reinforcement
 
 Here's a simplified breakdown of how the DeepSeek team trained DeepSeek-R1:
 
+![R1 Training Process](images/r1_explanation.png)
+
 ### Step 1: Pure Reasoning (The "Zero" Step)
 
 DeepSeek-R1 Zero takes a unique approach by letting the AI train itself. Just like when you were a baby, you didn't know what was right or wrong, or how things worked. You learned through trial and error and positive reinforcement.
