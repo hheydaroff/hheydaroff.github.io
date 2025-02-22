@@ -101,37 +101,44 @@
 <p><strong>The Playbook: Parallelism is Key (But Nuanced)</strong></p>
 <p>The core strategy for scaling LLM training is <em>parallelism</em> – dividing the work across multiple GPUs. However, the &ldquo;Ultra-Scale Playbook&rdquo; goes far beyond simple data parallelism, exploring a multi-dimensional approach. Here&rsquo;s a breakdown of the key techniques, with insights from the paper:</p>
 <ol>
-<li><strong>Data Parallelism (DP):</strong> Cloning your model onto multiple GPUs and feeding each clone a different slice of the training data. While foundational, DP&rsquo;s limitations become apparent at scale. As the paper notes, &ldquo;Data Parallelism starts to have some limiting communication overhead above a certain level of scaling.&rdquo;
+<li>
+<p><strong>Data Parallelism (DP):</strong> Cloning your model onto multiple GPUs and feeding each clone a different slice of the training data. While foundational, DP&rsquo;s limitations become apparent at scale. As the paper notes, &ldquo;Data Parallelism starts to have some limiting communication overhead above a certain level of scaling.&rdquo;</p>
 <ul>
 <li><strong>Business Impact:</strong> Increases training throughput, but its effectiveness diminishes as the number of GPUs increases.</li>
 </ul>
 </li>
-<li><strong>ZeRO (Zero Redundancy Optimizer):</strong> Sharing the model&rsquo;s &ldquo;brain&rdquo; (optimizer states, gradients, and parameters) across GPUs instead of each having its own copy. This drastically reduces memory requirements. The paper highlights that ZeRO &ldquo;eliminates memory redundancy by partitioning the optimizer states, gradients, and parameters across the data parallel dimension.&rdquo;
+<li>
+<p><strong>ZeRO (Zero Redundancy Optimizer):</strong> Sharing the model&rsquo;s &ldquo;brain&rdquo; (optimizer states, gradients, and parameters) across GPUs instead of each having its own copy. This drastically reduces memory requirements. The paper highlights that ZeRO &ldquo;eliminates memory redundancy by partitioning the optimizer states, gradients, and parameters across the data parallel dimension.&rdquo;</p>
 <ul>
 <li><strong>Business Impact:</strong> Allows training of larger models that wouldn&rsquo;t fit on a single GPU, a critical enabler for pushing the boundaries of LLM size.</li>
 </ul>
 </li>
-<li><strong>Tensor Parallelism (TP):</strong> Splitting individual layers of the model across GPUs. The paper explains that TP &ldquo;shards parameters, gradients, optimizer states AND activations across devices without requiring any communication of model parameters between GPUs.&rdquo;
+<li>
+<p><strong>Tensor Parallelism (TP):</strong> Splitting individual layers of the model across GPUs. The paper explains that TP &ldquo;shards parameters, gradients, optimizer states AND activations across devices without requiring any communication of model parameters between GPUs.&rdquo;</p>
 <ul>
 <li><strong>Business Impact:</strong> Enables training of even larger models by distributing the memory burden, but comes with its own communication challenges.</li>
 </ul>
 </li>
-<li><strong>Sequence Parallelism (SP):</strong> Complements TP by splitting the <em>activations</em> (intermediate calculations) across GPUs, further reducing memory usage. The paper notes that &ldquo;with sequence parallelism, the maximum activation size is reduced to \frac{b \cdot s \cdot h}{tp}.&rdquo;
+<li>
+<p><strong>Sequence Parallelism (SP):</strong> Complements TP by splitting the <em>activations</em> (intermediate calculations) across GPUs, further reducing memory usage. The paper notes that &ldquo;with sequence parallelism, the maximum activation size is reduced to \frac{b \cdot s \cdot h}{tp}.&rdquo;</p>
 <ul>
 <li><strong>Business Impact:</strong> Allows for longer sequence lengths, improving model understanding of context, but adds complexity to the implementation.</li>
 </ul>
 </li>
-<li><strong>Context Parallelism (CP):</strong> Extends SP to handle even longer sequences, crucial for tasks requiring extensive context. The paper explains that CP &ldquo;will thus split these modules along two dimensions, thereby also reducing the effect of sequence length.&rdquo;
+<li>
+<p><strong>Context Parallelism (CP):</strong> Extends SP to handle even longer sequences, crucial for tasks requiring extensive context. The paper explains that CP &ldquo;will thus split these modules along two dimensions, thereby also reducing the effect of sequence length.&rdquo;</p>
 <ul>
 <li><strong>Business Impact:</strong> Unlocks the ability to train models on documents and data requiring very long-range dependencies, opening up new application areas.</li>
 </ul>
 </li>
-<li><strong>Pipeline Parallelism (PP):</strong> Divides the model into stages, with each GPU responsible for a subset of layers. The paper highlights the challenge of &ldquo;how to efficiently circumvent the sequential nature of PP to keep our GPU busy at all times and avoid having one GPU computing while the others are waiting.&rdquo;
+<li>
+<p><strong>Pipeline Parallelism (PP):</strong> Divides the model into stages, with each GPU responsible for a subset of layers. The paper highlights the challenge of &ldquo;how to efficiently circumvent the sequential nature of PP to keep our GPU busy at all times and avoid having one GPU computing while the others are waiting.&rdquo;</p>
 <ul>
 <li><strong>Business Impact:</strong> Enables training of extremely large models that exceed the memory capacity of even a single node, but requires careful scheduling to minimize &ldquo;pipeline bubbles.&rdquo;</li>
 </ul>
 </li>
-<li><strong>Expert Parallelism (EP):</strong> For models with a &ldquo;mixture of experts&rdquo; architecture, EP distributes these experts across GPUs. The paper explains that &ldquo;since the feedforward layers are fully independent we can simply put each expert&rsquo;s feedforward layer on a different worker.&rdquo;
+<li>
+<p><strong>Expert Parallelism (EP):</strong> For models with a &ldquo;mixture of experts&rdquo; architecture, EP distributes these experts across GPUs. The paper explains that &ldquo;since the feedforward layers are fully independent we can simply put each expert&rsquo;s feedforward layer on a different worker.&rdquo;</p>
 <ul>
 <li><strong>Business Impact:</strong> Allows for models with increased capacity and specialization, leading to improved performance, particularly in complex tasks.</li>
 </ul>
@@ -166,8 +173,8 @@
 <li><strong>Novel Parallelism Strategies:</strong> Continued innovation in techniques for distributing models and data across GPUs.</li>
 <li><strong>Hardware-Aware Optimization:</strong> Increasingly sophisticated techniques for tailoring training to specific GPU architectures.</li>
 </ul>
-<p><strong>Conclusion</strong>
-The key is to recognize that scaling LLM training is not just about more hardware, but about a holistic approach that considers memory, compute, communication, and the underlying architecture of the GPUs themselves.</p>
+<p><strong>Conclusion</strong></p>
+<p>The key is to recognize that scaling LLM training is not just about more hardware, but about a holistic approach that considers memory, compute, communication, and the underlying architecture of the GPUs themselves.</p>
 
     </div>
 

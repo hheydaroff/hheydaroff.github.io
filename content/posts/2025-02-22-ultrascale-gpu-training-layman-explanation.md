@@ -26,16 +26,22 @@ The core strategy for scaling LLM training is *parallelism* – dividing the wor
 
 1.  **Data Parallelism (DP):** Cloning your model onto multiple GPUs and feeding each clone a different slice of the training data. While foundational, DP's limitations become apparent at scale. As the paper notes, "Data Parallelism starts to have some limiting communication overhead above a certain level of scaling."
     *   **Business Impact:** Increases training throughput, but its effectiveness diminishes as the number of GPUs increases.
+
 2.  **ZeRO (Zero Redundancy Optimizer):** Sharing the model's "brain" (optimizer states, gradients, and parameters) across GPUs instead of each having its own copy. This drastically reduces memory requirements. The paper highlights that ZeRO "eliminates memory redundancy by partitioning the optimizer states, gradients, and parameters across the data parallel dimension."
     *   **Business Impact:** Allows training of larger models that wouldn't fit on a single GPU, a critical enabler for pushing the boundaries of LLM size.
+
 3.  **Tensor Parallelism (TP):** Splitting individual layers of the model across GPUs. The paper explains that TP "shards parameters, gradients, optimizer states AND activations across devices without requiring any communication of model parameters between GPUs."
     *   **Business Impact:** Enables training of even larger models by distributing the memory burden, but comes with its own communication challenges.
+
 4.  **Sequence Parallelism (SP):** Complements TP by splitting the *activations* (intermediate calculations) across GPUs, further reducing memory usage. The paper notes that "with sequence parallelism, the maximum activation size is reduced to \frac{b \cdot s \cdot h}{tp}."
     *   **Business Impact:** Allows for longer sequence lengths, improving model understanding of context, but adds complexity to the implementation.
+
 5.  **Context Parallelism (CP):** Extends SP to handle even longer sequences, crucial for tasks requiring extensive context. The paper explains that CP "will thus split these modules along two dimensions, thereby also reducing the effect of sequence length."
     *   **Business Impact:** Unlocks the ability to train models on documents and data requiring very long-range dependencies, opening up new application areas.
+
 6.  **Pipeline Parallelism (PP):** Divides the model into stages, with each GPU responsible for a subset of layers. The paper highlights the challenge of "how to efficiently circumvent the sequential nature of PP to keep our GPU busy at all times and avoid having one GPU computing while the others are waiting."
     *   **Business Impact:** Enables training of extremely large models that exceed the memory capacity of even a single node, but requires careful scheduling to minimize "pipeline bubbles."
+
 7.  **Expert Parallelism (EP):** For models with a "mixture of experts" architecture, EP distributes these experts across GPUs. The paper explains that "since the feedforward layers are fully independent we can simply put each expert's feedforward layer on a different worker."
     *   **Business Impact:** Allows for models with increased capacity and specialization, leading to improved performance, particularly in complex tasks.
 
