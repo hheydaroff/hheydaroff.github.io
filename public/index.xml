@@ -6,8 +6,15 @@
     <description>Recent content on Hido</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://heyhido.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Ultra-Scale Playbook: A Layman&#39;s Guide to Training LLMs on GPU Clusters </title>
+      <link>https://heyhido.com/posts/the-ultra-scale-playbook-a-laymans-guide-to-training-llms-on-gpu-clusters/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/posts/the-ultra-scale-playbook-a-laymans-guide-to-training-llms-on-gpu-clusters/</guid>
+      <description>&lt;p&gt;It is amazing how open source community is creating amazing artifacts. HuggingFace🤗 recently shared a deep wisdom about how Large Language Models (LLMs) are trained. As you know, LLMs are reshaping industries, but training them demands immense computing power. I read the article, and here I try to distills key insights from &lt;a href=&#34;https://huggingface.co/spaces/nanotron/ultrascale-playbook&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;The Ultra-Scale Playbook: Training LLMs on GPU Clusters&amp;rdquo;&lt;/a&gt;, offering a simple perspective on scaling LLM training across vast GPU infrastructures.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>DeepSeek-R1 and Beyond: The New Era of AI Reasoning</title>
       <link>https://heyhido.com/posts/deepseek-r1-and-beyond-the-new-era-of-ai-reasoning/</link>
