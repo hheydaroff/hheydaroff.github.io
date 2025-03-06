@@ -1,7 +1,7 @@
 +++
 author = "Hido"
 title = "Developing 'Walk Your Calories' with AI-Assisted Coding and Hype Behind it"
-date = "2025-02-22"
+date = "2025-03-06"
 tags = [
     "ai",
     "product"
