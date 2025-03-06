@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Developing &#39;Walk Your Calories&#39; with AI-Assisted Coding and Hype Behind it | Hido</title>
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+<meta name="description" content="Few days ago, I embarked on an exciting journey to develop my first web application from scratch, leveraging the power of AI coding assistants. The experience was enlightening, and I&rsquo;d like to share my insights on the role of AI in software development, particularly for those considering similar projects.
+The Idea: Walk Your Calories 🔗My project stemmed from a common dilemma: the guilt that follows indulging in a slice (or three) of Bufalina pizza (of L&rsquo;Artista in Stuttgart). I often found myself wondering, &ldquo;How much walking would it take to burn off these calories?&rdquo; This curiosity led me to create walkyourcalories.com, an online calculator that determines how many steps you need to take to burn off a specific number of calories, based on your weight and walking pace.">
+<meta name="generator" content="Hugo 0.140.0">
+
+
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+ 
+    
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V7JRDN5H5Y"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-V7JRDN5H5Y');
+    </script>
+    
+
+
+
+
+
+
+
+  </head>
+
+  <body>
+    <nav class="navigation">
+	
+		<a href="/"> <span class="arrow">←</span>Home</a>
+	
+	<a href="/posts">Archive</a>
+	<a href="/tags">Tags</a>
+	<a href="/about">About</a>
+
+	
+
+	
+	  <a class="button" href="">Subscribe</a>
+	
+</nav>
+
+
+    <main class="main">
+      
+
+<section id="single">
+    <h1 class="title">Developing &#39;Walk Your Calories&#39; with AI-Assisted Coding and Hype Behind it</h1>
+
+    <div class="tip">
+        <time datetime="2025-02-22 00:00:00 &#43;0000 UTC">Feb 22, 2025</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          489 words
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          3 minute read
+        </span>
+    </div>
+
+    
+    
+        
+  
+    <aside class="toc">
+      <details>
+          <summary>Table of Contents
+          </summary>
+          <div>
+              <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-idea-walk-your-calories">The Idea: Walk Your Calories</a></li>
+    <li><a href="#the-tech-stack-and-ai-assistant">The Tech Stack and AI Assistant</a></li>
+    <li><a href="#the-reality-of-ai-assisted-development">The Reality of AI-Assisted Development</a></li>
+    <li><a href="#the-learning-curve">The Learning Curve</a></li>
+    <li><a href="#the-future-of-ai-in-development">The Future of AI in Development</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+          </div>
+      </details>
+    </aside>
+  
+
+
+    
+
+
+    <div class="content">
+      <p>Few days ago, I embarked on an exciting journey to develop my first web application from scratch, leveraging the power of AI coding assistants. The experience was enlightening, and I&rsquo;d like to share my insights on the role of AI in software development, particularly for those considering similar projects.</p>
+<h2 id="the-idea-walk-your-calories">The Idea: Walk Your Calories <a href="#the-idea-walk-your-calories" class="anchor">🔗</a></h2><p>My project stemmed from a common dilemma: the guilt that follows indulging in a slice (or three) of Bufalina pizza (of <a href="https://www.lartista-pizza.de" target="_blank" rel="noopener">L&rsquo;Artista in Stuttgart</a>). I often found myself wondering, &ldquo;How much walking would it take to burn off these calories?&rdquo; This curiosity led me to create <a href="https://walkyourcalories.com" target="_blank" rel="noopener">walkyourcalories.com</a>, an online calculator that determines how many steps you need to take to burn off a specific number of calories, based on your weight and walking pace.</p>
+<h2 id="the-tech-stack-and-ai-assistant">The Tech Stack and AI Assistant <a href="#the-tech-stack-and-ai-assistant" class="anchor">🔗</a></h2><p>For this project, I chose a Python Flask backend with HTML and CSS for the frontend. To assist with the coding process, I used <a href="https://github.com/RooVetGit/Roo-Code" target="_blank" rel="noopener">Roo-Code</a>, an open-source fork of <a href="https://github.com/cline/cline" target="_blank" rel="noopener">Cline</a> that allows integration with various LLMs. I opted for Claude Sonnet 3.5 as my AI model.</p>
+<h2 id="the-reality-of-ai-assisted-development">The Reality of AI-Assisted Development <a href="#the-reality-of-ai-assisted-development" class="anchor">🔗</a></h2><p>While AI coding assistants are powerful tools, my experience highlighted that they&rsquo;re not yet a complete replacement for traditional software development skills. Here&rsquo;s why:</p>
+<ol>
+<li>
+<p><strong>UI Design Limitations</strong>: AI tends to generate typical, generic user interfaces. To create a unique and appealing design, I still needed to research layouts, components, and UI elements independently.</p>
+</li>
+<li>
+<p><strong>Deployment Challenges</strong>: The AI assistant could generate code that ran on <code>localhost:5000</code>, but deploying the application to the internet required additional knowledge. Understanding hosting, domain configuration, and server setup was crucial.</p>
+</li>
+<li>
+<p><strong>Security Considerations</strong>: Implementing HTTPS for secure connections involved learning about nginx, certbot, and Let&rsquo;s Encrypt – topics that required research beyond what the AI could provide.</p>
+</li>
+</ol>
+<h2 id="the-learning-curve">The Learning Curve <a href="#the-learning-curve" class="anchor">🔗</a></h2><p>Despite using an AI assistant, I faced several challenges:</p>
+<ol>
+<li>Customizing the UI beyond generic templates</li>
+<li>Configuring a server to host the application (I used Hetzner with Docker)</li>
+<li>Setting up a domain and ensuring secure HTTPS connections</li>
+</ol>
+<p>These hurdles underscored the importance of understanding fundamental web development concepts, even when using AI tools.</p>
+<h2 id="the-future-of-ai-in-development">The Future of AI in Development <a href="#the-future-of-ai-in-development" class="anchor">🔗</a></h2><p>While AI coding assistants are incredibly helpful, they&rsquo;re not yet a complete solution for product development and launch. Unless one opts for &ldquo;managed service&rdquo; AI product development platforms (like <a href="https://lovable.dev/?gad_source=1" target="_blank" rel="noopener">Lovable</a>, <a href="https://v0.dev" target="_blank" rel="noopener">Vercel v0</a>, or <a href="https://bolt.new" target="_blank" rel="noopener">Bolt</a>), a solid understanding of software development principles remains essential.</p>
+<h2 id="conclusion">Conclusion <a href="#conclusion" class="anchor">🔗</a></h2><p>Creating <a href="https://walkyourcalories.com" target="_blank" rel="noopener">walkyourcalories.com</a> was my first experience developing a web application from scratch and bringing it to life. The process taught me that while AI can significantly accelerate development, it doesn&rsquo;t replace the need for fundamental knowledge in web technologies, deployment strategies, and security practices.</p>
+<p>As I look forward to working on more ideas, I&rsquo;m excited about the potential of AI-assisted development. However, I&rsquo;m also clearly aware of the importance of continually expanding technical skills to make the most of these powerful tools as assistants, rather than fully independent agents.</p>
+
+    </div>
+
+    
+        <div class="tags">
+            
+                <a href="https://heyhido.com/tags/ai">ai</a>
+            
+                <a href="https://heyhido.com/tags/product">product</a>
+            
+        </div>
+    
+    
+    
+
+</section>
+
+
+    </main>
+    
+    <footer id="footer">
+    
+
+    <div class="copyright">
+    
+        © Copyright 2025 ❤️ Hido
+    
+    </div>
+
+    
+      <div class="powerby">
+        Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
+      </div>
+    
+</footer>
+
+
+
+  </body>
+</html>

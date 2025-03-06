@@ -9,6 +9,13 @@
     <lastBuildDate>Sat, 22 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://heyhido.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Developing &#39;Walk Your Calories&#39; with AI-Assisted Coding and Hype Behind it</title>
+      <link>https://heyhido.com/posts/developing-walk-your-calories-with-ai-assisted-coding-and-hype-behind-it/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/posts/developing-walk-your-calories-with-ai-assisted-coding-and-hype-behind-it/</guid>
+      <description>&lt;p&gt;Few days ago, I embarked on an exciting journey to develop my first web application from scratch, leveraging the power of AI coding assistants. The experience was enlightening, and I&amp;rsquo;d like to share my insights on the role of AI in software development, particularly for those considering similar projects.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-idea-walk-your-calories&#34;&gt;The Idea: Walk Your Calories &lt;a href=&#34;#the-idea-walk-your-calories&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;My project stemmed from a common dilemma: the guilt that follows indulging in a slice (or three) of Bufalina pizza (of &lt;a href=&#34;https://www.lartista-pizza.de&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;L&amp;rsquo;Artista in Stuttgart&lt;/a&gt;). I often found myself wondering, &amp;ldquo;How much walking would it take to burn off these calories?&amp;rdquo; This curiosity led me to create &lt;a href=&#34;https://walkyourcalories.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;walkyourcalories.com&lt;/a&gt;, an online calculator that determines how many steps you need to take to burn off a specific number of calories, based on your weight and walking pace.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>The Ultra-Scale Playbook: A Layman&#39;s Guide to Training LLMs on GPU Clusters </title>
       <link>https://heyhido.com/posts/the-ultra-scale-playbook-a-laymans-guide-to-training-llms-on-gpu-clusters/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
