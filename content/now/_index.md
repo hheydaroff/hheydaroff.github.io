@@ -14,11 +14,15 @@ This is my [now](https://nownownow.com) page, giving an overview of the things I
 
 # - Studying AI Agents (i.e. smolagents, ag2, crewai)
 
+# - Taking 2x a week spanish language classes on Preply.com
+
+# - Embracing the role of being a parent
+
 # - Working on smart.AI
 
-# - Listening To New Age Music
+# - Listening To silence
 
-# - Reading Coming Wave
+# - Reading  ["The Coming Wave"](https://www.amazon.de/-/en/Coming-Wave-Technology-Twenty-first-Centurys/dp/0593593952) by Mustafa Suleyman
 
 # - Working Out 3x a week
 
