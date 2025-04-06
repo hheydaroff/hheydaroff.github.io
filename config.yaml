@@ -74,6 +74,8 @@ params:
 
   # Extra links in navigation
   links:
+  - name: Now
+    path: /now
     ## e.g.
     # - name: Project
     #   path: /project
