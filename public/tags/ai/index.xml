@@ -6,8 +6,15 @@
     <description>Recent content in Ai on Hido</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://heyhido.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The &#39;Medical Letter&#39; Approach to Text Summarization</title>
+      <link>https://heyhido.com/posts/the-medical-letter-approach-to-text-summarization/</link>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/posts/the-medical-letter-approach-to-text-summarization/</guid>
+      <description>&lt;p&gt;Certainly. Here&amp;rsquo;s a restructured version of the blog post with headlines to improve readability and organization:&lt;/p&gt;&#xA;&lt;p&gt;In the realm of information overload, efficient summarization techniques have become increasingly valuable. AI usage surges as AI tools become more sophisticated and accessible. However, the challenge lies in ensuring that these summaries are not only concise but also accurate and informative. One intriguing method draws inspiration from an unexpected source: medical documentation. Doctors have long mastered the art of concise, information-dense writing in patient anamneses and medical letters. Can this approach be applied more broadly to text summarization?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The AI Revolution in Coding: Contributing to Open Source Community</title>
       <link>https://heyhido.com/posts/the-ai-revolution-in-coding-contributing-to-open-source-community/</link>
