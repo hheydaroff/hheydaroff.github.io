@@ -6,8 +6,15 @@
     <description>Recent content in Ai on Hido</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://heyhido.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Engineer Your Time: Letting AI Handle the Rest</title>
+      <link>https://heyhido.com/posts/engineer-your-time-letting-ai-handle-the-rest/</link>
+      <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://heyhido.com/posts/engineer-your-time-letting-ai-handle-the-rest/</guid>
+      <description>&lt;h1 id=&#34;engineer-your-time-letting-ai-handle-the-rest&#34;&gt;Engineer Your Time: Letting AI Handle the Rest &lt;a href=&#34;#engineer-your-time-letting-ai-handle-the-rest&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Ever wonder why some teams accomplish significantly more than others with the same resources? The answer might be simpler than we think.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-hidden-time-crisis&#34;&gt;The Hidden Time Crisis &lt;a href=&#34;#the-hidden-time-crisis&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In a recent conversation with a colleague, an inspiring thought landed in my mind: &amp;ldquo;AI isn&amp;rsquo;t about replacing jobs—it&amp;rsquo;s about eliminating the parts of jobs that drain our energy and creativity.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;This struck a chord. As someone building AI solutions for company processes, I&amp;rsquo;ve seen firsthand how much time gets consumed by low-value tasks. We&amp;rsquo;ve implemented a case handling assistant for customer support agents, are developing a JIRA Ticket Assistant, and are now creating a Business Canvas Generator Assistant—all designed to help professionals escape documentation hell.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The &#39;Medical Letter&#39; Approach to Text Summarization</title>
       <link>https://heyhido.com/posts/the-medical-letter-approach-to-text-summarization/</link>
