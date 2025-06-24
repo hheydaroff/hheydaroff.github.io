@@ -27,7 +27,7 @@ In the simplest terms, I'd describe AI Agents as a group of AI beings that can r
 
 ## The Hugging Face Agents Course
 
-The latest training I undertook was the AI Agents course by Hugging Face. While somewhat generic and relatively shallow, it served as a valuable reinforcement of concepts I'd learned over time. 
+The latest training I undertook was the [AI Agents course by Hugging Face](https://huggingface.co/learn/agents-course/unit0/introduction). While somewhat generic and relatively shallow, it served as a valuable reinforcement of concepts I'd learned over time. 
 
 This was my first proper experience using HF's own AI Agent Framework, [`smolagent`](https://huggingface.co/docs/smolagents/v1.17.0/en/index), alongside alternative frameworks such as [`llamaindex`](https://docs.llamaindex.ai/en/stable/module_guides/deploying/agents/) and [`langgraph`](https://langchain-ai.github.io/langgraph/concepts/agentic_concepts/).
 
