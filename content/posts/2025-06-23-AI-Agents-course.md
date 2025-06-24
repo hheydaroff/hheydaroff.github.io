@@ -11,7 +11,13 @@ draft = false
 
 ## The Future of AI Development
 
-The future of AI development remains uncertain, with numerous possible directions ahead. One thing is clear though: generative AI with LLMs represents a massive wave that will disrupt the entire world. I'm not talking merely about economic impact or automation. I'm referring to the fundamental ways we humans function and interact with our surroundings—our means of engaging with gadgets, gathering information, and solving complex problems.
+The future of AI development is still unfolding, with numerous possible directions ahead. One thing is clear though: generative AI with LLMs represents a massive wave that will disrupt the entire world.
+
+I'm not talking merely about economic impact or automation. I'm referring to the fundamental ways we humans function and interact with our surroundings. This includes our means of engaging with gadgets, gathering information, and solving complex problems.
+
+I'd even dare to go beyond that. AI will transform how our surroundings interact with each other and with us humans. It will create an intricate web of intelligent connections that reshape the very nature of our environment.
+
+
 
 ## My Learning Journey
 
