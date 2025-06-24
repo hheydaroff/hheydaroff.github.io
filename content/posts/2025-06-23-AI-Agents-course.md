@@ -56,7 +56,7 @@ What made this particularly impressive was that the agent automatically determin
 
 ## The Development Process
 
-Perhaps most illuminating was the development process itself. Despite my limited Python expertise, I successfully created a functional agent system by directing my AI coding assistant, [RooCode]({<ref "/posts/2025-04-06-AI-Back-To-Community.md">}}). We had quite an interesting journey together along the way.
+Perhaps most illuminating was the development process itself. Despite my limited Python expertise, I successfully created a functional agent system by directing my AI coding assistant, [RooCode]({{<ref "/posts/2025-04-06-AI-Back-To-Community.md">}}). We had quite an interesting journey together along the way.
 
 ## Key Insights and Limitations
 
