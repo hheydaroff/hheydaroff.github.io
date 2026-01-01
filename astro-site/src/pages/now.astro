@@ -1,12 +1,13 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import ScrambleTitle from '../components/ui/ScrambleTitle.svelte';
 ---
 
 <BaseLayout title="Now" description="What I am focusing on now.">
   <article class="py-16 sm:py-20">
     <div class="container mx-auto px-4 max-w-3xl">
       <header class="mb-12">
-        <h1 class="text-6xl sm:text-7xl lg:text-8xl font-bold tracking-tight mb-6 animate-fade-in-up">NOW</h1>
+        <ScrambleTitle client:load text="NOW" tokenId="7184" class="mb-6" />
         <p class="text-muted-foreground animate-fade-in-up animate-delay-100">
           This is my <a href="https://nownownow.com" target="_blank" rel="noopener noreferrer" class="underline underline-offset-4 hover:text-foreground transition-colors">now</a> page,
           giving an overview of the things I am doing currently. For finding out more about me,

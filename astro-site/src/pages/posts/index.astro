@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PostRow from '../../components/blog/PostRow.svelte';
+import ScrambleTitle from '../../components/ui/ScrambleTitle.svelte';
 import { getCollection } from 'astro:content';
 
 // Get all posts, filter out drafts, and sort by date
@@ -24,7 +25,7 @@ const years = Object.keys(postsByYear).sort((a, b) => Number(b) - Number(a));
 <BaseLayout title="Posts" description="All blog posts by Hido">
   <section class="py-16 sm:py-20">
     <div class="container mx-auto px-4 max-w-5xl mb-16">
-      <h1 class="text-6xl sm:text-7xl lg:text-8xl font-bold tracking-tight mb-4 animate-fade-in-up">POSTS</h1>
+      <ScrambleTitle client:load text="POSTS" tokenId="20204" />
       <p class="text-muted-foreground animate-fade-in-up animate-delay-100">{posts.length} articles</p>
     </div>
 

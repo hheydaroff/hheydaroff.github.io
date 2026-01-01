@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import ScrambleTitle from '../../components/ui/ScrambleTitle.svelte';
 import { getCollection } from 'astro:content';
 
 // Get all posts and extract tags
@@ -26,7 +27,7 @@ const sortedTags = Object.entries(tagCounts)
   <section class="py-16 sm:py-20">
     <div class="container mx-auto px-4 max-w-3xl">
       <header class="mb-12">
-        <h1 class="text-6xl sm:text-7xl lg:text-8xl font-bold tracking-tight mb-4 animate-fade-in-up">TAGS</h1>
+        <ScrambleTitle client:load text="TAGS" tokenId="16309" />
         <p class="text-muted-foreground animate-fade-in-up animate-delay-100">{sortedTags.length} topics</p>
       </header>
 

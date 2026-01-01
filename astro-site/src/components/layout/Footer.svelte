@@ -55,7 +55,7 @@
         </a>
 
         <a
-          href="https://twitter.com/heaboread"
+          href="https://x.com/heyhido"
           target="_blank"
           rel="noopener noreferrer"
           class="p-2 text-muted-foreground hover:text-foreground transition-colors duration-200"

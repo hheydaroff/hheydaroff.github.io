@@ -24,7 +24,7 @@
   <div class="container mx-auto px-4 max-w-5xl">
     <div class="relative inline-flex items-center gap-4">
       <h3
-        class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold uppercase tracking-tight text-foreground transition-all duration-300
+        class="text-xl sm:text-2xl md:text-3xl font-bold uppercase tracking-tight text-foreground transition-all duration-300
                {isHovered ? 'blur-[2px] opacity-70' : ''}"
       >
         {title}

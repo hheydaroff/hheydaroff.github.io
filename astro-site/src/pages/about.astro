@@ -1,5 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import ScrambleTitle from '../components/ui/ScrambleTitle.svelte';
+import Marquee from '../components/ui/Marquee.svelte';
 ---
 
 <BaseLayout title="About" description="Exploring ideas at the intersection of tech, psychology, and human behavior.">
@@ -8,9 +10,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
         <!-- Left: Content -->
         <div class="order-2 lg:order-1">
-          <h1 class="text-6xl sm:text-7xl lg:text-8xl font-bold tracking-tight mb-8 animate-fade-in-up">
-            ABOUT
-          </h1>
+          <ScrambleTitle client:load text="ABOUT" tokenId="10714" class="mb-8" />
 
           <div class="space-y-6 text-lg leading-relaxed animate-fade-in-up animate-delay-100">
             <p>
@@ -69,4 +69,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       </div>
     </div>
   </section>
+
+  <Marquee client:load />
 </BaseLayout>
