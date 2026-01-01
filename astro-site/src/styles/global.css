@@ -1,30 +1,32 @@
 @import "tailwindcss";
 
 @theme {
-  /* Zinc color palette for shadcn */
-  --color-background: hsl(0 0% 100%);
-  --color-foreground: hsl(240 10% 3.9%);
-  --color-card: hsl(0 0% 100%);
-  --color-card-foreground: hsl(240 10% 3.9%);
-  --color-popover: hsl(0 0% 100%);
-  --color-popover-foreground: hsl(240 10% 3.9%);
-  --color-primary: hsl(240 5.9% 10%);
-  --color-primary-foreground: hsl(0 0% 98%);
-  --color-secondary: hsl(240 4.8% 95.9%);
-  --color-secondary-foreground: hsl(240 5.9% 10%);
-  --color-muted: hsl(240 4.8% 95.9%);
-  --color-muted-foreground: hsl(240 3.8% 46.1%);
-  --color-accent: hsl(240 4.8% 95.9%);
-  --color-accent-foreground: hsl(240 5.9% 10%);
-  --color-destructive: hsl(0 84.2% 60.2%);
-  --color-destructive-foreground: hsl(0 0% 98%);
-  --color-border: hsl(240 5.9% 90%);
-  --color-input: hsl(240 5.9% 90%);
-  --color-ring: hsl(240 5.9% 10%);
+  /* Neutral monochrome palette */
+  --color-background: #FFFFFF;
+  --color-foreground: #171717;
+  --color-muted: #737373;
+  --color-muted-foreground: #737373;
+  --color-border: #E5E5E5;
 
-  /* Typography */
-  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  /* Functional colors */
+  --color-card: #FFFFFF;
+  --color-card-foreground: #171717;
+  --color-popover: #FFFFFF;
+  --color-popover-foreground: #171717;
+  --color-primary: #171717;
+  --color-primary-foreground: #FAFAFA;
+  --color-secondary: #F5F5F5;
+  --color-secondary-foreground: #171717;
+  --color-accent: #F5F5F5;
+  --color-accent-foreground: #171717;
+  --color-destructive: #EF4444;
+  --color-destructive-foreground: #FAFAFA;
+  --color-input: #E5E5E5;
+  --color-ring: #171717;
+
+  /* Typography - Geist Sans */
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
 
   /* Border radius */
   --radius-lg: 0.5rem;
@@ -34,25 +36,47 @@
 
 /* Dark mode colors */
 .dark {
-  --color-background: hsl(240 10% 3.9%);
-  --color-foreground: hsl(0 0% 98%);
-  --color-card: hsl(240 10% 3.9%);
-  --color-card-foreground: hsl(0 0% 98%);
-  --color-popover: hsl(240 10% 3.9%);
-  --color-popover-foreground: hsl(0 0% 98%);
-  --color-primary: hsl(0 0% 98%);
-  --color-primary-foreground: hsl(240 5.9% 10%);
-  --color-secondary: hsl(240 3.7% 15.9%);
-  --color-secondary-foreground: hsl(0 0% 98%);
-  --color-muted: hsl(240 3.7% 15.9%);
-  --color-muted-foreground: hsl(240 5% 64.9%);
-  --color-accent: hsl(240 3.7% 15.9%);
-  --color-accent-foreground: hsl(0 0% 98%);
-  --color-destructive: hsl(0 62.8% 30.6%);
-  --color-destructive-foreground: hsl(0 0% 98%);
-  --color-border: hsl(240 3.7% 15.9%);
-  --color-input: hsl(240 3.7% 15.9%);
-  --color-ring: hsl(240 4.9% 83.9%);
+  --color-background: #0A0A0A;
+  --color-foreground: #FAFAFA;
+  --color-muted: #A3A3A3;
+  --color-muted-foreground: #A3A3A3;
+  --color-border: #262626;
+
+  --color-card: #0A0A0A;
+  --color-card-foreground: #FAFAFA;
+  --color-popover: #0A0A0A;
+  --color-popover-foreground: #FAFAFA;
+  --color-primary: #FAFAFA;
+  --color-primary-foreground: #171717;
+  --color-secondary: #262626;
+  --color-secondary-foreground: #FAFAFA;
+  --color-accent: #262626;
+  --color-accent-foreground: #FAFAFA;
+  --color-destructive: #7F1D1D;
+  --color-destructive-foreground: #FAFAFA;
+  --color-input: #262626;
+  --color-ring: #D4D4D4;
+}
+
+/* Lenis smooth scroll */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
 }
 
 /* Base styles */
@@ -61,9 +85,59 @@
     @apply border-border;
   }
 
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
   body {
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
+    line-height: 1.6;
+  }
+}
+
+/* Animations */
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.6s ease-out forwards;
+  }
+
+  .animate-delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .animate-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animate-delay-300 {
+    animation-delay: 300ms;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -81,35 +155,35 @@
   }
 
   .prose h1 {
-    @apply text-4xl;
+    @apply text-4xl mb-6;
   }
 
   .prose h2 {
-    @apply text-3xl mt-10 mb-4;
+    @apply text-2xl mt-12 mb-4;
   }
 
   .prose h3 {
-    @apply text-2xl mt-8 mb-3;
+    @apply text-xl mt-8 mb-3;
   }
 
   .prose p {
-    @apply leading-7 mb-6;
+    @apply leading-7 mb-6 text-foreground/90;
   }
 
   .prose a {
-    @apply text-primary underline underline-offset-4 hover:text-primary/80;
+    @apply text-foreground underline decoration-muted/50 underline-offset-4 transition-colors duration-200 hover:decoration-foreground;
   }
 
   .prose blockquote {
-    @apply border-l-4 border-border pl-4 italic text-muted-foreground;
+    @apply border-l-2 border-border pl-6 italic text-muted-foreground my-6;
   }
 
   .prose code {
-    @apply bg-muted px-1.5 py-0.5 rounded text-sm font-mono;
+    @apply bg-secondary px-1.5 py-0.5 rounded text-sm font-mono;
   }
 
   .prose pre {
-    @apply bg-muted p-4 rounded-lg overflow-x-auto;
+    @apply bg-secondary p-4 rounded-lg overflow-x-auto my-6;
   }
 
   .prose pre code {
@@ -130,15 +204,15 @@
   }
 
   .prose li {
-    @apply mt-2;
+    @apply mt-2 text-foreground/90;
   }
 
   .prose img {
-    @apply rounded-lg;
+    @apply rounded-lg my-8;
   }
 
   .prose table {
-    @apply w-full border-collapse;
+    @apply w-full border-collapse my-6;
   }
 
   .prose th,
@@ -147,6 +221,14 @@
   }
 
   .prose th {
-    @apply bg-muted font-semibold;
+    @apply bg-secondary font-semibold;
+  }
+
+  .prose hr {
+    @apply border-border my-8;
+  }
+
+  .prose strong {
+    @apply font-semibold text-foreground;
   }
 }

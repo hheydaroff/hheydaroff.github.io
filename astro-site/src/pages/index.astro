@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import PostCard from '../components/blog/PostCard.astro';
+import PostRow from '../components/blog/PostRow.svelte';
 import { getCollection } from 'astro:content';
 
 // Get all posts, filter out drafts, and sort by date
@@ -11,38 +11,82 @@ const posts = (await getCollection('posts'))
 ---
 
 <BaseLayout>
-  <div class="space-y-12">
-    <!-- Profile section -->
-    <section class="text-center py-8">
-      <img
-        src="/images/avatar.png"
-        alt="Hido"
-        class="w-24 h-24 rounded-full mx-auto mb-4"
-      />
-      <h1 class="text-2xl font-bold">Hido</h1>
-      <p class="text-muted-foreground">Product Manager</p>
-      <p class="text-muted-foreground mt-2">All I think...</p>
-    </section>
+  <!-- Hero Section -->
+  <section class="py-20 sm:py-28">
+    <div class="container mx-auto px-4 max-w-3xl text-center">
+      <!-- Avatar with hover reveal effect -->
+      <div class="group relative inline-block mb-8 animate-fade-in-up cursor-pointer">
+        <div class="absolute inset-0 rounded-full bg-foreground/5 dark:bg-white/10 blur-2xl scale-150 transition-opacity duration-500 group-hover:opacity-70"></div>
+        <!-- Blur image (default, grayscale) -->
+        <img
+          src="/images/image_blur.png"
+          alt="Hido"
+          class="relative w-32 h-32 sm:w-36 sm:h-36 rounded-full object-cover ring-2 ring-border
+                 grayscale transition-all duration-500 ease-out
+                 group-hover:opacity-0 group-hover:scale-105"
+        />
+        <!-- Clear image (on hover, color) -->
+        <img
+          src="/images/image_clear.jpg"
+          alt="Hido"
+          class="absolute inset-0 w-32 h-32 sm:w-36 sm:h-36 rounded-full object-cover ring-2 ring-border
+                 opacity-0 scale-95 transition-all duration-500 ease-out
+                 group-hover:opacity-100 group-hover:scale-100"
+        />
+      </div>
 
-    <!-- Recent posts -->
-    <section>
-      <div class="flex items-center justify-between mb-6">
-        <h2 class="text-xl font-semibold">Recent Posts</h2>
-        <a href="/posts" class="text-sm text-muted-foreground hover:text-foreground transition-colors">
-          View all &rarr;
+      <!-- Hero statement -->
+      <h1 class="text-3xl sm:text-4xl md:text-5xl leading-tight mb-6 animate-fade-in-up animate-delay-100">
+        <span class="font-bold text-foreground">I'm Hido,</span>
+        <span class="font-normal text-muted-foreground"> exploring ideas at the intersection of tech, psychology, and human behavior.</span>
+      </h1>
+
+      <!-- Role descriptors -->
+      <p class="text-muted-foreground text-lg animate-fade-in-up animate-delay-200">
+        Product Manager <span class="mx-2">|</span> Writer
+      </p>
+    </div>
+  </section>
+
+  <!-- Posts Section -->
+  <section class="pb-20">
+    <div class="container mx-auto px-4 max-w-3xl mb-8">
+      <div class="flex items-center justify-between">
+        <h2 class="text-sm font-semibold uppercase tracking-widest text-muted-foreground">
+          Recent Posts
+        </h2>
+        <a
+          href="/posts"
+          class="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 flex items-center gap-1"
+        >
+          View all
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M5 12h14"></path>
+            <path d="m12 5 7 7-7 7"></path>
+          </svg>
         </a>
       </div>
+    </div>
 
-      <div class="space-y-8">
-        {posts.map((post) => (
-          <PostCard
-            title={post.data.title}
-            date={post.data.date}
-            slug={post.id}
-            tags={post.data.tags}
-          />
-        ))}
-      </div>
-    </section>
-  </div>
+    <div class="border-b border-border">
+      {posts.map((post) => (
+        <PostRow
+          client:load
+          title={post.data.title}
+          date={post.data.date}
+          slug={post.id}
+        />
+      ))}
+    </div>
+  </section>
 </BaseLayout>

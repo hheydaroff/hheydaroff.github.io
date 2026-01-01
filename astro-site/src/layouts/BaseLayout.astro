@@ -1,5 +1,8 @@
 ---
 import '../styles/global.css';
+import '@fontsource/geist-sans/400.css';
+import '@fontsource/geist-sans/500.css';
+import '@fontsource/geist-sans/700.css';
 import Header from '../components/layout/Header.svelte';
 import Footer from '../components/layout/Footer.svelte';
 
@@ -11,12 +14,13 @@ interface Props {
 
 const {
   title = 'Hido',
-  description = 'All I think...',
+  description = 'Exploring ideas at the intersection of tech, psychology, and human behavior.',
   ogImage = '/images/avatar.png'
 } = Astro.props;
 
 const siteTitle = title === 'Hido' ? title : `${title} | Hido`;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const currentPath = Astro.url.pathname;
 ---
 
 <!doctype html>
@@ -81,13 +85,32 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       }
     </script>
   </head>
-  <body class="min-h-screen flex flex-col bg-background text-foreground antialiased">
-    <Header client:load />
+  <body class="min-h-screen flex flex-col bg-background text-foreground antialiased font-sans">
+    <Header client:load currentPath={currentPath} />
 
-    <main class="flex-1 container mx-auto px-4 py-8 max-w-3xl">
+    <main class="flex-1 w-full">
       <slot />
     </main>
 
     <Footer />
+
+    <!-- Lenis smooth scroll -->
+    <script>
+      import Lenis from 'lenis';
+
+      const lenis = new Lenis({
+        duration: 1.2,
+        easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+        orientation: 'vertical',
+        smoothWheel: true,
+      });
+
+      function raf(time: number) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+      }
+
+      requestAnimationFrame(raf);
+    </script>
   </body>
 </html>

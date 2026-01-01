@@ -28,48 +28,62 @@ const readingTime = Math.ceil(wordCount / 200);
   title={post.data.title}
   description={post.data.description || `${post.data.title} - A post by Hido`}
 >
-  <article class="space-y-8">
-    <!-- Post header -->
-    <header class="space-y-4">
-      <h1 class="text-3xl font-bold tracking-tight">{post.data.title}</h1>
+  <article class="py-16 sm:py-20">
+    <div class="container mx-auto px-4 max-w-3xl">
+      <!-- Post header -->
+      <header class="mb-12">
+        <h1 class="text-3xl sm:text-4xl font-bold tracking-tight mb-4">{post.data.title}</h1>
 
-      <div class="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
-        <time datetime={post.data.date.toISOString()}>
-          {formattedDate}
-        </time>
-        <span>&middot;</span>
-        <span>{wordCount} words</span>
-        <span>&middot;</span>
-        <span>{readingTime} min read</span>
+        <div class="flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
+          <time datetime={post.data.date.toISOString()}>
+            {formattedDate}
+          </time>
+          <span class="text-border">|</span>
+          <span>{readingTime} min read</span>
+        </div>
+
+        {post.data.tags && post.data.tags.length > 0 && (
+          <div class="flex flex-wrap gap-2 mt-4">
+            {post.data.tags.map((tag: string) => (
+              <a
+                href={`/tags/${tag}`}
+                class="text-xs px-3 py-1 bg-secondary text-muted-foreground rounded-full hover:text-foreground transition-colors duration-200"
+              >
+                {tag}
+              </a>
+            ))}
+          </div>
+        )}
+      </header>
+
+      <!-- Post content -->
+      <div class="prose">
+        <Content />
       </div>
 
-      {post.data.tags && post.data.tags.length > 0 && (
-        <div class="flex flex-wrap gap-2">
-          {post.data.tags.map((tag: string) => (
-            <a
-              href={`/tags/${tag}`}
-              class="text-xs px-2 py-1 bg-secondary text-secondary-foreground rounded hover:bg-secondary/80 transition-colors"
-            >
-              {tag}
-            </a>
-          ))}
-        </div>
-      )}
-    </header>
-
-    <!-- Post content -->
-    <div class="prose">
-      <Content />
+      <!-- Navigation -->
+      <footer class="mt-16 pt-8 border-t border-border">
+        <a
+          href="/posts"
+          class="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors duration-200"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="m12 19-7-7 7-7"></path>
+            <path d="M19 12H5"></path>
+          </svg>
+          Back to all posts
+        </a>
+      </footer>
     </div>
-
-    <!-- Navigation -->
-    <footer class="pt-8 border-t border-border">
-      <a
-        href="/posts"
-        class="text-sm text-muted-foreground hover:text-foreground transition-colors"
-      >
-        &larr; Back to all posts
-      </a>
-    </footer>
   </article>
 </BaseLayout>
