@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+// Get all posts and extract tags
+const posts = await getCollection('posts');
+
+// Count posts per tag
+const tagCounts = posts.reduce((acc, post) => {
+  const tags = post.data.tags || [];
+  tags.forEach((tag: string) => {
+    acc[tag] = (acc[tag] || 0) + 1;
+  });
+  return acc;
+}, {} as Record<string, number>);
+
+// Sort tags by count (descending), then alphabetically
+const sortedTags = Object.entries(tagCounts)
+  .sort((a, b) => {
+    if (b[1] !== a[1]) return b[1] - a[1];
+    return a[0].localeCompare(b[0]);
+  });
+---
+
+<BaseLayout title="Tags" description="Browse posts by tag">
+  <div class="space-y-8">
+    <header>
+      <h1 class="text-3xl font-bold">Tags</h1>
+      <p class="text-muted-foreground mt-2">{sortedTags.length} tags total</p>
+    </header>
+
+    <div class="flex flex-wrap gap-3">
+      {sortedTags.map(([tag, count]) => (
+        <a
+          href={`/tags/${tag}`}
+          class="px-3 py-2 bg-secondary text-secondary-foreground rounded-md hover:bg-secondary/80 transition-colors"
+        >
+          {tag}
+          <span class="ml-1 text-muted-foreground">({count})</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

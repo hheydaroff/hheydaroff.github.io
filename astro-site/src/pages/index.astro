@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/blog/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+// Get all posts, filter out drafts, and sort by date
+const posts = (await getCollection('posts'))
+  .filter((post) => !post.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 10); // Show latest 10 posts on homepage
+---
+
+<BaseLayout>
+  <div class="space-y-12">
+    <!-- Profile section -->
+    <section class="text-center py-8">
+      <img
+        src="/images/avatar.png"
+        alt="Hido"
+        class="w-24 h-24 rounded-full mx-auto mb-4"
+      />
+      <h1 class="text-2xl font-bold">Hido</h1>
+      <p class="text-muted-foreground">Product Manager</p>
+      <p class="text-muted-foreground mt-2">All I think...</p>
+    </section>
+
+    <!-- Recent posts -->
+    <section>
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-semibold">Recent Posts</h2>
+        <a href="/posts" class="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          View all &rarr;
+        </a>
+      </div>
+
+      <div class="space-y-8">
+        {posts.map((post) => (
+          <PostCard
+            title={post.data.title}
+            date={post.data.date}
+            slug={post.id}
+            tags={post.data.tags}
+          />
+        ))}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

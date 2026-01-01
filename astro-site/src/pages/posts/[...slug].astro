@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+
+const formattedDate = post.data.date.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+// Calculate reading time (rough estimate: 200 words per minute)
+const wordCount = post.body?.split(/\s+/).length || 0;
+const readingTime = Math.ceil(wordCount / 200);
+---
+
+<BaseLayout
+  title={post.data.title}
+  description={post.data.description || `${post.data.title} - A post by Hido`}
+>
+  <article class="space-y-8">
+    <!-- Post header -->
+    <header class="space-y-4">
+      <h1 class="text-3xl font-bold tracking-tight">{post.data.title}</h1>
+
+      <div class="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
+        <time datetime={post.data.date.toISOString()}>
+          {formattedDate}
+        </time>
+        <span>&middot;</span>
+        <span>{wordCount} words</span>
+        <span>&middot;</span>
+        <span>{readingTime} min read</span>
+      </div>
+
+      {post.data.tags && post.data.tags.length > 0 && (
+        <div class="flex flex-wrap gap-2">
+          {post.data.tags.map((tag: string) => (
+            <a
+              href={`/tags/${tag}`}
+              class="text-xs px-2 py-1 bg-secondary text-secondary-foreground rounded hover:bg-secondary/80 transition-colors"
+            >
+              {tag}
+            </a>
+          ))}
+        </div>
+      )}
+    </header>
+
+    <!-- Post content -->
+    <div class="prose">
+      <Content />
+    </div>
+
+    <!-- Navigation -->
+    <footer class="pt-8 border-t border-border">
+      <a
+        href="/posts"
+        class="text-sm text-muted-foreground hover:text-foreground transition-colors"
+      >
+        &larr; Back to all posts
+      </a>
+    </footer>
+  </article>
+</BaseLayout>

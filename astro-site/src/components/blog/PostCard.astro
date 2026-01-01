@@ -1,0 +1,43 @@
+---
+interface Props {
+  title: string;
+  date: Date;
+  slug: string;
+  tags?: string[];
+  excerpt?: string;
+}
+
+const { title, date, slug, tags = [], excerpt } = Astro.props;
+
+const formattedDate = date.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<article class="group">
+  <a href={`/posts/${slug}`} class="block">
+    <h3 class="text-lg font-medium group-hover:text-primary transition-colors">
+      {title}
+    </h3>
+    <time datetime={date.toISOString()} class="text-sm text-muted-foreground">
+      {formattedDate}
+    </time>
+    {excerpt && (
+      <p class="mt-2 text-muted-foreground line-clamp-2">{excerpt}</p>
+    )}
+  </a>
+  {tags.length > 0 && (
+    <div class="flex flex-wrap gap-2 mt-2">
+      {tags.map((tag) => (
+        <a
+          href={`/tags/${tag}`}
+          class="text-xs px-2 py-1 bg-secondary text-secondary-foreground rounded hover:bg-secondary/80 transition-colors"
+        >
+          {tag}
+        </a>
+      ))}
+    </div>
+  )}
+</article>
