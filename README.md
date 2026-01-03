@@ -1,53 +1,62 @@
 # heyhido.com
 
-Personal blog built with Astro, Svelte, and Tailwind CSS.
+[![Deploy to GitHub Pages](https://github.com/hheydaroff/hheydaroff.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/hheydaroff/hheydaroff.github.io/actions/workflows/deploy.yml)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fheyhido.com)](https://heyhido.com)
+
+Personal blog exploring ideas at the intersection of AI, data, and human behavior.
+
+**Live Site:** [heyhido.com](https://heyhido.com)
 
 ## Tech Stack
 
 | Layer | Technology |
 |-------|------------|
-| Framework | [Astro](https://astro.build) (static-first, islands architecture) |
-| Components | [Svelte 5](https://svelte.dev) (interactive islands) |
-| Styling | [Tailwind CSS v4](https://tailwindcss.com) + [shadcn-svelte](https://shadcn-svelte.com) |
-| Reverse Proxy | [Caddy](https://caddyserver.com) (automatic HTTPS) |
-| Containerization | Docker |
+| Framework | [Astro 5.x](https://astro.build) - Static site generation |
+| Components | [Svelte 5](https://svelte.dev) - Interactive islands |
+| Styling | [Tailwind CSS 4.x](https://tailwindcss.com) |
+| Fonts | [Geist Sans](https://vercel.com/font) |
+| Deployment | GitHub Actions → GitHub Pages |
+| Domain | Custom domain with HTTPS |
+
+## Features
+
+- Dark/light theme toggle with system preference detection
+- Token scramble animation on page titles
+- Infinite scroll marquee banner
+- Blog posts with tags, reading time, and RSS feed
+- Responsive design
+- SEO optimized (Open Graph, Twitter Cards)
 
 ## Project Structure
 
 ```
 ├── src/
-│   ├── content/posts/     # Markdown blog posts
 │   ├── components/
-│   │   ├── layout/        # Header, Footer (Svelte)
-│   │   └── blog/          # PostCard (Astro)
+│   │   ├── blog/
+│   │   │   └── PostRow.svelte       # Post list item with hover effects
+│   │   ├── layout/
+│   │   │   ├── Header.svelte        # Navigation + theme toggle
+│   │   │   └── Footer.svelte        # Social links
+│   │   └── ui/
+│   │       ├── Marquee.svelte       # Scrolling text banner
+│   │       └── ScrambleTitle.svelte # Animated page titles
+│   ├── content/
+│   │   └── posts/                   # Markdown blog posts (100+)
 │   ├── layouts/
-│   │   └── BaseLayout.astro
-│   ├── lib/
-│   │   └── utils/         # Utility functions (cn helper)
+│   │   └── BaseLayout.astro         # Main HTML wrapper
+│   ├── lib/utils/                   # Utility functions
 │   ├── pages/
-│   │   ├── index.astro    # Homepage
-│   │   ├── about.astro
-│   │   ├── now.astro
-│   │   ├── 404.astro
-│   │   ├── rss.xml.ts     # RSS feed
-│   │   ├── posts/
-│   │   │   ├── index.astro        # Posts archive
-│   │   │   └── [...slug].astro    # Individual posts
-│   │   └── tags/
-│   │       ├── index.astro        # Tag cloud
-│   │       └── [tag].astro        # Posts by tag
+│   │   ├── index.astro              # Homepage
+│   │   ├── about.astro              # About page
+│   │   ├── now.astro                # /now page
+│   │   ├── posts/                   # Blog posts
+│   │   ├── tags/                    # Tag pages
+│   │   └── rss.xml.ts               # RSS feed
 │   └── styles/
-│       └── global.css     # Tailwind + theme variables
-├── public/
-│   ├── images/
-│   └── favicon.svg
-├── scripts/
-│   └── migrate-posts.js   # Hugo to Astro migration script
-├── Dockerfile
-├── docker-compose.yml              # Local Docker setup
-├── docker-compose.production.yml   # Production deployment
-├── Caddyfile                       # Local Caddy config
-└── Caddyfile.production            # Production Caddy config
+│       └── global.css               # Theme + animations
+├── public/                          # Static assets
+├── docs/                            # Documentation
+└── playwright-tests/                # E2E tests
 ```
 
 ## Development
@@ -57,7 +66,7 @@ Personal blog built with Astro, Svelte, and Tailwind CSS.
 - Node.js 20+
 - npm
 
-### Local Development
+### Quick Start
 
 ```bash
 # Install dependencies
@@ -82,118 +91,79 @@ Create a new markdown file in `src/content/posts/`:
 title: "Your Post Title"
 date: 2025-01-01
 author: "Hido"
-tags: ["tag1", "tag2"]
+tags: ["ai", "productivity"]
 draft: false
 ---
 
 Your content here...
 ```
 
-### Dark Mode
-
-Dark mode is handled via:
-1. System preference detection on first load
-2. Manual toggle (persisted to localStorage)
-3. CSS variables in `global.css` with `.dark` class
-
 ## Deployment
 
-### Docker (Local)
+The site automatically deploys to GitHub Pages when pushing to `master`:
+
+1. Push triggers GitHub Actions workflow
+2. Astro builds static files to `/dist`
+3. Files deployed to GitHub Pages
+4. Custom domain `heyhido.com` serves the content
+
+### Manual Deployment
 
 ```bash
-# Build and run locally
-docker compose up --build
+# Build
+npm run build
 
-# Access at http://localhost
-```
-
-### Production (Hetzner VPS)
-
-1. **Provision a VPS** (Ubuntu/Debian recommended)
-
-2. **Install Docker:**
-   ```bash
-   curl -fsSL https://get.docker.com | sh
-   ```
-
-3. **Clone and deploy:**
-   ```bash
-   git clone <your-repo>
-   cd astro-site
-   docker compose -f docker-compose.production.yml up -d
-   ```
-
-4. **Configure DNS:**
-   - Point `heyhido.com` A record to your VPS IP
-   - Point `www.heyhido.com` A record to your VPS IP (redirects to non-www)
-
-5. **HTTPS:** Caddy automatically provisions Let's Encrypt certificates
-
-### Updating the Site
-
-```bash
-# On your VPS
-cd astro-site
-git pull
-docker compose -f docker-compose.production.yml up -d --build
+# The dist/ folder contains the static site
 ```
 
 ## Configuration
 
 ### Site Settings
 
-Edit `astro.config.mjs`:
-- `site`: Your production URL
-
-Edit `src/layouts/BaseLayout.astro`:
-- Google Analytics ID
-- Default meta tags
+**`astro.config.mjs`:**
+```javascript
+export default defineConfig({
+  site: 'https://heyhido.com',
+  integrations: [svelte()],
+  // ...
+});
+```
 
 ### Theme Colors
 
-Edit `src/styles/global.css`:
-- Light mode: Variables in `@theme { }` block
-- Dark mode: Variables in `.dark { }` block
+**`src/styles/global.css`:**
+- Light mode: Default CSS variables
+- Dark mode: `.dark` class overrides
 
-## Content Migration
+### Content Schema
 
-The original site was migrated from Hugo. The migration script is preserved at `scripts/migrate-posts.js` for reference.
+**`src/content.config.ts`:**
+```typescript
+schema: z.object({
+  title: z.string(),
+  date: z.coerce.date(),
+  author: z.string().default('Hido'),
+  tags: z.array(z.string()).default([]),
+  draft: z.boolean().default(false),
+  description: z.string().optional(),
+})
+```
 
-**What it does:**
-- Converts TOML frontmatter (`+++`) to YAML (`---`)
-- Handles multi-line tag arrays
-- Fixes image paths
-- Copies images to public directory
+## Documentation
 
-## Future: Adding FastAPI Backend
+- [Architecture](docs/ARCHITECTURE.md) - System design and data flow
+- [Components](docs/COMPONENTS.md) - Component API reference
+- [Configuration](docs/CONFIGURATION.md) - Setup and customization
 
-When you need server-side features (dashboards, AI integrations, etc.):
+## Testing
 
-1. Create `backend/` directory with FastAPI app
-2. Update `docker-compose.production.yml`:
-   ```yaml
-   services:
-     web:
-       # ... existing config
-     
-     backend:
-       build: ./backend
-       restart: unless-stopped
-   ```
+```bash
+# Run Playwright tests
+node playwright-tests/manual-test.cjs
 
-3. Update `Caddyfile.production`:
-   ```
-   heyhido.com {
-       handle /api/* {
-           reverse_proxy backend:8000
-       }
-       handle {
-           root * /srv
-           file_server
-           try_files {path} {path}/ {path}/index.html /index.html
-       }
-   }
-   ```
+# View test report
+cat playwright-tests/MANUAL-TEST-REPORT.md
+```
 
 ## License
 
