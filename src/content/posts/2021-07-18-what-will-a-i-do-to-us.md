@@ -1,22 +1,10 @@
 ---
-title: "2021 07 18 what will a i do to us"
-date: "2026-01-01"
+title: "What will A.I. do to us?"
+date: "2021-07-18"
 author: "Hido"
-tags: []
+tags: ["philosophy", "machine-learning"]
 draft: false
 ---
-
-
-+++
-author = "Hido"
-title = "What will A.I. do to us?"
-date = "2021-07-18"
-tags = [
-  "philosophy",
-  "machine-learning"
-]
-draft = false
-+++
 
 The recent developments in A.I. have been extraordinary. Starting in mid of 20th century, A.I. lived through couple of winters and had not given up. Thanks also to the development of the hardware, early 1990s the exponential growth had begun and moving on in unprecedented speed. OpenAIs [GPT3](https://en.wikipedia.org/wiki/GPT-3) or [Dall-E](https://openai.com/blog/dall-e/) in natural language processing (NLP), Deepmind's [AlphaFold](https://deepmind.com/blog/article/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology) or [MuZero](https://deepmind.com/blog/article/muzero-mastering-go-chess-shogi-and-atari-without-rules) (successor of [AlphaGo](https://deepmind.com/research/case-studies/alphago-the-story-so-far) & [AlphaZero](https://deepmind.com/blog/article/alphazero-shedding-new-light-grand-games-chess-shogi-and-go)) in Reinforcement Learning, Tesla's Self-Driving [Autopilot](https://en.wikipedia.org/wiki/Tesla_Autopilot) in Deep Learning are the developments of only the last few years. The field is indeed growing very fast, however it is yet not the level jump we are expecting for, moving from narrow specific problem solving A.I. to general self-aware A.I. ([AGI](https://en.wikipedia.org/wiki/Artificial_general_intelligence)). There are many more, although not generally accepted, characteristics that we assign to AGI to evaluate it.
 
