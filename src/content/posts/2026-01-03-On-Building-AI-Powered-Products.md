@@ -37,4 +37,4 @@ I do not consider myself to be the most up-to-date person, neither do I want to 
 I am excited about the next year. As AI becomes a part of our daily tool stack, we will see even more applications for it. With the maturity of coding assistants (like Claude Code), we will be able to turn our ideas into actual products (check the [ClaudeAI subreddit](https://www.reddit.com/r/ClaudeAI/?f=flair_name%3A%22Built%20with%20Claude%22) for the apps built with Claude Code). 
 
 
-![Created_By_Human](/public/images/posts/created_by_humans.png)
+![Created_By_Human](/images/posts/created_by_humans.png)
