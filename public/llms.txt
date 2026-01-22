@@ -1,0 +1,28 @@
+# Heyhido - Hidayat Heydarov's Blog
+
+> Personal blog about productivity, learning, technology, AI, and self-improvement by Hidayat Heydarov.
+
+## About
+This is the personal website of Hidayat Heydarov, featuring blog posts on various topics including productivity, technology, AI, learning, and personal development.
+
+## Important Pages
+- [Home](https://heyhido.com/)
+- [About](https://heyhido.com/about/)
+- [Now](https://heyhido.com/now/)
+- [All Posts](https://heyhido.com/posts/)
+- [RSS Feed](https://heyhido.com/rss.xml)
+
+## Recent Posts
+- [Lessons to Carry Forward from 2025](https://heyhido.com/posts/2026-01-03-lessons-from-2025/)
+- [On Building AI-Powered Products](https://heyhido.com/posts/2026-01-03-on-building-ai-powered-products/)
+- [Building and Using AI Agents](https://heyhido.com/posts/2025-06-23-ai-agents-course/)
+- [What's the Missing Link Between Average and Exceptional AI? Your Documentation](https://heyhido.com/posts/2025-05-25-documentation-for-ai/)
+- [Engineer Your Time: Letting AI Handle the Rest](https://heyhido.com/posts/2025-05-06-do-what-matters-most-withai/)
+- [The 'Medical Letter' Approach to Text Summarization](https://heyhido.com/posts/2025-04-07-medical-summary-prompt/)
+- [The AI Revolution in Coding: Contributing to Open Source Community](https://heyhido.com/posts/2025-04-06-ai-back-to-community/)
+- [Developing 'Walk Your Calories' with AI-Assisted Coding and Hype Behind it](https://heyhido.com/posts/2025-03-06-ai-web-development-walkyourcalories/)
+- [The Ultra-Scale Playbook: A Layman's Guide to Training LLMs on GPU Clusters](https://heyhido.com/posts/2025-02-22-ultrascale-gpu-training-layman-explanation/)
+- [DeepSeek-R1 and Beyond: The New Era of AI Reasoning](https://heyhido.com/posts/2025-02-08-r1-and-beyond/)
+- [Do Androids Dream of Electric Sheep?: Exploring the Essence of Humanity in a Technological World](https://heyhido.com/posts/2025-01-19-do-androids-dream-of-electric-sheep/)
+- [Why AI Needs Boundaries Just Like Interns?](https://heyhido.com/posts/2025-01-14-ai-intern-authority/)
+- [Conway's Law: Shaping Products Through Organizational Design](https://heyhido.com/posts/2025-01-12-conways-law-shaping-products/)

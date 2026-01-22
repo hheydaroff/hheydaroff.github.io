@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block low-value paths
+Disallow: /404
+Disallow: /api/
+
+# Reference sitemap
+Sitemap: https://heyhido.com/sitemap-index.xml
