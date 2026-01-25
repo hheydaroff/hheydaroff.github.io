@@ -11,7 +11,24 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // https://astro.build/config
 export default defineConfig({
   site: 'https://heyhido.com',
-  integrations: [svelte(), sitemap()],
+  integrations: [
+    svelte(),
+    sitemap({
+      serialize(item) {
+        // Add lastmod for blog posts based on URL pattern
+        // Posts have dates in their slugs: /posts/YYYY-MM-DD-...
+        const postMatch = item.url.match(/\/posts\/(\d{4}-\d{2}-\d{2})/);
+        if (postMatch) {
+          const dateStr = postMatch[1];
+          item.lastmod = new Date(dateStr).toISOString();
+        } else {
+          // For non-post pages, use current build time
+          item.lastmod = new Date().toISOString();
+        }
+        return item;
+      }
+    })
+  ],
   vite: {
     plugins: [tailwindcss()],
     resolve: {

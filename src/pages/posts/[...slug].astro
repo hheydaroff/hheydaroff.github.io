@@ -27,6 +27,12 @@ const readingTime = Math.ceil(wordCount / 200);
 <BaseLayout
   title={post.data.title}
   description={post.data.description || `${post.data.title} - A post by Hido`}
+  ogType="article"
+  articleData={{
+    datePublished: post.data.date,
+    dateModified: post.data.date,
+    tags: post.data.tags
+  }}
 >
   <article class="py-16 sm:py-20">
     <div class="container mx-auto px-4 max-w-3xl">

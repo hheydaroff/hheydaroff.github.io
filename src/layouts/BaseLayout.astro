@@ -10,12 +10,20 @@ interface Props {
   title?: string;
   description?: string;
   ogImage?: string;
+  ogType?: 'website' | 'article';
+  articleData?: {
+    datePublished: Date;
+    dateModified?: Date;
+    tags?: string[];
+  };
 }
 
 const {
   title = 'Hido',
   description = 'Exploring ideas at the intersection of AI, data, and human behavior.',
-  ogImage = '/images/og-image.png'
+  ogImage = '/images/og-image.png',
+  ogType = 'website',
+  articleData
 } = Astro.props;
 
 const siteTitle = title === 'Hido' ? title : `${title} | Hido`;
@@ -40,11 +48,24 @@ const currentPath = Astro.url.pathname;
     <link rel="canonical" href={canonicalURL} />
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={siteTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={new URL(ogImage, Astro.site)} />
+
+    {ogType === 'article' && articleData && (
+      <>
+        <meta property="article:published_time" content={articleData.datePublished.toISOString()} />
+        {articleData.dateModified && (
+          <meta property="article:modified_time" content={articleData.dateModified.toISOString()} />
+        )}
+        <meta property="article:author" content="Hidayat Heydarov" />
+        {articleData.tags?.map((tag) => (
+          <meta property="article:tag" content={tag} />
+        ))}
+      </>
+    )}
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
@@ -58,6 +79,54 @@ const currentPath = Astro.url.pathname;
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- JSON-LD Structured Data -->
+    {ogType === 'article' && articleData ? (
+      <script type="application/ld+json" set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": title,
+        "description": description,
+        "datePublished": articleData.datePublished.toISOString(),
+        "dateModified": (articleData.dateModified || articleData.datePublished).toISOString(),
+        "author": {
+          "@type": "Person",
+          "name": "Hidayat Heydarov",
+          "url": "https://heyhido.com/about"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "Hidayat Heydarov",
+          "url": "https://heyhido.com"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": canonicalURL.toString()
+        },
+        "image": new URL(ogImage, Astro.site).toString(),
+        "url": canonicalURL.toString(),
+        "keywords": articleData.tags?.join(", ") || ""
+      })} />
+    ) : (
+      <script type="application/ld+json" set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Hido",
+        "description": "Exploring ideas at the intersection of AI, data, and human behavior.",
+        "url": "https://heyhido.com",
+        "author": {
+          "@type": "Person",
+          "name": "Hidayat Heydarov",
+          "jobTitle": "AI & Data Product Manager",
+          "url": "https://heyhido.com/about",
+          "sameAs": [
+            "https://www.linkedin.com/in/heyhido",
+            "https://github.com/hheydaroff",
+            "https://x.com/heyhido"
+          ]
+        }
+      })} />
+    )}
 
     <!-- Google Analytics -->
     <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-V7JRDN5H5Y"></script>
