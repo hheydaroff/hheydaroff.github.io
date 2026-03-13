@@ -23,6 +23,7 @@
     { href: '/', label: 'Home' },
     { href: '/posts', label: 'Posts' },
     { href: '/tags', label: 'Tags' },
+    { href: '/portfolio', label: 'Portfolio' },
     { href: '/about', label: 'About' },
     { href: '/now', label: 'Now' },
   ];

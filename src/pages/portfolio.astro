@@ -1,0 +1,118 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ScrambleTitle from '../components/ui/ScrambleTitle.svelte';
+import PortfolioRow from '../components/portfolio/PortfolioRow.svelte';
+
+const projects = [
+  {
+    title: "Case Handler",
+    description: "AI-powered insights engine for Salesforce CRM, generating multi-step case resolution recommendations.",
+    tags: ["Salesforce", "AWS", "LLM", "GenAI"],
+    details: {
+      problem: "Support agents spent excessive time manually researching case history, knowledge bases, and similar cases to resolve customer issues.",
+      flow: [
+        "Case data loading",
+        "Problem summarization",
+        "Knowledge search + similar cases",
+        "Solution synthesis",
+        "Insight generation"
+      ],
+      impact: "Reduced case resolution time by 50% and saved ~€1M annually by surfacing relevant context and recommendations instantly.",
+      stack: ["Salesforce LWC", "AWS Step Functions", "Lambda", "LLM APIs", "Vector DB", "Python"]
+    }
+  },
+  {
+    title: "AI Chat Platform",
+    description: "Enterprise conversational AI platform built on OpenWebUI for internal knowledge access.",
+    tags: ["OpenWebUI", "LLM", "Platform", "RAG"],
+    details: {
+      problem: "Teams lacked a unified, secure interface to leverage LLMs with company-specific knowledge and access controls.",
+      flow: [
+        "User query",
+        "Model routing",
+        "RAG retrieval",
+        "Context injection",
+        "Response generation"
+      ],
+      impact: "Enabled organization-wide AI adoption with role-based access, serving multiple teams with contextual, secure conversations.",
+      stack: ["OpenWebUI", "Docker", "RAG Pipeline", "LLM APIs", "SSO / RBAC"]
+    }
+  },
+  {
+    title: "Talk To Data",
+    description: "Natural language to SQL agent that turns business questions into data insights.",
+    tags: ["LangGraph", "Agents", "Databricks", "SQL"],
+    details: {
+      problem: "Non-technical stakeholders depended on data teams for every analytics request, creating bottlenecks and delays.",
+      flow: [
+        "User question",
+        "Metadata search",
+        "SQL generation",
+        "Execute on Databricks",
+        "Analyze results",
+        "Generate insights"
+      ],
+      impact: "Enabled self-serve analytics for business users, eliminating dependency on data teams for routine queries.",
+      stack: ["LangGraph", "Python", "Databricks SQL", "LLM APIs", "Metadata Catalog"]
+    }
+  },
+  {
+    title: "Auto Order Gen",
+    description: "AI-powered B2B order automation that extracts structured data from PDF documents.",
+    tags: ["AI", "PDF", "Automation", "E-Commerce"],
+    details: {
+      problem: "B2B orders arriving as PDFs required manual data entry — slow, error-prone, and unscalable.",
+      flow: [
+        "PDF upload",
+        "Document parsing",
+        "Field extraction",
+        "Business rule validation",
+        "E-commerce order creation"
+      ],
+      impact: "Eliminated manual data entry for order processing, reducing processing time and error rates significantly.",
+      stack: ["AI Document Extraction", "Python", "E-Commerce API", "Validation Engine"]
+    }
+  }
+];
+---
+
+<BaseLayout title="Portfolio" description="AI & Data products I've built — from LLM-powered CRM tools to autonomous data agents.">
+  <section class="py-16 sm:py-20">
+    <div class="container mx-auto px-4 max-w-5xl">
+      <ScrambleTitle client:load text="PORTFOLIO" tokenId="56472" class="mb-4" />
+      <p class="text-muted-foreground text-lg max-w-2xl mb-16 animate-fade-in-up animate-delay-100">
+        AI & data products I've built — from LLM-powered enterprise tools to autonomous agents.
+      </p>
+    </div>
+
+    <!-- Column Headers -->
+    <div class="container mx-auto px-4 max-w-5xl mb-2 animate-fade-in-up animate-delay-200">
+      <div class="grid grid-cols-1 sm:grid-cols-12 gap-3 sm:gap-6">
+        <div class="sm:col-span-4">
+          <span class="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Project</span>
+        </div>
+        <div class="sm:col-span-5 hidden sm:block">
+          <span class="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Description</span>
+        </div>
+        <div class="sm:col-span-3 hidden sm:block">
+          <span class="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Stack</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Items -->
+    <div class="animate-fade-in-up animate-delay-300">
+      {projects.map((project) => (
+        <PortfolioRow
+          client:load
+          title={project.title}
+          description={project.description}
+          tags={project.tags}
+          details={project.details}
+        />
+      ))}
+      <!-- Bottom border -->
+      <div class="border-t border-border"></div>
+    </div>
+  </section>
+</BaseLayout>
