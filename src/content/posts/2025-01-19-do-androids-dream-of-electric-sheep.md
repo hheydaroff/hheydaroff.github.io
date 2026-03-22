@@ -1,5 +1,5 @@
 ---
-title: "Do Androids Dream of Electric Sheep?: Exploring the Essence of Humanity in a Technological World"
+title: "Do Androids Dream of Electric Sheep?"
 date: "2025-01-19"
 author: "Hido"
 tags: ["ai", "reading"]

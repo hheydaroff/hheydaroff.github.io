@@ -1,5 +1,5 @@
 ---
-title: "Folding Fitted Sheets and Quantum Physics: This prompt can teach you all"
+title: "The Prompt That Can Teach You Anything"
 date: "2024-12-26"
 author: "Hido"
 tags: ["ai", "prompt", "learning"]

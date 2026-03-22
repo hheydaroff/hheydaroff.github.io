@@ -1,5 +1,5 @@
 ---
-title: "Writing: A Challenging yet Rewarding Cognitive Journey"
+title: "Writing Is a Cognitive Journey"
 date: "2024-12-25"
 author: "Hido"
 tags: ["writing", "reflection"]

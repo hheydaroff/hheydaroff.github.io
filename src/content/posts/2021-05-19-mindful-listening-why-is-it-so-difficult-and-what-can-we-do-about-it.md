@@ -1,5 +1,5 @@
 ---
-title: "Mindful Listening - why is it so difficult and what can we do about it?"
+title: "Why Mindful Listening Is So Hard"
 date: "2021-05-19"
 author: "Hido"
 tags: ["self-development", "philosophy", "neuroscience"]

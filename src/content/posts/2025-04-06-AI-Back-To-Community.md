@@ -1,5 +1,5 @@
 ---
-title: "The AI Revolution in Coding: Contributing to Open Source Community"
+title: "AI and Open Source Contribution"
 date: "2025-04-06"
 author: "Hido"
 tags: ["ai"]

@@ -1,5 +1,5 @@
 ---
-title: "Conway's Law: Shaping Products Through Organizational Design"
+title: "Conway's Law and Product Design"
 date: "2025-01-12"
 author: "Hido"
 tags: ["product"]

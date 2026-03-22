@@ -1,5 +1,5 @@
 ---
-title: "Pareto Productivity Optimization: Achieving Your Goals More Effectively"
+title: "Pareto Productivity Optimization"
 date: "2023-03-30"
 author: "Hido"
 tags: ["productivity", "self-development"]

@@ -1,5 +1,5 @@
 ---
-title: "The Ultra-Scale Playbook: A Layman's Guide to Training LLMs on GPU Clusters "
+title: "Training LLMs on GPU Clusters"
 date: "2025-02-22"
 author: "Hido"
 tags: ["ai"]

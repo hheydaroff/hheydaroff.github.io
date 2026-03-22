@@ -1,5 +1,5 @@
 ---
-title: "Developing 'Walk Your Calories' with AI-Assisted Coding and Hype Behind it"
+title: "Building Walk Your Calories with AI"
 date: "2025-03-06"
 author: "Hido"
 tags: ["ai", "product"]

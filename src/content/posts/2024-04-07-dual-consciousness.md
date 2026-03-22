@@ -1,5 +1,5 @@
 ---
-title: "Dual consciousness - how the left hemisphere owns the brain"
+title: "Dual Consciousness"
 date: "2024-04-07"
 author: "Hido"
 tags: ["neuroscience", "psychology"]

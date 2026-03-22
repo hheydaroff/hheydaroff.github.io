@@ -1,5 +1,5 @@
 ---
-title: "Decision Making in an Uncertain World: How to Navigate the Unknown"
+title: "Decision Making in Uncertainty"
 date: "2022-12-29"
 author: "Hido"
 tags: ["productivity", "psychology", "self-development"]

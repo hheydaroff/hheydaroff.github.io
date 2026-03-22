@@ -1,5 +1,5 @@
 ---
-title: "Psychology of Remote Working and 16 tips to make it work"
+title: "Psychology of Remote Working"
 date: "2021-11-01"
 author: "Hido"
 tags: ["agile", "product", "neuroscience", "productivity", "self-development"]

@@ -1,5 +1,5 @@
 ---
-title: "Reflection: The Key to Personal Growth and Improvement"
+title: "Reflection and Personal Growth"
 date: "2024-12-30"
 author: "Hido"
 tags: ["writing", "reflection"]

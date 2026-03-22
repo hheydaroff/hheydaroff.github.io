@@ -1,5 +1,5 @@
 ---
-title: "My Wild Ride with AI in 2024: A Slightly Frazzled Reflection"
+title: "My Wild Ride with AI in 2024"
 date: "2024-12-22"
 author: "Hido"
 tags: ["artificial intelligence", "technology", "reflection"]

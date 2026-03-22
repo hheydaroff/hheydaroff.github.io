@@ -1,5 +1,5 @@
 ---
-title: "From Flappy Bird to Success in Life: How to Keep Moving Forward"
+title: "From Flappy Bird to Moving Forward"
 date: "2023-01-09"
 author: "Hido"
 tags: ["philosophy", "productivity", "self-development"]

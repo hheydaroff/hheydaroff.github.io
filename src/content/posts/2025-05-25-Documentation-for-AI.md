@@ -1,5 +1,5 @@
 ---
-title: "What's the Missing Link Between Average and Exceptional AI? Your Documentation"
+title: "Your Docs Are Your AI's Bottleneck"
 date: "2025-05-26"
 author: "Hido"
 tags: ["ai"]

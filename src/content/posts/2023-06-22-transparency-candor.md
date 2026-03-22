@@ -1,5 +1,5 @@
 ---
-title: "Transparency and Candor: Empowering Employees with Confidence and Trust"
+title: "Transparency, Candor, and Trust"
 date: "2023-06-22"
 author: "Hido"
 tags: ["leadership", "psychology", "reflection"]
