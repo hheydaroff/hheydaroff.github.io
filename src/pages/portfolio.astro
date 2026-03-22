@@ -8,6 +8,7 @@ const projects = [
     title: "Customer Case Assistant",
     description: "AI-powered insights engine for Salesforce CRM, generating multi-step case resolution recommendations.",
     tags: ["Salesforce", "AWS", "LLM", "GenAI"],
+    image: "/images/portfolio/case_handler_insights.png",
     details: {
       problem: "Support agents spent excessive time manually researching case history, knowledge bases, and similar cases to resolve customer issues.",
       flow: [
@@ -25,6 +26,7 @@ const projects = [
     title: "Enterprise AI Hub",
     description: "Enterprise conversational AI platform built on OpenWebUI for internal knowledge access.",
     tags: ["OpenWebUI", "LLM", "Platform", "RAG"],
+    image: "/images/portfolio/AI_Chat_Platform.png",
     details: {
       problem: "Teams lacked a unified, secure interface to leverage LLMs with company-specific knowledge and access controls.",
       flow: [
@@ -42,6 +44,7 @@ const projects = [
     title: "Talk to Data (Data Analyst)",
     description: "Natural language to SQL agent that turns business questions into data insights.",
     tags: ["LangGraph", "Agents", "Databricks", "SQL"],
+    image: "/images/portfolio/Talk_To_Data_Report.png",
     details: {
       problem: "Non-technical stakeholders depended on data teams for every analytics request, creating bottlenecks and delays.",
       flow: [
@@ -60,6 +63,7 @@ const projects = [
     title: "PDF To Ordering Agent",
     description: "AI-powered B2B order automation that extracts structured data from PDF documents.",
     tags: ["AI", "PDF", "Automation", "E-Commerce"],
+    image: "/images/portfolio/Order Generator.png",
     details: {
       problem: "B2B orders arriving as PDFs required manual data entry — slow, error-prone, and unscalable.",
       flow: [
@@ -94,6 +98,7 @@ const projects = [
           description={project.description}
           tags={project.tags}
           details={project.details}
+          image={project.image}
         />
       ))}
       <!-- Bottom border -->

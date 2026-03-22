@@ -11,18 +11,28 @@
     description: string;
     tags: string[];
     details: ProjectDetail;
+    image?: string;
   }
 
-  let { title, description, tags, details }: Props = $props();
+  let { title, description, tags, details, image }: Props = $props();
 
   let isHovered = $state(false);
   let isExpanded = $state(false);
+  let mouseX = $state(0);
+  let mouseY = $state(0);
+
+  function handleMouseMove(e: MouseEvent) {
+    const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
+    mouseX = e.clientX - rect.left;
+    mouseY = e.clientY - rect.top;
+  }
 </script>
 
 <div
-  class="group transition-colors duration-300 hover:bg-secondary/40"
+  class="group relative transition-colors duration-300 hover:bg-secondary/40"
   onmouseenter={() => isHovered = true}
   onmouseleave={() => isHovered = false}
+  onmousemove={handleMouseMove}
 >
   <!-- Main Row -->
   <button
@@ -132,4 +142,14 @@
       </div>
     </div>
   </div>
+
+  <!-- Hover Preview Image -->
+  {#if image && isHovered && !isExpanded}
+    <div
+      class="pointer-events-none absolute z-50 w-72 sm:w-96 rounded-lg overflow-hidden shadow-2xl border border-border/50 transition-opacity duration-200"
+      style="left: {mouseX + 20}px; top: {mouseY - 100}px;"
+    >
+      <img src={image} alt="{title} preview" class="w-full h-auto block" />
+    </div>
+  {/if}
 </div>
