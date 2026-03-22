@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
+
   interface ProjectDetail {
     problem: string;
     flow: string[];
@@ -12,14 +14,38 @@
     tags: string[];
     details: ProjectDetail;
     image?: string;
+    id?: string;
   }
 
-  let { title, description, tags, details, image }: Props = $props();
+  let { title, description, tags, details, image, id }: Props = $props();
 
   let isHovered = $state(false);
   let isExpanded = $state(false);
   let mouseX = $state(0);
   let mouseY = $state(0);
+  let rowEl: HTMLDivElement;
+
+  const slug = id ?? title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+
+  onMount(() => {
+    if (window.location.hash === `#${slug}`) {
+      isExpanded = true;
+      // Wait for the expand transition to start, then scroll into view
+      requestAnimationFrame(() => {
+        rowEl?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    }
+  });
+
+  function handleClick() {
+    isExpanded = !isExpanded;
+    // Update URL hash without triggering a scroll
+    if (isExpanded) {
+      history.replaceState(null, '', `#${slug}`);
+    } else {
+      history.replaceState(null, '', window.location.pathname);
+    }
+  }
 
   function handleMouseMove(e: MouseEvent) {
     const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
@@ -29,6 +55,8 @@
 </script>
 
 <div
+  bind:this={rowEl}
+  id={slug}
   class="group relative transition-colors duration-300 hover:bg-secondary/40"
   onmouseenter={() => isHovered = true}
   onmouseleave={() => isHovered = false}
@@ -37,7 +65,7 @@
   <!-- Main Row -->
   <button
     class="w-full text-left py-6 sm:py-8 cursor-pointer"
-    onclick={() => isExpanded = !isExpanded}
+    onclick={handleClick}
     aria-expanded={isExpanded}
   >
     <div class="container mx-auto px-4 max-w-5xl">
