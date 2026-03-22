@@ -56,21 +56,11 @@
            {isExpanded ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'}"
   >
     <div class="container mx-auto px-4 max-w-5xl pb-8 sm:pb-10">
-      <!-- Description + Tags -->
+      <!-- Description -->
       <div class="mb-6">
         <p class="text-sm sm:text-base text-muted-foreground leading-relaxed">
           {description}
         </p>
-        <div class="mt-3 flex flex-wrap gap-1.5">
-          {#each tags as tag}
-            <span class="text-[10px] sm:text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-              {tag}
-            </span>
-            {#if tags.indexOf(tag) < tags.length - 1}
-              <span class="text-[10px] sm:text-xs text-border">·</span>
-            {/if}
-          {/each}
-        </div>
       </div>
 
       <div class="grid grid-cols-1 sm:grid-cols-12 gap-6">

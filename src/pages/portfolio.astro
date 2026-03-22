@@ -10,7 +10,7 @@ const projects = [
     tags: ["Salesforce", "AWS", "LLM", "GenAI"],
     image: "/images/portfolio/case_handler_insights.png",
     details: {
-      problem: "Support agents spent excessive time manually researching case history, knowledge bases, and similar cases to resolve customer issues.",
+      problem: "Customer Service agents spent excessive time manually researching case history, knowledge bases, and similar cases to resolve customer issues.",
       flow: [
         "Case data loading",
         "Problem summarization",
@@ -19,7 +19,7 @@ const projects = [
         "Insight generation"
       ],
       impact: "Reduced case resolution time by 50% and saved ~€1M annually by surfacing relevant context and recommendations instantly.",
-      stack: ["Salesforce LWC", "AWS Step Functions", "Lambda", "LLM APIs", "Vector DB", "Python"]
+      stack: ["Salesforce CRM", "EventBus", "EventBridge", "AWS Step Functions", "Amazon Bedrock", "Aurora DB + pgvector", "Python"]
     }
   },
   {
@@ -32,12 +32,13 @@ const projects = [
       flow: [
         "User query",
         "Model routing",
+        "Tool Calling",
         "RAG retrieval",
         "Context injection",
         "Response generation"
       ],
       impact: "Enabled organization-wide AI adoption with role-based access, serving multiple teams with contextual, secure conversations.",
-      stack: ["OpenWebUI", "Docker", "RAG Pipeline", "LLM APIs", "SSO / RBAC"]
+      stack: ["OpenWebUI", "Langgraph", "AWS EKS", "PostgreSQL", "Redis", "Embedding LLMs", "AWS Bedrock", "AWS Cognito", "Entra ID", "AWS ALB"]
     }
   },
   {
@@ -56,7 +57,7 @@ const projects = [
         "Generate insights"
       ],
       impact: "Enabled self-serve analytics for business users, eliminating dependency on data teams for routine queries.",
-      stack: ["LangGraph", "Python", "Databricks SQL", "LLM APIs", "Metadata Catalog"]
+      stack: ["Langgraph", "Databricks SQL", "AWS Bedrock", "Unity Catalog", "S3", "HTML"]
     }
   },
   {
@@ -74,7 +75,7 @@ const projects = [
         "E-commerce order creation"
       ],
       impact: "Eliminated manual data entry for order processing, reducing processing time and error rates significantly.",
-      stack: ["AI Document Extraction", "Python", "E-Commerce API", "Validation Engine"]
+      stack: ["Alpine.js", "TailwindCSS", "FastAPI", "AWS Bedrock (Claude Haiku)", "openpyxl (Excel)", "PyMuPDF (PDF)", "LocalStorage + IndexedDB"]
     }
   }
 ];
