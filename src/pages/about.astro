@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ScrambleTitle from '../components/ui/ScrambleTitle.svelte';
+import AboutSections from '../components/ui/AboutSections.svelte';
 import Marquee from '../components/ui/Marquee.svelte';
 ---
 
@@ -69,6 +70,8 @@ import Marquee from '../components/ui/Marquee.svelte';
       </div>
     </div>
   </section>
+
+  <AboutSections client:load />
 
   <Marquee client:load />
 </BaseLayout>
