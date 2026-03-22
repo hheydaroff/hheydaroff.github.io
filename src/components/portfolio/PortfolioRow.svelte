@@ -20,7 +20,7 @@
 </script>
 
 <div
-  class="group border-t border-border transition-colors duration-300 hover:bg-secondary/40"
+  class="group transition-colors duration-300 hover:bg-secondary/40"
   onmouseenter={() => isHovered = true}
   onmouseleave={() => isHovered = false}
 >
@@ -31,57 +31,12 @@
     aria-expanded={isExpanded}
   >
     <div class="container mx-auto px-4 max-w-5xl">
-      <div class="grid grid-cols-1 sm:grid-cols-12 gap-3 sm:gap-6 items-start">
-        <!-- Project Name -->
-        <div class="sm:col-span-4">
-          <h3
-            class="text-xl sm:text-2xl md:text-3xl font-bold uppercase tracking-tight text-foreground transition-all duration-300
-                   {isHovered ? 'blur-[2px] opacity-70' : ''}"
-          >
-            {title}
-          </h3>
-        </div>
-
-        <!-- Description -->
-        <div class="sm:col-span-5">
-          <p
-            class="text-sm sm:text-base text-muted-foreground transition-all duration-300
-                   {isHovered ? 'opacity-100 translate-x-0' : 'sm:opacity-0 sm:-translate-x-4'}"
-          >
-            {description}
-          </p>
-        </div>
-
-        <!-- Tags + Expand indicator -->
-        <div class="sm:col-span-3 flex items-start justify-between gap-2">
-          <div class="flex flex-wrap gap-1.5">
-            {#each tags as tag}
-              <span class="text-[10px] sm:text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-                {tag}
-              </span>
-              {#if tags.indexOf(tag) < tags.length - 1}
-                <span class="text-[10px] sm:text-xs text-border">·</span>
-              {/if}
-            {/each}
-          </div>
-
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="shrink-0 mt-1 text-muted-foreground transition-transform duration-300
-                   {isExpanded ? 'rotate-180' : ''}"
-          >
-            <path d="m6 9 6 6 6-6"></path>
-          </svg>
-        </div>
-      </div>
+      <h3
+        class="text-xl sm:text-2xl md:text-3xl font-bold uppercase tracking-tight text-foreground transition-all duration-300
+               {isHovered ? 'blur-[2px] opacity-70' : ''}"
+      >
+        {title}
+      </h3>
     </div>
   </button>
 
@@ -91,6 +46,23 @@
            {isExpanded ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'}"
   >
     <div class="container mx-auto px-4 max-w-5xl pb-8 sm:pb-10">
+      <!-- Description + Tags -->
+      <div class="mb-6">
+        <p class="text-sm sm:text-base text-muted-foreground leading-relaxed">
+          {description}
+        </p>
+        <div class="mt-3 flex flex-wrap gap-1.5">
+          {#each tags as tag}
+            <span class="text-[10px] sm:text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+              {tag}
+            </span>
+            {#if tags.indexOf(tag) < tags.length - 1}
+              <span class="text-[10px] sm:text-xs text-border">·</span>
+            {/if}
+          {/each}
+        </div>
+      </div>
+
       <div class="grid grid-cols-1 sm:grid-cols-12 gap-6">
         <!-- Left: Problem + Impact -->
         <div class="sm:col-span-4 space-y-6">

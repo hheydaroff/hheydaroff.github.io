@@ -5,7 +5,7 @@ import PortfolioRow from '../components/portfolio/PortfolioRow.svelte';
 
 const projects = [
   {
-    title: "Case Handler",
+    title: "Customer Case Assistant",
     description: "AI-powered insights engine for Salesforce CRM, generating multi-step case resolution recommendations.",
     tags: ["Salesforce", "AWS", "LLM", "GenAI"],
     details: {
@@ -22,7 +22,7 @@ const projects = [
     }
   },
   {
-    title: "AI Chat Platform",
+    title: "Enterprise AI Hub",
     description: "Enterprise conversational AI platform built on OpenWebUI for internal knowledge access.",
     tags: ["OpenWebUI", "LLM", "Platform", "RAG"],
     details: {
@@ -39,7 +39,7 @@ const projects = [
     }
   },
   {
-    title: "Talk To Data",
+    title: "Talk to Data (Data Analyst)",
     description: "Natural language to SQL agent that turns business questions into data insights.",
     tags: ["LangGraph", "Agents", "Databricks", "SQL"],
     details: {
@@ -57,7 +57,7 @@ const projects = [
     }
   },
   {
-    title: "Auto Order Gen",
+    title: "PDF To Ordering Agent",
     description: "AI-powered B2B order automation that extracts structured data from PDF documents.",
     tags: ["AI", "PDF", "Automation", "E-Commerce"],
     details: {
@@ -85,21 +85,6 @@ const projects = [
       </p>
     </div>
 
-    <!-- Column Headers -->
-    <div class="container mx-auto px-4 max-w-5xl mb-2 animate-fade-in-up animate-delay-200">
-      <div class="grid grid-cols-1 sm:grid-cols-12 gap-3 sm:gap-6">
-        <div class="sm:col-span-4">
-          <span class="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Project</span>
-        </div>
-        <div class="sm:col-span-5 hidden sm:block">
-          <span class="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Description</span>
-        </div>
-        <div class="sm:col-span-3 hidden sm:block">
-          <span class="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Stack</span>
-        </div>
-      </div>
-    </div>
-
     <!-- Portfolio Items -->
     <div class="animate-fade-in-up animate-delay-300">
       {projects.map((project) => (
@@ -112,7 +97,7 @@ const projects = [
         />
       ))}
       <!-- Bottom border -->
-      <div class="border-t border-border"></div>
+      <div></div>
     </div>
   </section>
 </BaseLayout>
