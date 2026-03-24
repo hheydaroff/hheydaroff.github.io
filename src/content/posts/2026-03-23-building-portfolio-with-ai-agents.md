@@ -66,7 +66,7 @@ The years of Data & AI products I've built and led finally have a [page that loo
 
 ## The Broader Pattern
 
-I can put my [AI driven development](/posts/2026-01-03-On-Building-AI-Powered-Products/) in three layers: a hackable agent, a shared skills repo, a sandboxed environment. That's the whole stack.
+I can put my [AI driven development](/posts/2026-01-03-on-building-ai-powered-products/) in three layers: a hackable agent, a shared skills repo, a sandboxed environment. That's the whole stack.
 
 It took time to assemble, but now any new project get its way to realization in a short time. Just spin up the container and let it ride.
 
