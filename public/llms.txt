@@ -13,6 +13,7 @@ This is the personal website of Hidayat Heydarov, featuring blog posts on variou
 - [RSS Feed](https://heyhido.com/rss.xml)
 
 ## Recent Posts
+- [Building My Portfolio Page, Finally](https://heyhido.com/posts/2026-03-23-building-portfolio-with-ai-agents/)
 - [Lessons to Carry Forward from 2025](https://heyhido.com/posts/2026-01-03-lessons-from-2025/)
 - [On Building AI-Powered Products](https://heyhido.com/posts/2026-01-03-on-building-ai-powered-products/)
 - [Building and Using AI Agents](https://heyhido.com/posts/2025-06-23-ai-agents-course/)
