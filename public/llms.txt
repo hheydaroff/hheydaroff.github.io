@@ -8,6 +8,7 @@ This is the personal website of Hidayat Heydarov, featuring blog posts on variou
 ## Important Pages
 - [Home](https://heyhido.com/)
 - [About](https://heyhido.com/about/)
+- [Portfolio](https://heyhido.com/portfolio/)
 - [Now](https://heyhido.com/now/)
 - [All Posts](https://heyhido.com/posts/)
 - [RSS Feed](https://heyhido.com/rss.xml)
