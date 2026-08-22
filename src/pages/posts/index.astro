@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import PostRow from '../../components/blog/PostRow.svelte';
+import PostRow from '../../components/blog/PostRow.astro';
 import ScrambleTitle from '../../components/ui/ScrambleTitle.svelte';
 import { getCollection } from 'astro:content';
 
@@ -37,7 +37,6 @@ const years = Object.keys(postsByYear).sort((a, b) => Number(b) - Number(a));
         <div class="space-y-1">
           {postsByYear[Number(year)].map((post) => (
             <PostRow
-              client:load
               title={post.data.title}
               date={post.data.date}
               slug={post.id}

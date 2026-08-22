@@ -1,0 +1,64 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Contact"
+  description="Get in touch with Hidayat Heydarov (Hido) — AI & Data Product Manager and writer."
+>
+  <section class="py-16 sm:py-20 min-h-[70vh]">
+    <div class="container mx-auto px-4 max-w-3xl">
+      <h1 class="text-4xl sm:text-5xl font-bold tracking-tight mb-8">Contact</h1>
+
+      <div class="space-y-6 text-lg leading-relaxed">
+        <p>
+          I'm Hidayat Heydarov (Hido). I'm an AI & Data Product Manager working on GenAI
+          transformation and enterprise data platforms, and this site is where I publish essays
+          on AI agents, product management, and how technology shapes human behavior.
+        </p>
+        <p>
+          The fastest way to reach me is email. I read everything, though I can't always reply
+          quickly—if your message is a writing collaboration, a talk invitation, or a work
+          opportunity, please say so up front and include the relevant context.
+        </p>
+      </div>
+
+      <div class="mt-10 flex flex-wrap items-center gap-4">
+        <a
+          href="mailto:ai@heyhido.com"
+          class="inline-flex items-center px-6 py-3 border border-foreground rounded-full font-medium hover:bg-foreground hover:text-background transition-all duration-200"
+        >
+          ai@heyhido.com
+        </a>
+      </div>
+
+      <div class="mt-12 space-y-3 text-base">
+        <p class="text-muted-foreground">
+          <span class="font-semibold text-foreground">Email:</span> ai@heyhido.com
+        </p>
+        <p class="text-muted-foreground">
+          <span class="font-semibold text-foreground">LinkedIn:</span>{' '}
+          <a href="https://www.linkedin.com/in/heyhido" target="_blank" rel="noopener noreferrer" class="text-primary underline underline-offset-2">linkedin.com/in/heyhido</a>
+        </p>
+        <p class="text-muted-foreground">
+          <span class="font-semibold text-foreground">GitHub:</span>{' '}
+          <a href="https://github.com/hheydaroff" target="_blank" rel="noopener noreferrer" class="text-primary underline underline-offset-2">github.com/hheydaroff</a>
+        </p>
+        <p class="text-muted-foreground">
+          <span class="font-semibold text-foreground">X (Twitter):</span>{' '}
+          <a href="https://x.com/heyhido" target="_blank" rel="noopener noreferrer" class="text-primary underline underline-offset-2">x.com/heyhido</a>
+        </p>
+      </div>
+
+      <div class="mt-12 pt-8 border-t border-border">
+        <h2 class="text-sm font-semibold uppercase tracking-widest text-muted-foreground mb-4">Where to find more</h2>
+        <ul class="space-y-2 text-base">
+          <li><a href="/about" class="text-primary underline underline-offset-2">About Hido</a></li>
+          <li><a href="/now" class="text-primary underline underline-offset-2">What I'm doing now</a></li>
+          <li><a href="/portfolio" class="text-primary underline underline-offset-2">Portfolio</a></li>
+          <li><a href="/posts" class="text-primary underline underline-offset-2">All posts</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

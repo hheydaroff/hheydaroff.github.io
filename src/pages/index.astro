@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import PostRow from '../components/blog/PostRow.svelte';
+import PostRow from '../components/blog/PostRow.astro';
 import { getCollection } from 'astro:content';
 
 // Get all posts, filter out drafts, and sort by date
@@ -45,6 +45,14 @@ const posts = (await getCollection('posts'))
       <p class="text-muted-foreground text-lg animate-fade-in-up animate-delay-200">
         AI & Data Product Manager
       </p>
+
+      <!-- Bio -->
+      <p class="text-muted-foreground text-base mt-6 max-w-2xl mx-auto animate-fade-in-up animate-delay-300">
+        I write about AI agents, product management, data platforms, and how technology shapes
+        human behavior. Below are my latest essays—or read <a href="/about" class="underline underline-offset-2 hover:text-foreground">more about me</a>,
+        browse the <a href="/posts" class="underline underline-offset-2 hover:text-foreground">full archive</a>, or see what I'm working on
+        <a href="/now" class="underline underline-offset-2 hover:text-foreground">right now</a>.
+      </p>
     </div>
   </section>
 
@@ -81,7 +89,6 @@ const posts = (await getCollection('posts'))
     <div class="space-y-1">
       {posts.map((post) => (
         <PostRow
-          client:load
           title={post.data.title}
           date={post.data.date}
           slug={post.id}

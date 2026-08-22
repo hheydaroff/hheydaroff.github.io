@@ -110,21 +110,30 @@ const currentPath = Astro.url.pathname;
     ) : (
       <script type="application/ld+json" set:html={JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Hido",
-        "description": "Exploring ideas at the intersection of AI, data, and human behavior.",
-        "url": "https://heyhido.com",
-        "author": {
-          "@type": "Person",
-          "name": "Hidayat Heydarov",
-          "jobTitle": "AI & Data Product Manager",
-          "url": "https://heyhido.com/about",
-          "sameAs": [
-            "https://www.linkedin.com/in/heyhido",
-            "https://github.com/hheydaroff",
-            "https://x.com/heyhido"
-          ]
-        }
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://heyhido.com/#person",
+            "name": "Hidayat Heydarov",
+            "alternateName": "Hido",
+            "description": "AI & Data Product Manager exploring ideas at the intersection of AI, data, and human behavior.",
+            "url": "https://heyhido.com",
+            "jobTitle": "AI & Data Product Manager",
+            "sameAs": [
+              "https://www.linkedin.com/in/heyhido",
+              "https://github.com/hheydaroff",
+              "https://x.com/heyhido"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://heyhido.com/#website",
+            "name": "Hido",
+            "description": "Exploring ideas at the intersection of AI, data, and human behavior.",
+            "url": "https://heyhido.com",
+            "author": { "@id": "https://heyhido.com/#person" }
+          }
+        ]
       })} />
     )}
 

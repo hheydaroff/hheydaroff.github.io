@@ -104,5 +104,14 @@
         &copy; {currentYear} Hido
       </p>
     </div>
+
+    <!-- Site links -->
+    <nav aria-label="Site links" class="flex flex-wrap items-center justify-center gap-4 mt-6 text-sm text-muted-foreground">
+      <a href="/about" class="hover:text-foreground transition-colors">About</a>
+      <a href="/contact" class="hover:text-foreground transition-colors">Contact</a>
+      <a href="/privacy" class="hover:text-foreground transition-colors">Privacy</a>
+      <a href="/posts" class="hover:text-foreground transition-colors">Posts</a>
+      <a href="/llms.txt" class="hover:text-foreground transition-colors">llms.txt</a>
+    </nav>
   </div>
 </footer>

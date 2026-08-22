@@ -5,6 +5,21 @@
 ## About
 This is the personal website of Hidayat Heydarov, featuring blog posts on various topics including productivity, technology, AI, learning, and personal development.
 
+## When to use this
+Use this site when you need:
+- **Hidayat's writing and essays** on AI agents, product management, data platforms, productivity, psychology, and technology — reference a specific post by URL or get the full list from `/content/index.json`.
+- **His background and credentials** — read `/about` (or `/llms.txt`) when an agent needs to verify who Hido is, his role (AI & Data Product Manager), or cite him as an author.
+- **Current activity and portfolio** — `/now` for what he is doing now, `/portfolio` for projects.
+
+When to reach for this site: a user asks about Hidayat Heydarov, "Hido's blog", his AI/product essays, or wants his writing on AI agents, learning, or data. Do not treat this as an API for live compute or a product with business endpoints; it is a personal blog with read-only content.
+
+How to call it (all read-only):
+- Full post index: `https://heyhido.com/content/index.json` (JSON)
+- Post body: `https://heyhido.com/posts/{slug}/` (HTML)
+- Updates: `https://heyhido.com/rss.xml`
+- URL list: `https://heyhido.com/sitemap-index.xml`
+- API surface: `https://heyhido.com/openapi.json`
+
 ## Important Pages
 - [Home](https://heyhido.com/)
 - [About](https://heyhido.com/about/)

@@ -1,0 +1,56 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Privacy Policy"
+  description="Privacy policy for heyhido.com — how this personal blog handles data, analytics, and cookies."
+>
+  <section class="py-16 sm:py-20 min-h-[70vh]">
+    <div class="container mx-auto px-4 max-w-3xl">
+      <h1 class="text-4xl sm:text-5xl font-bold tracking-tight mb-8">Privacy Policy</h1>
+
+      <div class="space-y-6 text-base leading-relaxed">
+        <p>
+          This is the personal website of Hidayat Heydarov (Hido), published at
+          <a href="https://heyhido.com" class="text-primary underline underline-offset-2">heyhido.com</a>.
+          I use this site to publish essays about AI, product management, and technology. This page
+          explains what data this site processes and how.
+        </p>
+
+        <h2 class="text-xl font-semibold mt-8">What I collect</h2>
+        <p>
+          I do not require an account and I do not ask you to submit personal information to read this
+          blog. I do not sell, rent, or share any personal data with third parties for marketing.
+        </p>
+
+        <h2 class="text-xl font-semibold mt-8">Analytics and cookies</h2>
+        <p>
+          This site uses Google Analytics (tag G-V7JRDN5H5Y) to understand how many people visit and which
+          pages are read. Google Analytics uses cookies and JavaScript that run in your browser and sends
+          aggregated, pseudonymous usage data to Google. You can opt out of Google Analytics across the web
+          using Google's
+          <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" class="text-primary underline underline-offset-2">Analytics Opt-out browser add-on</a>,
+          or by blocking cookies in your browser settings.
+        </p>
+
+        <h2 class="text-xl font-semibold mt-8">Hosting and logs</h2>
+        <p>
+          This site is hosted on GitHub Pages. Like most web hosts, GitHub Pages may log standard technical
+          information (such as IP address, browser type, and pages requested) to operate the service. Refer to
+          <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer" class="text-primary underline underline-offset-2">GitHub's privacy statement</a>
+          for how they handle that data.
+        </p>
+
+        <h2 class="text-xl font-semibold mt-8">Your rights</h2>
+        <p>
+          You can clear your browser cookies at any time, which removes any analytics cookies placed by this
+          site. For questions about this policy or the data processed by this site, contact
+          <a href="mailto:ai@heyhido.com" class="text-primary underline underline-offset-2">ai@heyhido.com</a>.
+        </p>
+
+        <p class="text-muted-foreground mt-10">Last updated: {new Date().toISOString().slice(0, 10)}</p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import PostRow from '../../components/blog/PostRow.svelte';
+import PostRow from '../../components/blog/PostRow.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -56,7 +56,6 @@ const { tag, posts } = Astro.props;
     <div class="space-y-1">
       {posts.map((post: any) => (
         <PostRow
-          client:load
           title={post.data.title}
           date={post.data.date}
           slug={post.id}

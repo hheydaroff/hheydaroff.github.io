@@ -1,0 +1,207 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "heyhido.com - Read-only Content API",
+    "version": "1.0.0",
+    "description": "Machine-readable, read-only endpoints for Hidayat Heydarov's (Hido's) personal blog. This site is statically hosted, so these endpoints serve content only — no writes, no authentication. For any unknown path the host returns an HTML 404 page (not JSON); see the Error schema for the intended error contract."
+  },
+  "servers": [
+    { "url": "https://heyhido.com" }
+  ],
+  "tags": [
+    { "name": "content", "description": "Blog content and indexes" },
+    { "name": "meta", "description": "Discovery files and site metadata" }
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "operationId": "getHomepage",
+        "summary": "Homepage",
+        "description": "Returns the homepage as HTML, including server-rendered recent posts.",
+        "tags": ["content"],
+        "responses": {
+          "200": {
+            "description": "Homepage HTML",
+            "content": { "text/html": { "schema": { "type": "string" } } }
+          }
+        }
+      }
+    },
+    "/content/index.json": {
+      "get": {
+        "operationId": "getPostIndex",
+        "summary": "Full post index",
+        "description": "Returns every published post with title, slug, URL, date, tags, and description as JSON. Use this to enumerate and filter posts programmatically.",
+        "tags": ["content"],
+        "responses": {
+          "200": {
+            "description": "Index of all published posts",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/PostIndex" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/posts/{slug}": {
+      "get": {
+        "operationId": "getPostBySlug",
+        "summary": "Single blog post",
+        "description": "Returns one blog post as HTML by its slug (the URL path segment without the /posts/ prefix).",
+        "tags": ["content"],
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "description": "Post slug, e.g. 2026-03-23-building-portfolio-with-ai-agents",
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Blog post HTML",
+            "content": { "text/html": { "schema": { "type": "string" } } }
+          },
+          "404": {
+            "description": "Unknown slug",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Error" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/llms.txt": {
+      "get": {
+        "operationId": "getLlmsTxt",
+        "summary": "llms.txt agent guidance",
+        "description": "Returns site guidance for LLM agents, including a when-to-use section, in Markdown.",
+        "tags": ["meta"],
+        "responses": {
+          "200": {
+            "description": "Agent guidance in Markdown",
+            "content": { "text/markdown": { "schema": { "type": "string" } } }
+          }
+        }
+      }
+    },
+    "/rss.xml": {
+      "get": {
+        "operationId": "getRssFeed",
+        "summary": "RSS feed",
+        "description": "Returns the latest posts as an RSS 2.0 feed.",
+        "tags": ["meta"],
+        "responses": {
+          "200": {
+            "description": "RSS feed",
+            "content": { "application/rss+xml": { "schema": { "type": "string" } } }
+          }
+        }
+      }
+    },
+    "/sitemap-index.xml": {
+      "get": {
+        "operationId": "getSitemapIndex",
+        "summary": "Sitemap index",
+        "description": "Returns the sitemap index referencing all sitemap files.",
+        "tags": ["meta"],
+        "responses": {
+          "200": {
+            "description": "Sitemap index XML",
+            "content": { "application/xml": { "schema": { "type": "string" } } }
+          }
+        }
+      }
+    },
+    "/about": {
+      "get": {
+        "operationId": "getAbout",
+        "summary": "About page",
+        "description": "About Hidayat Heydarov (Hido), his role, and background.",
+        "tags": ["content"],
+        "responses": {
+          "200": {
+            "description": "About page HTML",
+            "content": { "text/html": { "schema": { "type": "string" } } }
+          }
+        }
+      }
+    },
+    "/contact": {
+      "get": {
+        "operationId": "getContact",
+        "summary": "Contact page",
+        "description": "How to reach Hido: email and public social profiles.",
+        "tags": ["content"],
+        "responses": {
+          "200": {
+            "description": "Contact page HTML",
+            "content": { "text/html": { "schema": { "type": "string" } } }
+          }
+        }
+      }
+    },
+    "/privacy": {
+      "get": {
+        "operationId": "getPrivacy",
+        "summary": "Privacy policy",
+        "description": "This site's privacy policy covering analytics, cookies, and hosting.",
+        "tags": ["content"],
+        "responses": {
+          "200": {
+            "description": "Privacy policy HTML",
+            "content": { "text/html": { "schema": { "type": "string" } } }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Post": {
+        "type": "object",
+        "required": ["title", "slug", "url", "datePublished", "tags"],
+        "properties": {
+          "title": { "type": "string", "description": "Post title" },
+          "slug": { "type": "string", "description": "URL slug used in /posts/{slug}" },
+          "url": { "type": "string", "format": "uri", "description": "Canonical post URL" },
+          "datePublished": { "type": "string", "format": "date-time" },
+          "tags": { "type": "array", "items": { "type": "string" } },
+          "description": { "type": "string" }
+        }
+      },
+      "PostIndex": {
+        "type": "object",
+        "required": ["title", "description", "url", "generatedAt", "count", "posts"],
+        "properties": {
+          "title": { "type": "string" },
+          "description": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "generatedAt": { "type": "string", "format": "date-time" },
+          "count": { "type": "integer" },
+          "posts": { "type": "array", "items": { "$ref": "#/components/schemas/Post" } }
+        }
+      },
+      "Error": {
+        "type": "object",
+        "required": ["error"],
+        "properties": {
+          "error": {
+            "type": "object",
+            "required": ["code", "message"],
+            "properties": {
+              "code": { "type": "string", "description": "Machine-readable error code, e.g. NOT_FOUND" },
+              "message": { "type": "string", "description": "Human-readable error message" },
+              "resolution": { "type": "string", "description": "Hint on how to recover, e.g. consult /content/index.json or /llms.txt" }
+            }
+          }
+        }
+      }
+    }
+  }
+}
