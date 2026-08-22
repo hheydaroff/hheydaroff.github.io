@@ -41,4 +41,9 @@ assert(home.includes('"@type":"Person"'), 'homepage JSON-LD must include a Perso
 assert(home.includes('"sameAs"'), 'homepage JSON-LD must include sameAs');
 assert(home.includes('"jobTitle"'), 'homepage JSON-LD must include jobTitle');
 
+// 8. /blog alias redirects agents to /posts
+const blog = read('blog/index.html');
+assert(/http-equiv="refresh".*\/posts\//.test(blog), '/blog must meta-refresh to /posts');
+assert(blog.includes('rel="canonical"'), '/blog must declare a canonical URL');
+
 console.log('✓ agent-readiness checks passed');
