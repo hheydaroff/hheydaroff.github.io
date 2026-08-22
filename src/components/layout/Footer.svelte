@@ -111,7 +111,6 @@
       <a href="/contact" class="hover:text-foreground transition-colors">Contact</a>
       <a href="/privacy" class="hover:text-foreground transition-colors">Privacy</a>
       <a href="/posts" class="hover:text-foreground transition-colors">Posts</a>
-      <a href="/llms.txt" class="hover:text-foreground transition-colors">llms.txt</a>
     </nav>
   </div>
 </footer>
